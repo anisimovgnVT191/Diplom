@@ -1,0 +1,6 @@
+framework module CompanyMessangerUIKit {
+  umbrella header "CompanyMessangerUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

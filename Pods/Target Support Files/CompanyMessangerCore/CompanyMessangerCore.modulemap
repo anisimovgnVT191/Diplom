@@ -1,0 +1,6 @@
+framework module CompanyMessangerCore {
+  umbrella header "CompanyMessangerCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
