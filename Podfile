@@ -16,7 +16,7 @@ workspace workspace_name
 # LocalPods
 pod 'CompanyMessangerCore', :path => 'LocalPods/CompanyMessangerCore'
 pod 'CompanyMessangerUIKit', :path => 'LocalPods/CompanyMessangerUIKit'
-
+pod 'CompanyMessangerResources', :path => 'LocalPods/CompanyMessangerResources'
 
 # ExternalPods
 pod 'SnapKit', '~> 5.6.0'

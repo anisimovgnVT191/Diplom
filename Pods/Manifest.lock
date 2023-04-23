@@ -1,12 +1,15 @@
 PODS:
   - Alamofire (5.6.4)
   - CompanyMessangerCore (0.1.0)
+  - CompanyMessangerResources (0.1.0):
+    - CompanyMessangerCore
   - CompanyMessangerUIKit (0.1.0)
   - SnapKit (5.6.0)
 
 DEPENDENCIES:
   - Alamofire
   - CompanyMessangerCore (from `LocalPods/CompanyMessangerCore`)
+  - CompanyMessangerResources (from `LocalPods/CompanyMessangerResources`)
   - CompanyMessangerUIKit (from `LocalPods/CompanyMessangerUIKit`)
   - SnapKit (~> 5.6.0)
 
@@ -18,15 +21,18 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   CompanyMessangerCore:
     :path: LocalPods/CompanyMessangerCore
+  CompanyMessangerResources:
+    :path: LocalPods/CompanyMessangerResources
   CompanyMessangerUIKit:
     :path: LocalPods/CompanyMessangerUIKit
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   CompanyMessangerCore: 3a1db58e2f8b20c53e38eb8b79b72f32f27c60b0
+  CompanyMessangerResources: ecd8fe3b23cedd7482abf5ed5b768c3c060f1856
   CompanyMessangerUIKit: 6d34474593a751b50bf4f9ce019762232a05ba3a
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
-PODFILE CHECKSUM: e58c6a7a1cdc3ad24c856d4860f5595a06b2dcf2
+PODFILE CHECKSUM: f1d71c1c8965c2a3ef4997e8c3503ba3a2eac81b
 
 COCOAPODS: 1.12.1

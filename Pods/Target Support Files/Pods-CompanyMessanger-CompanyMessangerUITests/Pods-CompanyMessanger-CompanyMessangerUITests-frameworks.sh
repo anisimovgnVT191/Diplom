@@ -178,12 +178,14 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CompanyMessangerCore/CompanyMessangerCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CompanyMessangerResources/CompanyMessangerResources.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CompanyMessangerUIKit/CompanyMessangerUIKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CompanyMessangerCore/CompanyMessangerCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CompanyMessangerResources/CompanyMessangerResources.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CompanyMessangerUIKit/CompanyMessangerUIKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
 fi

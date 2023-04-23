@@ -1,0 +1,27 @@
+{
+  "name": "CompanyMessangerResources",
+  "version": "0.1.0",
+  "summary": "CompanyMessangerResources module.",
+  "homepage": "https://github.com/anisimovgnVT191/Diplom",
+  "authors": {
+    "Anisimov Georgiy": "hollywoodstreets23@gmail.com"
+  },
+  "source": {
+    "path": "*"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "CompanyMessangerResources/Classes/**/*.{swift,m,h}",
+  "resource_bundles": {
+    "CompanyMessangerResources": [
+      "CompanyMessangerResources/Classes/**/*.{json,plist,xib,storyboard,bundle}",
+      "CompanyMessangerResources/Resources/**/*.{xcassets,strings,stringsdict}"
+    ]
+  },
+  "dependencies": {
+    "CompanyMessangerCore": [
+
+    ]
+  }
+}

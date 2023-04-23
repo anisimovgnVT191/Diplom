@@ -42,6 +42,11 @@
 /* Begin PBXFileReference section */
 		045BA6D629F490AE005E99A4 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		045BA6D829F490EE005E99A4 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		045BA6EA29F5A019005E99A4 /* BaseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseExtension.swift; sourceTree = "<group>"; };
+		045BA6F429F5A259005E99A4 /* CompanyMessangerResources.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CompanyMessangerResources.podspec; sourceTree = "<group>"; };
+		045BA70729F5A39C005E99A4 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		045BA70829F5A3CD005E99A4 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		045BA70929F5A449005E99A4 /* Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
 		04D467C429F0600B00C81E63 /* CompanyMessanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompanyMessanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D467C729F0600B00C81E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D467C929F0600B00C81E63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +136,73 @@
 			path = UIKit;
 			sourceTree = "<group>";
 		};
+		045BA6E929F59FD9005E99A4 /* BaseExtension */ = {
+			isa = PBXGroup;
+			children = (
+				045BA6EA29F5A019005E99A4 /* BaseExtension.swift */,
+			);
+			path = BaseExtension;
+			sourceTree = "<group>";
+		};
+		045BA6F329F5A228005E99A4 /* CompanyMessangerResources */ = {
+			isa = PBXGroup;
+			children = (
+				045BA6F429F5A259005E99A4 /* CompanyMessangerResources.podspec */,
+				045BA6F529F5A289005E99A4 /* CompanyMessangerResources */,
+			);
+			path = CompanyMessangerResources;
+			sourceTree = "<group>";
+		};
+		045BA6F529F5A289005E99A4 /* CompanyMessangerResources */ = {
+			isa = PBXGroup;
+			children = (
+				045BA6F629F5A293005E99A4 /* Classes */,
+				045BA6F729F5A299005E99A4 /* Resources */,
+			);
+			path = CompanyMessangerResources;
+			sourceTree = "<group>";
+		};
+		045BA6F629F5A293005E99A4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				045BA70429F5A330005E99A4 /* Colors */,
+				045BA70529F5A338005E99A4 /* Images */,
+				045BA70629F5A36D005E99A4 /* Localized */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		045BA6F729F5A299005E99A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		045BA70429F5A330005E99A4 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				045BA70729F5A39C005E99A4 /* Colors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		045BA70529F5A338005E99A4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				045BA70829F5A3CD005E99A4 /* Images.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		045BA70629F5A36D005E99A4 /* Localized */ = {
+			isa = PBXGroup;
+			children = (
+				045BA70929F5A449005E99A4 /* Localized.swift */,
+			);
+			path = Localized;
+			sourceTree = "<group>";
+		};
 		04D467BB29F0600B00C81E63 = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				04F5730229F4627C0013BB49 /* CompanyMessangerCore */,
+				045BA6F329F5A228005E99A4 /* CompanyMessangerResources */,
 				04F5730F29F4782A0013BB49 /* CompanyMessangerUIKit */,
 				04F5730129F462730013BB49 /* Features */,
 			);
@@ -299,6 +372,7 @@
 		04F5731529F47A4B0013BB49 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				045BA6E929F59FD9005E99A4 /* BaseExtension */,
 				045BA6D729F490DA005E99A4 /* UIKit */,
 				04F5731629F47A640013BB49 /* Configurable.swift */,
 			);
