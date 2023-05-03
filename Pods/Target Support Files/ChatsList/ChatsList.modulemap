@@ -1,0 +1,6 @@
+framework module ChatsList {
+  umbrella header "ChatsList-umbrella.h"
+
+  export *
+  module * { export * }
+}

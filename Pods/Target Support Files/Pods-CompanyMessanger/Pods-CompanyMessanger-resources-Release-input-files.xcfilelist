@@ -1,2 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-CompanyMessanger/Pods-CompanyMessanger-resources.sh
-${PODS_CONFIGURATION_BUILD_DIR}/CompanyMessangerResources/CompanyMessangerResources.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/ChatsList/ChatsList.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/Home/Home.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/Profile/Profile.bundle

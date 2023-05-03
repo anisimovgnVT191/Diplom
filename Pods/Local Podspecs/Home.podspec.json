@@ -1,0 +1,22 @@
+{
+  "name": "Home",
+  "version": "0.1.0",
+  "summary": "Home module.",
+  "homepage": "https://github.com/anisimovgnVT191/Diplom",
+  "authors": {
+    "Anisimov Georgiy": "hollywoodstreets23@gmail.com"
+  },
+  "source": {
+    "path": "*"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "Home/Classes/**/*.{swift,m,h}",
+  "resource_bundles": {
+    "Home": [
+      "Home/Classes/**/*.{json,plist,xib,storyboard,bundle}",
+      "Home/Resources/**/*.{xcassets,strings,stringsdict}"
+    ]
+  }
+}

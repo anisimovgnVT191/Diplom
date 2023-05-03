@@ -18,6 +18,10 @@ pod 'CompanyMessangerCore', :path => 'LocalPods/CompanyMessangerCore'
 pod 'CompanyMessangerUIKit', :path => 'LocalPods/CompanyMessangerUIKit'
 pod 'CompanyMessangerResources', :path => 'LocalPods/CompanyMessangerResources'
 
+pod 'ChatsList', :path => 'LocalPods/Features/ChatsList'
+pod 'Home', :path => 'LocalPods/Features/Home'
+pod 'Profile', :path => 'LocalPods/Features/Profile'
+
 # ExternalPods
 pod 'SnapKit', '~> 5.6.0'
 pod 'Alamofire'

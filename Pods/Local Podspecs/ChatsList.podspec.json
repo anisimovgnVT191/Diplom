@@ -1,0 +1,22 @@
+{
+  "name": "ChatsList",
+  "version": "0.1.0",
+  "summary": "ChatsList module.",
+  "homepage": "https://github.com/anisimovgnVT191/Diplom",
+  "authors": {
+    "Anisimov Georgiy": "hollywoodstreets23@gmail.com"
+  },
+  "source": {
+    "path": "*"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "ChatsList/Classes/**/*.{swift,m,h}",
+  "resource_bundles": {
+    "ChatsList": [
+      "ChatsList/Classes/**/*.{json,plist,xib,storyboard,bundle}",
+      "ChatsList/Resources/**/*.{xcassets,strings,stringsdict}"
+    ]
+  }
+}

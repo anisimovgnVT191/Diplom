@@ -1,0 +1,22 @@
+{
+  "name": "Profile",
+  "version": "0.1.0",
+  "summary": "Profile module.",
+  "homepage": "https://github.com/anisimovgnVT191/Diplom",
+  "authors": {
+    "Anisimov Georgiy": "hollywoodstreets23@gmail.com"
+  },
+  "source": {
+    "path": "*"
+  },
+  "platforms": {
+    "ios": "15.0"
+  },
+  "source_files": "Profile/Classes/**/*.{swift,m,h}",
+  "resource_bundles": {
+    "Profile": [
+      "Profile/Classes/**/*.{json,plist,xib,storyboard,bundle}",
+      "Profile/Resources/**/*.{xcassets,strings,stringsdict}"
+    ]
+  }
+}

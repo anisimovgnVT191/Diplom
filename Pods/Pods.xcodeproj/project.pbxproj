@@ -8,93 +8,135 @@
 
 /* Begin PBXBuildFile section */
 		0024F0A152DE429DFA8D0BE57666F26A /* Pods-CompanyMessangerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76012CB2928F2BAD3EBB14CD086C559E /* Pods-CompanyMessangerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		127F00F74340B3C3A3F1A3F8D1EC64AD /* Pods-CompanyMessanger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19DA05E96DF4111E8697B8D72D3AF709 /* Pods-CompanyMessanger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20BCEDEFF6DDCC0E788B2412D7FA2BA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		13C2BFCCA3E5DAA43D12770B41DA02F7 /* Pods-CompanyMessanger-CompanyMessangerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFA48234DBC4660468E7575518954E9 /* Pods-CompanyMessanger-CompanyMessangerUITests-dummy.m */; };
+		287EEC71BA5B1F3CC6093E2A7E3CA2D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		299B6788ACB903676A77F99C8907DB6D /* Pods-CompanyMessangerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C1E2F04616B33AD9354AE236C39EFD /* Pods-CompanyMessangerTests-dummy.m */; };
-		2A2C4510C60FF0114AEC29A1E83C9BC3 /* Pods-CompanyMessanger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DE72B0518AA0BB7337FF6154D8BE64 /* Pods-CompanyMessanger-dummy.m */; };
+		319D84E128247B61DE7A9B149308B26E /* Pods-CompanyMessanger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DE72B0518AA0BB7337FF6154D8BE64 /* Pods-CompanyMessanger-dummy.m */; };
 		5C881D623E6363ACC7A93AE8C8287E7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6C25E26CCBBE9430A3F4BFB7E577CA56 /* Pods-CompanyMessanger-CompanyMessangerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFA48234DBC4660468E7575518954E9 /* Pods-CompanyMessanger-CompanyMessangerUITests-dummy.m */; };
-		7DE6F82DC95B7617D70076B43C9A797B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DD0E37D05CACEF124556C8BF2B80EC18 /* Pods-CompanyMessanger-CompanyMessangerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6156B61112FA56D81EA06A7536896C2 /* Pods-CompanyMessanger-CompanyMessangerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63C3CC18D01A9F0E0C5ED50E2B27CAF9 /* Pods-CompanyMessanger-CompanyMessangerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6156B61112FA56D81EA06A7536896C2 /* Pods-CompanyMessanger-CompanyMessangerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69C488E0956621BA80BA865BC5E1EB21 /* Pods-CompanyMessanger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19DA05E96DF4111E8697B8D72D3AF709 /* Pods-CompanyMessanger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B89F6004F44F6136EB553D19C670C8C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		02DC396EB5EA71614520B59DB56D64C8 /* PBXContainerItemProxy */ = {
+		0300F2401F4D43EA2E83236F298B7645 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3EB9C469A900072D6B9F6D2D8030C5B8 /* CompanyMessangerUIKit.xcodeproj */;
+			containerPortal = 8C9BF154C43AFB26FCDE7384344A452E /* Home.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CA9839A9913DA031BD5112C80D09CB7;
+			remoteInfo = Home;
+		};
+		0A3277D8538941A798938788DDDA2116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9988EB9DFF3F5718E87EC0548BEF76E8 /* CompanyMessangerUIKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 73019F81441316262623D9BB4C7355B8;
 			remoteInfo = CompanyMessangerUIKit;
 		};
-		30DC0305E8E942063488D4558851953A /* PBXContainerItemProxy */ = {
+		2AF8CC113B4FB4361332E2E5C57EAC78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8E17EFCF7C350EE4D99CBE27E4056211 /* CompanyMessangerResources.xcodeproj */;
+			containerPortal = 138E9DF330DCA1DDB4176DFE78FD47F4 /* SnapKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6913FCF4B90C224E55FE5C821AFB90D2;
+			remoteInfo = SnapKit;
+		};
+		2B5FB5B96E158F6273E7A0A8EAF37F6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 592EF9DF82244CA6582B89DC0F0B07B0 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B7E9B7CD0CADA087A4BB042FBA92E7;
+			remoteInfo = Alamofire;
+		};
+		2FA93D671EF871779534C1509EC39E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A112C4725DFD6B702FA203253A7E068E /* CompanyMessangerResources.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C51A137FBD88E443D75C0A07E609467;
 			remoteInfo = CompanyMessangerResources;
 		};
-		3338A4CC21E238CE9379F691135CA054 /* PBXContainerItemProxy */ = {
+		3EB3F71855C9BBA33F6E8BE2C7B37031 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8E17EFCF7C350EE4D99CBE27E4056211 /* CompanyMessangerResources.xcodeproj */;
+			containerPortal = 138E9DF330DCA1DDB4176DFE78FD47F4 /* SnapKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6913FCF4B90C224E55FE5C821AFB90D2;
+			remoteInfo = SnapKit;
+		};
+		482B795722D97BB17AF736F39635FCC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FBE382C23CA27505A650F056896911E /* CompanyMessangerCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D735DBFA29D723A69C5869C845262754;
+			remoteInfo = CompanyMessangerCore;
+		};
+		59856A95635851434AC2C5E12323B2E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C9BF154C43AFB26FCDE7384344A452E /* Home.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CA9839A9913DA031BD5112C80D09CB7;
+			remoteInfo = Home;
+		};
+		65A9BB57F6ACF437028C9B03E71C11A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A112C4725DFD6B702FA203253A7E068E /* CompanyMessangerResources.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C51A137FBD88E443D75C0A07E609467;
 			remoteInfo = CompanyMessangerResources;
 		};
-		34045B30E2BE84421A2B79820F57EE7E /* PBXContainerItemProxy */ = {
+		6D09AD4A950F9E3F45D14076523895A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E03EED4A0A5741FF66C953ADC0C2E9F /* Profile.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E47FD0992AC4CDCEEB64E1FD4DF45C8;
+			remoteInfo = Profile;
+		};
+		78DBFC79A98F773B5770B97918B852C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E03EED4A0A5741FF66C953ADC0C2E9F /* Profile.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E47FD0992AC4CDCEEB64E1FD4DF45C8;
+			remoteInfo = Profile;
+		};
+		A7E0A62FD55A5C600594D2AC7C5F7D60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2450EFF16916451CF4F1E9BBD313E23F;
 			remoteInfo = "Pods-CompanyMessanger";
 		};
-		3D40B42EB0BE07B8B402E7253C77EF30 /* PBXContainerItemProxy */ = {
+		B996ED157B47A1693534E137A13738F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DFB7BC0613131EA6931CA5878E8EB179 /* CompanyMessangerCore.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D735DBFA29D723A69C5869C845262754;
-			remoteInfo = CompanyMessangerCore;
-		};
-		6088C62D2C3878DE60DC23CD3E2127CC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 138E9DF330DCA1DDB4176DFE78FD47F4 /* SnapKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6913FCF4B90C224E55FE5C821AFB90D2;
-			remoteInfo = SnapKit;
-		};
-		67788F69AB2A8E39BA0CEFD166451C91 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3EB9C469A900072D6B9F6D2D8030C5B8 /* CompanyMessangerUIKit.xcodeproj */;
+			containerPortal = 9988EB9DFF3F5718E87EC0548BEF76E8 /* CompanyMessangerUIKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 73019F81441316262623D9BB4C7355B8;
 			remoteInfo = CompanyMessangerUIKit;
 		};
-		75393BBEFB5397D02E6FBBD41220DA72 /* PBXContainerItemProxy */ = {
+		D55BEA2DB26796A474AB1CA90775AF53 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 592EF9DF82244CA6582B89DC0F0B07B0 /* Alamofire.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 81B7E9B7CD0CADA087A4BB042FBA92E7;
-			remoteInfo = Alamofire;
-		};
-		C03C1E46096ECAC9A515D9E5114762F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DFB7BC0613131EA6931CA5878E8EB179 /* CompanyMessangerCore.xcodeproj */;
+			containerPortal = 9FBE382C23CA27505A650F056896911E /* CompanyMessangerCore.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = D735DBFA29D723A69C5869C845262754;
 			remoteInfo = CompanyMessangerCore;
 		};
-		D5FEC92AE6FAA2C9219D8B353996DAB0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 138E9DF330DCA1DDB4176DFE78FD47F4 /* SnapKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6913FCF4B90C224E55FE5C821AFB90D2;
-			remoteInfo = SnapKit;
-		};
-		DC6D28807BB082F0F724EBB9C3C0258C /* PBXContainerItemProxy */ = {
+		E287EAA26467433DC869F56D750E0873 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 592EF9DF82244CA6582B89DC0F0B07B0 /* Alamofire.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 81B7E9B7CD0CADA087A4BB042FBA92E7;
 			remoteInfo = Alamofire;
+		};
+		FD59B559E9D76F4F50FEAA18B79CE7DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 296627453131CBA5C9ECF98ED240C2AE /* ChatsList.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8023728F673322883D6E520BDD4CEA7B;
+			remoteInfo = ChatsList;
+		};
+		FE121869C42E6C335D9F3E89A0A4D5DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 296627453131CBA5C9ECF98ED240C2AE /* ChatsList.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8023728F673322883D6E520BDD4CEA7B;
+			remoteInfo = ChatsList;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -102,10 +144,10 @@
 		138E9DF330DCA1DDB4176DFE78FD47F4 /* SnapKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit; path = SnapKit.xcodeproj; sourceTree = "<group>"; };
 		16C1305AAD0EF8BD2D64A400AAA3707C /* Pods-CompanyMessanger-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CompanyMessanger-acknowledgements.markdown"; sourceTree = "<group>"; };
 		19DA05E96DF4111E8697B8D72D3AF709 /* Pods-CompanyMessanger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CompanyMessanger-umbrella.h"; sourceTree = "<group>"; };
+		296627453131CBA5C9ECF98ED240C2AE /* ChatsList */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ChatsList; path = ChatsList.xcodeproj; sourceTree = "<group>"; };
 		2C1021DDC0A66C39F0A7209F72D5E2FE /* Pods-CompanyMessanger-CompanyMessangerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CompanyMessanger-CompanyMessangerUITests-frameworks.sh"; sourceTree = "<group>"; };
 		2D86FFE071C046138F484C029A968380 /* Pods-CompanyMessangerTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CompanyMessangerTests"; path = Pods_CompanyMessangerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3993701C1843ADB844F8D7DF50D2661C /* Pods-CompanyMessangerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CompanyMessangerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3EB9C469A900072D6B9F6D2D8030C5B8 /* CompanyMessangerUIKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CompanyMessangerUIKit; path = CompanyMessangerUIKit.xcodeproj; sourceTree = "<group>"; };
 		40FC9789C5835FB1208723696FE85394 /* Pods-CompanyMessangerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CompanyMessangerTests-Info.plist"; sourceTree = "<group>"; };
 		416CB66CC4CB4C2732FC3E9367AC4D98 /* Pods-CompanyMessanger-CompanyMessangerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CompanyMessanger-CompanyMessangerUITests-Info.plist"; sourceTree = "<group>"; };
 		490EA1949C89DA0EA84D2D68F9027804 /* Pods-CompanyMessanger-CompanyMessangerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CompanyMessanger-CompanyMessangerUITests.modulemap"; sourceTree = "<group>"; };
@@ -116,14 +158,18 @@
 		6424BD0C28B7D50B0F79F9ED5E7B2A7F /* Pods-CompanyMessanger-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CompanyMessanger-acknowledgements.plist"; sourceTree = "<group>"; };
 		64C1E2F04616B33AD9354AE236C39EFD /* Pods-CompanyMessangerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CompanyMessangerTests-dummy.m"; sourceTree = "<group>"; };
 		65DE72B0518AA0BB7337FF6154D8BE64 /* Pods-CompanyMessanger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CompanyMessanger-dummy.m"; sourceTree = "<group>"; };
+		6E03EED4A0A5741FF66C953ADC0C2E9F /* Profile */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Profile; path = Profile.xcodeproj; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7368F6782B6CE4283BCF84DF52EF0FA9 /* Pods-CompanyMessanger-CompanyMessangerUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CompanyMessanger-CompanyMessangerUITests"; path = Pods_CompanyMessanger_CompanyMessangerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76012CB2928F2BAD3EBB14CD086C559E /* Pods-CompanyMessangerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CompanyMessangerTests-umbrella.h"; sourceTree = "<group>"; };
+		8C9BF154C43AFB26FCDE7384344A452E /* Home */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Home; path = Home.xcodeproj; sourceTree = "<group>"; };
 		8CDD03368D50419EF23E6CE65EF1BF48 /* Pods-CompanyMessanger */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CompanyMessanger"; path = Pods_CompanyMessanger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E17EFCF7C350EE4D99CBE27E4056211 /* CompanyMessangerResources */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CompanyMessangerResources; path = CompanyMessangerResources.xcodeproj; sourceTree = "<group>"; };
 		90F65C29271C92F3F78F1681644E14DF /* Pods-CompanyMessangerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CompanyMessangerTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		91B21D2A0411AB71415236BF1D640D57 /* Pods-CompanyMessanger-CompanyMessangerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CompanyMessanger-CompanyMessangerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9988EB9DFF3F5718E87EC0548BEF76E8 /* CompanyMessangerUIKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CompanyMessangerUIKit; path = CompanyMessangerUIKit.xcodeproj; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FBE382C23CA27505A650F056896911E /* CompanyMessangerCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CompanyMessangerCore; path = CompanyMessangerCore.xcodeproj; sourceTree = "<group>"; };
+		A112C4725DFD6B702FA203253A7E068E /* CompanyMessangerResources */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CompanyMessangerResources; path = CompanyMessangerResources.xcodeproj; sourceTree = "<group>"; };
 		A6156B61112FA56D81EA06A7536896C2 /* Pods-CompanyMessanger-CompanyMessangerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CompanyMessanger-CompanyMessangerUITests-umbrella.h"; sourceTree = "<group>"; };
 		AD3DE17C84D9BFD3EC65D303C60C772A /* Pods-CompanyMessanger-CompanyMessangerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CompanyMessanger-CompanyMessangerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7AAEC0EDEBC124868CB8A3D1461F2A8 /* Pods-CompanyMessanger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CompanyMessanger.modulemap"; sourceTree = "<group>"; };
@@ -131,26 +177,17 @@
 		D2668E1E13BA3537DCEFE1B4F9AB4C9E /* Pods-CompanyMessanger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CompanyMessanger-Info.plist"; sourceTree = "<group>"; };
 		DA7A50BCE65E6C5C87DE88C788363EAB /* Pods-CompanyMessanger-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CompanyMessanger-frameworks.sh"; sourceTree = "<group>"; };
 		DEFA48234DBC4660468E7575518954E9 /* Pods-CompanyMessanger-CompanyMessangerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CompanyMessanger-CompanyMessangerUITests-dummy.m"; sourceTree = "<group>"; };
-		DFB7BC0613131EA6931CA5878E8EB179 /* CompanyMessangerCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CompanyMessangerCore; path = CompanyMessangerCore.xcodeproj; sourceTree = "<group>"; };
 		E29CE5E642548E88F1AF1CECF4218F11 /* Pods-CompanyMessangerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CompanyMessangerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6AEC032F1B51002A543F3FB46973756 /* Pods-CompanyMessanger-CompanyMessangerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CompanyMessanger-CompanyMessangerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FCCB8C5FF2F369365911E039DAAF7441 /* Pods-CompanyMessangerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CompanyMessangerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		433573ECD33FB4A57323979CBCEF3CDB /* Frameworks */ = {
+		032A29C0B29CEE33C94FB88EE3A66556 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BCEDEFF6DDCC0E788B2412D7FA2BA0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B93FECF5A303C41DA4C0F177316BB6E7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7DE6F82DC95B7617D70076B43C9A797B /* Foundation.framework in Frameworks */,
+				B89F6004F44F6136EB553D19C670C8C8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +196,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C881D623E6363ACC7A93AE8C8287E7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D824A805814FEDE612EBBAC4CBFC06F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287EEC71BA5B1F3CC6093E2A7E3CA2D9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,12 +271,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7291120726109BFFEC529C3110DD7AFE /* Development Pods */ = {
+		662A063AD46CE4B98BC164534A86E818 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DFB7BC0613131EA6931CA5878E8EB179 /* CompanyMessangerCore */,
-				8E17EFCF7C350EE4D99CBE27E4056211 /* CompanyMessangerResources */,
-				3EB9C469A900072D6B9F6D2D8030C5B8 /* CompanyMessangerUIKit */,
+				296627453131CBA5C9ECF98ED240C2AE /* ChatsList */,
+				9FBE382C23CA27505A650F056896911E /* CompanyMessangerCore */,
+				A112C4725DFD6B702FA203253A7E068E /* CompanyMessangerResources */,
+				9988EB9DFF3F5718E87EC0548BEF76E8 /* CompanyMessangerUIKit */,
+				8C9BF154C43AFB26FCDE7384344A452E /* Home */,
+				6E03EED4A0A5741FF66C953ADC0C2E9F /* Profile */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -240,7 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7291120726109BFFEC529C3110DD7AFE /* Development Pods */,
+				662A063AD46CE4B98BC164534A86E818 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				1F613B97495D37E2182D90EDA2EFC546 /* Pods */,
 				1FFF336BBA1C654D0A4741111CA66FE9 /* Products */,
@@ -285,11 +333,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B8F9F9723C64E9B33AD379E318ECA203 /* Headers */ = {
+		5A7709ACC2FFFAA8C400CBD0FED8F9E6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD0E37D05CACEF124556C8BF2B80EC18 /* Pods-CompanyMessanger-CompanyMessangerUITests-umbrella.h in Headers */,
+				69C488E0956621BA80BA865BC5E1EB21 /* Pods-CompanyMessanger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDC94B08944C31EA346B3AD56475A5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C3CC18D01A9F0E0C5ED50E2B27CAF9 /* Pods-CompanyMessanger-CompanyMessangerUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,34 +357,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB5385A2AE5F63A64EB5124BE1602C44 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				127F00F74340B3C3A3F1A3F8D1EC64AD /* Pods-CompanyMessanger-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		2450EFF16916451CF4F1E9BBD313E23F /* Pods-CompanyMessanger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA037FEDD3F27C4679F391738FDDBD7F /* Build configuration list for PBXNativeTarget "Pods-CompanyMessanger" */;
+			buildConfigurationList = 3CA5F508EBBE4968A8DAA8808F029FEE /* Build configuration list for PBXNativeTarget "Pods-CompanyMessanger" */;
 			buildPhases = (
-				FB5385A2AE5F63A64EB5124BE1602C44 /* Headers */,
-				D5B7631BA8B4E7C969AC680F05BAFA91 /* Sources */,
-				B93FECF5A303C41DA4C0F177316BB6E7 /* Frameworks */,
-				BEDE0457D75E573683DB79D8120DCADE /* Resources */,
+				5A7709ACC2FFFAA8C400CBD0FED8F9E6 /* Headers */,
+				7361F448AD43FB16097B86706450345F /* Sources */,
+				D824A805814FEDE612EBBAC4CBFC06F8 /* Frameworks */,
+				313B48226BDD56DC23A0D1395AEBFADC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				51F98B0D2798ACEBEE96EBE80974AE2C /* PBXTargetDependency */,
-				B2B68992766347EB66D8CDA786A02D66 /* PBXTargetDependency */,
-				B80A0C4E4FD5DC65A99581E6F7CE543A /* PBXTargetDependency */,
-				05784AF0E0D765F5BB2F15302C130CC4 /* PBXTargetDependency */,
-				53DFB12A9030CBA86762C0EAEFF9CAC1 /* PBXTargetDependency */,
+				05B7F72FD5E90F90D6BB1B1AF0C79D84 /* PBXTargetDependency */,
+				D77752C568C91EA15696F10D7AB3CF91 /* PBXTargetDependency */,
+				F221E1FB90769280C6588BB37B6A12D1 /* PBXTargetDependency */,
+				6CF378CDEDA6C0960CFEBB3B0492A4D7 /* PBXTargetDependency */,
+				AF102BCC8BF02872DD8B683FD608824E /* PBXTargetDependency */,
+				8EBCC6AD21E67808B4568F8BFFF90D1C /* PBXTargetDependency */,
+				DBC5D2161113D3A3B569F03DD1D13767 /* PBXTargetDependency */,
+				1E3509D8620E65CD005E834013CDCF3C /* PBXTargetDependency */,
 			);
 			name = "Pods-CompanyMessanger";
 			productName = Pods_CompanyMessanger;
@@ -347,7 +398,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				82688CA035F2877D0F5711EE20D87096 /* PBXTargetDependency */,
+				569C0F88C34C6B7ED534D927E344AA40 /* PBXTargetDependency */,
 			);
 			name = "Pods-CompanyMessangerTests";
 			productName = Pods_CompanyMessangerTests;
@@ -356,21 +407,24 @@
 		};
 		5C6707620B76CEC32949493F0B7CA0EE /* Pods-CompanyMessanger-CompanyMessangerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5342222546D8D5F7E805BA96EB66E990 /* Build configuration list for PBXNativeTarget "Pods-CompanyMessanger-CompanyMessangerUITests" */;
+			buildConfigurationList = DE0FF6028C905D70CAA4FDB43F39840D /* Build configuration list for PBXNativeTarget "Pods-CompanyMessanger-CompanyMessangerUITests" */;
 			buildPhases = (
-				B8F9F9723C64E9B33AD379E318ECA203 /* Headers */,
-				2A314760719D6429D069A10D8C6A3EEE /* Sources */,
-				433573ECD33FB4A57323979CBCEF3CDB /* Frameworks */,
-				91B25231E222FE04A051DF347A98E4C7 /* Resources */,
+				CFDC94B08944C31EA346B3AD56475A5B /* Headers */,
+				73D4D6CB6EEB1633F781DCBE794E60AB /* Sources */,
+				032A29C0B29CEE33C94FB88EE3A66556 /* Frameworks */,
+				D0A1134E5DF656076CAE3A2C649FD025 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0100E8F164C87793E02939F9AB0FFC01 /* PBXTargetDependency */,
-				39DC3546D42AC567C2650A8E62874980 /* PBXTargetDependency */,
-				4AFAD6AB33FE80FEFCC578DC3CDC6E5F /* PBXTargetDependency */,
-				8D57DE9F25FCA6ADC83D769B36F055AB /* PBXTargetDependency */,
-				57359C78DD9879F2616AE3E11D437641 /* PBXTargetDependency */,
+				712F35E6DDC91F2E87F7CBDAD1A8CC46 /* PBXTargetDependency */,
+				571BD99506EC26C783A9C05F835F6E0D /* PBXTargetDependency */,
+				5967293C8927FA89455E12C9A90C2A5E /* PBXTargetDependency */,
+				69A9AE28BCF9897586B7ECF7E5EF5398 /* PBXTargetDependency */,
+				5D6559E8E7FEF28C4CE2BF1A2A999CD6 /* PBXTargetDependency */,
+				B2C8FA79D285D1BBE891EF7B10A079BB /* PBXTargetDependency */,
+				1ACC1AB140E688985465C54615328261 /* PBXTargetDependency */,
+				2BDB8ECFB09F34396B5CACAFA722B96E /* PBXTargetDependency */,
 			);
 			name = "Pods-CompanyMessanger-CompanyMessangerUITests";
 			productName = Pods_CompanyMessanger_CompanyMessangerUITests;
@@ -402,13 +456,22 @@
 					ProjectRef = 592EF9DF82244CA6582B89DC0F0B07B0 /* Alamofire */;
 				},
 				{
-					ProjectRef = DFB7BC0613131EA6931CA5878E8EB179 /* CompanyMessangerCore */;
+					ProjectRef = 296627453131CBA5C9ECF98ED240C2AE /* ChatsList */;
 				},
 				{
-					ProjectRef = 8E17EFCF7C350EE4D99CBE27E4056211 /* CompanyMessangerResources */;
+					ProjectRef = 9FBE382C23CA27505A650F056896911E /* CompanyMessangerCore */;
 				},
 				{
-					ProjectRef = 3EB9C469A900072D6B9F6D2D8030C5B8 /* CompanyMessangerUIKit */;
+					ProjectRef = A112C4725DFD6B702FA203253A7E068E /* CompanyMessangerResources */;
+				},
+				{
+					ProjectRef = 9988EB9DFF3F5718E87EC0548BEF76E8 /* CompanyMessangerUIKit */;
+				},
+				{
+					ProjectRef = 8C9BF154C43AFB26FCDE7384344A452E /* Home */;
+				},
+				{
+					ProjectRef = 6E03EED4A0A5741FF66C953ADC0C2E9F /* Profile */;
 				},
 				{
 					ProjectRef = 138E9DF330DCA1DDB4176DFE78FD47F4 /* SnapKit */;
@@ -431,14 +494,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91B25231E222FE04A051DF347A98E4C7 /* Resources */ = {
+		313B48226BDD56DC23A0D1395AEBFADC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEDE0457D75E573683DB79D8120DCADE /* Resources */ = {
+		D0A1134E5DF656076CAE3A2C649FD025 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,84 +519,226 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A314760719D6429D069A10D8C6A3EEE /* Sources */ = {
+		7361F448AD43FB16097B86706450345F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C25E26CCBBE9430A3F4BFB7E577CA56 /* Pods-CompanyMessanger-CompanyMessangerUITests-dummy.m in Sources */,
+				319D84E128247B61DE7A9B149308B26E /* Pods-CompanyMessanger-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5B7631BA8B4E7C969AC680F05BAFA91 /* Sources */ = {
+		73D4D6CB6EEB1633F781DCBE794E60AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A2C4510C60FF0114AEC29A1E83C9BC3 /* Pods-CompanyMessanger-dummy.m in Sources */,
+				13C2BFCCA3E5DAA43D12770B41DA02F7 /* Pods-CompanyMessanger-CompanyMessangerUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0100E8F164C87793E02939F9AB0FFC01 /* PBXTargetDependency */ = {
+		05B7F72FD5E90F90D6BB1B1AF0C79D84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
-			targetProxy = 75393BBEFB5397D02E6FBBD41220DA72 /* PBXContainerItemProxy */;
+			targetProxy = 2B5FB5B96E158F6273E7A0A8EAF37F6A /* PBXContainerItemProxy */;
 		};
-		05784AF0E0D765F5BB2F15302C130CC4 /* PBXTargetDependency */ = {
+		1ACC1AB140E688985465C54615328261 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CompanyMessangerUIKit;
-			targetProxy = 02DC396EB5EA71614520B59DB56D64C8 /* PBXContainerItemProxy */;
+			name = Profile;
+			targetProxy = 6D09AD4A950F9E3F45D14076523895A1 /* PBXContainerItemProxy */;
 		};
-		39DC3546D42AC567C2650A8E62874980 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CompanyMessangerCore;
-			targetProxy = 3D40B42EB0BE07B8B402E7253C77EF30 /* PBXContainerItemProxy */;
-		};
-		4AFAD6AB33FE80FEFCC578DC3CDC6E5F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CompanyMessangerResources;
-			targetProxy = 30DC0305E8E942063488D4558851953A /* PBXContainerItemProxy */;
-		};
-		51F98B0D2798ACEBEE96EBE80974AE2C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			targetProxy = DC6D28807BB082F0F724EBB9C3C0258C /* PBXContainerItemProxy */;
-		};
-		53DFB12A9030CBA86762C0EAEFF9CAC1 /* PBXTargetDependency */ = {
+		1E3509D8620E65CD005E834013CDCF3C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
-			targetProxy = D5FEC92AE6FAA2C9219D8B353996DAB0 /* PBXContainerItemProxy */;
+			targetProxy = 2AF8CC113B4FB4361332E2E5C57EAC78 /* PBXContainerItemProxy */;
 		};
-		57359C78DD9879F2616AE3E11D437641 /* PBXTargetDependency */ = {
+		2BDB8ECFB09F34396B5CACAFA722B96E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
-			targetProxy = 6088C62D2C3878DE60DC23CD3E2127CC /* PBXContainerItemProxy */;
+			targetProxy = 3EB3F71855C9BBA33F6E8BE2C7B37031 /* PBXContainerItemProxy */;
 		};
-		82688CA035F2877D0F5711EE20D87096 /* PBXTargetDependency */ = {
+		569C0F88C34C6B7ED534D927E344AA40 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CompanyMessanger";
 			target = 2450EFF16916451CF4F1E9BBD313E23F /* Pods-CompanyMessanger */;
-			targetProxy = 34045B30E2BE84421A2B79820F57EE7E /* PBXContainerItemProxy */;
+			targetProxy = A7E0A62FD55A5C600594D2AC7C5F7D60 /* PBXContainerItemProxy */;
 		};
-		8D57DE9F25FCA6ADC83D769B36F055AB /* PBXTargetDependency */ = {
+		571BD99506EC26C783A9C05F835F6E0D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CompanyMessangerUIKit;
-			targetProxy = 67788F69AB2A8E39BA0CEFD166451C91 /* PBXContainerItemProxy */;
+			name = ChatsList;
+			targetProxy = FD59B559E9D76F4F50FEAA18B79CE7DF /* PBXContainerItemProxy */;
 		};
-		B2B68992766347EB66D8CDA786A02D66 /* PBXTargetDependency */ = {
+		5967293C8927FA89455E12C9A90C2A5E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CompanyMessangerCore;
-			targetProxy = C03C1E46096ECAC9A515D9E5114762F2 /* PBXContainerItemProxy */;
+			targetProxy = 482B795722D97BB17AF736F39635FCC9 /* PBXContainerItemProxy */;
 		};
-		B80A0C4E4FD5DC65A99581E6F7CE543A /* PBXTargetDependency */ = {
+		5D6559E8E7FEF28C4CE2BF1A2A999CD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CompanyMessangerUIKit;
+			targetProxy = 0A3277D8538941A798938788DDDA2116 /* PBXContainerItemProxy */;
+		};
+		69A9AE28BCF9897586B7ECF7E5EF5398 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CompanyMessangerResources;
-			targetProxy = 3338A4CC21E238CE9379F691135CA054 /* PBXContainerItemProxy */;
+			targetProxy = 2FA93D671EF871779534C1509EC39E44 /* PBXContainerItemProxy */;
+		};
+		6CF378CDEDA6C0960CFEBB3B0492A4D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CompanyMessangerResources;
+			targetProxy = 65A9BB57F6ACF437028C9B03E71C11A9 /* PBXContainerItemProxy */;
+		};
+		712F35E6DDC91F2E87F7CBDAD1A8CC46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = E287EAA26467433DC869F56D750E0873 /* PBXContainerItemProxy */;
+		};
+		8EBCC6AD21E67808B4568F8BFFF90D1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Home;
+			targetProxy = 0300F2401F4D43EA2E83236F298B7645 /* PBXContainerItemProxy */;
+		};
+		AF102BCC8BF02872DD8B683FD608824E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CompanyMessangerUIKit;
+			targetProxy = B996ED157B47A1693534E137A13738F9 /* PBXContainerItemProxy */;
+		};
+		B2C8FA79D285D1BBE891EF7B10A079BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Home;
+			targetProxy = 59856A95635851434AC2C5E12323B2E8 /* PBXContainerItemProxy */;
+		};
+		D77752C568C91EA15696F10D7AB3CF91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChatsList;
+			targetProxy = FE121869C42E6C335D9F3E89A0A4D5DC /* PBXContainerItemProxy */;
+		};
+		DBC5D2161113D3A3B569F03DD1D13767 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Profile;
+			targetProxy = 78DBFC79A98F773B5770B97918B852C1 /* PBXContainerItemProxy */;
+		};
+		F221E1FB90769280C6588BB37B6A12D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CompanyMessangerCore;
+			targetProxy = D55BEA2DB26796A474AB1CA90775AF53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0FC1A1FB321277E203889C8C94BC2F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB439ECF8C472873EE9EDEBB276F4B5A /* Pods-CompanyMessanger.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CompanyMessanger/Pods-CompanyMessanger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CompanyMessanger/Pods-CompanyMessanger.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		370572E9060F18BDEAA71367DD975946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58D713BF9E2021EE026AECD9E0A59776 /* Pods-CompanyMessanger-CompanyMessangerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CompanyMessanger-CompanyMessangerUITests/Pods-CompanyMessanger-CompanyMessangerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CompanyMessanger-CompanyMessangerUITests/Pods-CompanyMessanger-CompanyMessangerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		421DDF2F58B33CC3E4AA2C942F6CC4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3DE17C84D9BFD3EC65D303C60C772A /* Pods-CompanyMessanger-CompanyMessangerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CompanyMessanger-CompanyMessangerUITests/Pods-CompanyMessanger-CompanyMessangerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CompanyMessanger-CompanyMessangerUITests/Pods-CompanyMessanger-CompanyMessangerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5B69FCE361C20AF0910641CD7AD24A2F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FCCB8C5FF2F369365911E039DAAF7441 /* Pods-CompanyMessangerTests.release.xcconfig */;
@@ -571,43 +776,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		81EC8411B15E26E62D40214861C27A57 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB439ECF8C472873EE9EDEBB276F4B5A /* Pods-CompanyMessanger.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CompanyMessanger/Pods-CompanyMessanger-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CompanyMessanger/Pods-CompanyMessanger.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -737,9 +905,9 @@
 			};
 			name = Release;
 		};
-		9AEAC2372D56032B74338B33F3DF0378 /* Release */ = {
+		9CEC8FAF7C3807D0376D65A017DEF4E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58D713BF9E2021EE026AECD9E0A59776 /* Pods-CompanyMessanger-CompanyMessangerUITests.release.xcconfig */;
+			baseConfigurationReference = 5B5E989D9ABB2068B84EE6C109362516 /* Pods-CompanyMessanger.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -751,7 +919,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CompanyMessanger-CompanyMessangerUITests/Pods-CompanyMessanger-CompanyMessangerUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-CompanyMessanger/Pods-CompanyMessanger-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -760,7 +928,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CompanyMessanger-CompanyMessangerUITests/Pods-CompanyMessanger-CompanyMessangerUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-CompanyMessanger/Pods-CompanyMessanger.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -774,43 +942,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		B836DB967F1E1A74C36A88079C7B2BE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD3DE17C84D9BFD3EC65D303C60C772A /* Pods-CompanyMessanger-CompanyMessangerUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CompanyMessanger-CompanyMessangerUITests/Pods-CompanyMessanger-CompanyMessangerUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CompanyMessanger-CompanyMessangerUITests/Pods-CompanyMessanger-CompanyMessangerUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		E05FC144E24EE5E52F00767F7B7A3AC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -849,47 +980,18 @@
 			};
 			name = Debug;
 		};
-		F55BF7F1D54447A4E0A1277C211CAA62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B5E989D9ABB2068B84EE6C109362516 /* Pods-CompanyMessanger.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CompanyMessanger/Pods-CompanyMessanger-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CompanyMessanger/Pods-CompanyMessanger.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3CA5F508EBBE4968A8DAA8808F029FEE /* Build configuration list for PBXNativeTarget "Pods-CompanyMessanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FC1A1FB321277E203889C8C94BC2F6B /* Debug */,
+				9CEC8FAF7C3807D0376D65A017DEF4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -899,20 +1001,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5342222546D8D5F7E805BA96EB66E990 /* Build configuration list for PBXNativeTarget "Pods-CompanyMessanger-CompanyMessangerUITests" */ = {
+		DE0FF6028C905D70CAA4FDB43F39840D /* Build configuration list for PBXNativeTarget "Pods-CompanyMessanger-CompanyMessangerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B836DB967F1E1A74C36A88079C7B2BE9 /* Debug */,
-				9AEAC2372D56032B74338B33F3DF0378 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DA037FEDD3F27C4679F391738FDDBD7F /* Build configuration list for PBXNativeTarget "Pods-CompanyMessanger" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				81EC8411B15E26E62D40214861C27A57 /* Debug */,
-				F55BF7F1D54447A4E0A1277C211CAA62 /* Release */,
+				421DDF2F58B33CC3E4AA2C942F6CC4C3 /* Debug */,
+				370572E9060F18BDEAA71367DD975946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
