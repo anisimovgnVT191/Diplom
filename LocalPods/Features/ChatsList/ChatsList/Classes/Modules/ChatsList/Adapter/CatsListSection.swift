@@ -6,9 +6,35 @@ struct CatsListSection {
     }
     
     enum Item {
-        case cat
+        case cat(item: CatCardItemView.DisplayItem)
     }
     
     let id: Id
     let items: [Item]
+}
+
+extension CatsListSection: Hashable {
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(self.id)
+    }
+    
+    static func == (lhs: CatsListSection, rhs: CatsListSection) -> Bool {
+        lhs.id == rhs.id
+    }
+}
+
+extension CatsListSection.Item: Hashable {
+    func hash(into hasher: inout Hasher) {
+        switch self {
+        case let .cat(item):
+            hasher.combine(item)
+        }
+    }
+    
+    static func == (lhs: CatsListSection.Item, rhs: CatsListSection.Item) -> Bool {
+        switch (lhs, rhs) {
+        case let (.cat(lItem), .cat(rItem)):
+            return lItem == rItem
+        }
+    }
 }

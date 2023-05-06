@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C04F0CDD07849904734C6C34E61FBB1 /* Apexy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BD16BF4CB8BEFA552B7303CB53B744 /* Apexy-dummy.m */; };
+		2F84016B43A3583326C13B1057378ED8 /* ProgressWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06F12E2C8FC775B6B968DB27E47E22 /* ProgressWrapper.swift */; };
+		33A44D1B380A4596147AEB839D0C8FB5 /* URLRequestBuildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740D0ECE618B6D107BD22B16FDDD5EE6 /* URLRequestBuildable.swift */; };
+		3820F43DBBC1539F4A86F63E748318DC /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB307EFCD0637078A5C243754EFCC5C /* Endpoint.swift */; };
+		533A78A87064D669E8597AB12F848C53 /* Apexy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1DFDC47B2262B3F1E1FEA5B8B868141 /* Apexy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64A87C454A8DB2BA813C1F2833A5EE42 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62D58EA0C641954ADCAA71986B94359 /* Client.swift */; };
+		6641920A6DBADCCC0DE1466B23E1C1C5 /* BaseRequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FE835893B638BC51CC063DF0044852 /* BaseRequestInterceptor.swift */; };
+		808DAE5CB4C73D0B017503D5407F8B07 /* AlamofireClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9B21099C973D6B9D9C39DA17E6B9AF /* AlamofireClient.swift */; };
+		870D9E5B432CED62E1A75ED325BE4C98 /* Client+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EACAE918FA0CE2C2FBF02E1D3939090 /* Client+Combine.swift */; };
+		A719D5115022642DE7A8BF0AFDF4A062 /* AsyncAwaitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A38EC1F0209B77F8CD047665B26EAB /* AsyncAwaitHelper.swift */; };
+		CFFCD3FA8794DB192D464645DB1E36D0 /* UploadEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F78ACF23DE591F75638985E85EBB23A /* UploadEndpoint.swift */; };
+		D296DCB7D2E923FE919337D9C24203FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5E95BE56F8987D91DED7FF0D167447 /* Foundation.framework */; };
+		E2BE9BE99198113D856F772CC1D1808F /* HTTPBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E8824B4D982DE7AE0F83A3F2A85D8B /* HTTPBody.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61B568DCA29EA9C80439123C0A0352BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9185E984E8FBC5FBEF93AC5DE0D31B9B /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B7E9B7CD0CADA087A4BB042FBA92E7;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B5E95BE56F8987D91DED7FF0D167447 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36E8824B4D982DE7AE0F83A3F2A85D8B /* HTTPBody.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPBody.swift; path = Sources/Apexy/HTTPBody.swift; sourceTree = "<group>"; };
+		3EACAE918FA0CE2C2FBF02E1D3939090 /* Client+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Client+Combine.swift"; path = "Sources/Apexy/Client+Combine.swift"; sourceTree = "<group>"; };
+		5F78ACF23DE591F75638985E85EBB23A /* UploadEndpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UploadEndpoint.swift; path = Sources/Apexy/UploadEndpoint.swift; sourceTree = "<group>"; };
+		740D0ECE618B6D107BD22B16FDDD5EE6 /* URLRequestBuildable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRequestBuildable.swift; path = Sources/Apexy/URLRequestBuildable.swift; sourceTree = "<group>"; };
+		84FE835893B638BC51CC063DF0044852 /* BaseRequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRequestInterceptor.swift; path = Sources/ApexyAlamofire/BaseRequestInterceptor.swift; sourceTree = "<group>"; };
+		9185E984E8FBC5FBEF93AC5DE0D31B9B /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire; path = Alamofire.xcodeproj; sourceTree = "<group>"; };
+		93E324A0A8BA216CC132E5C4DE6E2BE3 /* Apexy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Apexy.debug.xcconfig; sourceTree = "<group>"; };
+		94CF86F069F20DEEE1666BAAC1B715BF /* Apexy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Apexy-prefix.pch"; sourceTree = "<group>"; };
+		A9A38EC1F0209B77F8CD047665B26EAB /* AsyncAwaitHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncAwaitHelper.swift; path = Sources/Apexy/AsyncAwaitHelper.swift; sourceTree = "<group>"; };
+		B6BD16BF4CB8BEFA552B7303CB53B744 /* Apexy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Apexy-dummy.m"; sourceTree = "<group>"; };
+		B94B1AA6C0EFF34474AE707F56ED2EDE /* Apexy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Apexy-Info.plist"; sourceTree = "<group>"; };
+		BDB307EFCD0637078A5C243754EFCC5C /* Endpoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Endpoint.swift; path = Sources/Apexy/Endpoint.swift; sourceTree = "<group>"; };
+		BF820D990991EBD1E9F9234EDF041466 /* Apexy */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Apexy; path = Apexy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1DFDC47B2262B3F1E1FEA5B8B868141 /* Apexy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Apexy-umbrella.h"; sourceTree = "<group>"; };
+		CA06F12E2C8FC775B6B968DB27E47E22 /* ProgressWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressWrapper.swift; path = Sources/Apexy/ProgressWrapper.swift; sourceTree = "<group>"; };
+		DB9B21099C973D6B9D9C39DA17E6B9AF /* AlamofireClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireClient.swift; path = Sources/ApexyAlamofire/AlamofireClient.swift; sourceTree = "<group>"; };
+		DBA01950BEE735F460A56DB826A28787 /* Apexy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Apexy.release.xcconfig; sourceTree = "<group>"; };
+		E51801758EFE01046E0B41D1615BA818 /* Apexy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Apexy.modulemap; sourceTree = "<group>"; };
+		F62D58EA0C641954ADCAA71986B94359 /* Client.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Client.swift; path = Sources/Apexy/Client.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CA31784344BEE4C0C74229D489B3810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D296DCB7D2E923FE919337D9C24203FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3FB139B9439B2F31BB9D54C1188571 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E51801758EFE01046E0B41D1615BA818 /* Apexy.modulemap */,
+				B6BD16BF4CB8BEFA552B7303CB53B744 /* Apexy-dummy.m */,
+				B94B1AA6C0EFF34474AE707F56ED2EDE /* Apexy-Info.plist */,
+				94CF86F069F20DEEE1666BAAC1B715BF /* Apexy-prefix.pch */,
+				C1DFDC47B2262B3F1E1FEA5B8B868141 /* Apexy-umbrella.h */,
+				93E324A0A8BA216CC132E5C4DE6E2BE3 /* Apexy.debug.xcconfig */,
+				DBA01950BEE735F460A56DB826A28787 /* Apexy.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Apexy";
+			sourceTree = "<group>";
+		};
+		5B9D52DBA08062EDFD5A7651AD8D6C5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF820D990991EBD1E9F9234EDF041466 /* Apexy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842077079EC8B91D2F1861A393F13FF8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A9A38EC1F0209B77F8CD047665B26EAB /* AsyncAwaitHelper.swift */,
+				F62D58EA0C641954ADCAA71986B94359 /* Client.swift */,
+				3EACAE918FA0CE2C2FBF02E1D3939090 /* Client+Combine.swift */,
+				BDB307EFCD0637078A5C243754EFCC5C /* Endpoint.swift */,
+				36E8824B4D982DE7AE0F83A3F2A85D8B /* HTTPBody.swift */,
+				CA06F12E2C8FC775B6B968DB27E47E22 /* ProgressWrapper.swift */,
+				5F78ACF23DE591F75638985E85EBB23A /* UploadEndpoint.swift */,
+				740D0ECE618B6D107BD22B16FDDD5EE6 /* URLRequestBuildable.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		95AF7B5191FCD25A53B850B34968C9A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5CA2266BD7445AEABB4301FE3839E08 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC3B7E425EAC947E7B31F6E75820B08D = {
+			isa = PBXGroup;
+			children = (
+				EDCA0F977D63EE57D36A06415C927C45 /* Apexy */,
+				D2FD7692B83F8471F38BE5F4FCA56387 /* Dependencies */,
+				95AF7B5191FCD25A53B850B34968C9A2 /* Frameworks */,
+				5B9D52DBA08062EDFD5A7651AD8D6C5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4E12507988AF18545A4C87DAE587142 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				DB9B21099C973D6B9D9C39DA17E6B9AF /* AlamofireClient.swift */,
+				84FE835893B638BC51CC063DF0044852 /* BaseRequestInterceptor.swift */,
+			);
+			name = Alamofire;
+			sourceTree = "<group>";
+		};
+		D2FD7692B83F8471F38BE5F4FCA56387 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				9185E984E8FBC5FBEF93AC5DE0D31B9B /* Alamofire */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		EDCA0F977D63EE57D36A06415C927C45 /* Apexy */ = {
+			isa = PBXGroup;
+			children = (
+				B4E12507988AF18545A4C87DAE587142 /* Alamofire */,
+				842077079EC8B91D2F1861A393F13FF8 /* Core */,
+				0A3FB139B9439B2F31BB9D54C1188571 /* Support Files */,
+			);
+			name = Apexy;
+			path = Apexy;
+			sourceTree = "<group>";
+		};
+		F5CA2266BD7445AEABB4301FE3839E08 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B5E95BE56F8987D91DED7FF0D167447 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5DBCD4A18692D2811FDD12499B9033B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533A78A87064D669E8597AB12F848C53 /* Apexy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		536BCB210A1C8BA9419DEA0CD5581E92 /* Apexy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1603CF23761A72FD6EEDEF2640279A /* Build configuration list for PBXNativeTarget "Apexy" */;
+			buildPhases = (
+				5DBCD4A18692D2811FDD12499B9033B3 /* Headers */,
+				DE0727A7C01FA9C4BA3CA084D8CAD43A /* Sources */,
+				0CA31784344BEE4C0C74229D489B3810 /* Frameworks */,
+				4ECA8F4270E94331B0A3272FA6FC2565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A59A1ADDCA66F90F92C2BA56A8E976BE /* PBXTargetDependency */,
+			);
+			name = Apexy;
+			productName = Apexy;
+			productReference = BF820D990991EBD1E9F9234EDF041466 /* Apexy */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6028A52A24ED29339F6CAAB7270F4FEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 3848521223A62C58F7F5A7634126BF35 /* Build configuration list for PBXProject "Apexy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = AC3B7E425EAC947E7B31F6E75820B08D;
+			productRefGroup = 5B9D52DBA08062EDFD5A7651AD8D6C5C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 9185E984E8FBC5FBEF93AC5DE0D31B9B /* Alamofire */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				536BCB210A1C8BA9419DEA0CD5581E92 /* Apexy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ECA8F4270E94331B0A3272FA6FC2565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE0727A7C01FA9C4BA3CA084D8CAD43A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808DAE5CB4C73D0B017503D5407F8B07 /* AlamofireClient.swift in Sources */,
+				1C04F0CDD07849904734C6C34E61FBB1 /* Apexy-dummy.m in Sources */,
+				A719D5115022642DE7A8BF0AFDF4A062 /* AsyncAwaitHelper.swift in Sources */,
+				6641920A6DBADCCC0DE1466B23E1C1C5 /* BaseRequestInterceptor.swift in Sources */,
+				64A87C454A8DB2BA813C1F2833A5EE42 /* Client.swift in Sources */,
+				870D9E5B432CED62E1A75ED325BE4C98 /* Client+Combine.swift in Sources */,
+				3820F43DBBC1539F4A86F63E748318DC /* Endpoint.swift in Sources */,
+				E2BE9BE99198113D856F772CC1D1808F /* HTTPBody.swift in Sources */,
+				2F84016B43A3583326C13B1057378ED8 /* ProgressWrapper.swift in Sources */,
+				CFFCD3FA8794DB192D464645DB1E36D0 /* UploadEndpoint.swift in Sources */,
+				33A44D1B380A4596147AEB839D0C8FB5 /* URLRequestBuildable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A59A1ADDCA66F90F92C2BA56A8E976BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = 61B568DCA29EA9C80439123C0A0352BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13A55678D2E2178866D8481B47B4EC0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		15454EE7F240CAE242943A33D0D495F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		22C59D1E2A9C04C83C759E71484015C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA01950BEE735F460A56DB826A28787 /* Apexy.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Apexy/Apexy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Apexy/Apexy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Apexy/Apexy.modulemap";
+				PRODUCT_MODULE_NAME = Apexy;
+				PRODUCT_NAME = Apexy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E11E94933EB720B654A5BAB9AEC058E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93E324A0A8BA216CC132E5C4DE6E2BE3 /* Apexy.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Apexy/Apexy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Apexy/Apexy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Apexy/Apexy.modulemap";
+				PRODUCT_MODULE_NAME = Apexy;
+				PRODUCT_NAME = Apexy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3848521223A62C58F7F5A7634126BF35 /* Build configuration list for PBXProject "Apexy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A55678D2E2178866D8481B47B4EC0C /* Debug */,
+				15454EE7F240CAE242943A33D0D495F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1603CF23761A72FD6EEDEF2640279A /* Build configuration list for PBXNativeTarget "Apexy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E11E94933EB720B654A5BAB9AEC058E /* Debug */,
+				22C59D1E2A9C04C83C759E71484015C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6028A52A24ED29339F6CAAB7270F4FEE /* Project object */;
+}

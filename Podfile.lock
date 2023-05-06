@@ -1,7 +1,20 @@
 PODS:
   - Alamofire (5.6.4)
-  - ChatsList (0.1.0)
-  - CompanyMessangerCore (0.1.0)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - Apexy (1.7.2):
+    - Apexy/Alamofire (= 1.7.2)
+  - Apexy/Alamofire (1.7.2):
+    - Alamofire (~> 5.0)
+    - Apexy/Core
+  - Apexy/Core (1.7.2)
+  - ChatsList (0.1.0):
+    - CompanyMessangerResources
+    - CompanyMessangerUIKit
+    - SnapKit
+  - CompanyMessangerCore (0.1.0):
+    - Alamofire
+    - AlamofireImage
   - CompanyMessangerResources (0.1.0):
     - CompanyMessangerCore
   - CompanyMessangerUIKit (0.1.0)
@@ -11,6 +24,8 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - AlamofireImage
+  - Apexy
   - ChatsList (from `LocalPods/Features/ChatsList`)
   - CompanyMessangerCore (from `LocalPods/CompanyMessangerCore`)
   - CompanyMessangerResources (from `LocalPods/CompanyMessangerResources`)
@@ -22,6 +37,8 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - AlamofireImage
+    - Apexy
     - SnapKit
 
 EXTERNAL SOURCES:
@@ -40,14 +57,16 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
-  ChatsList: 165a5a4994c7c7cfd8a04ebfc84700892f08eed0
-  CompanyMessangerCore: 3a1db58e2f8b20c53e38eb8b79b72f32f27c60b0
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  Apexy: 984a2c615adf4b5af3432859d768a7a3dec51907
+  ChatsList: b8c7ef58a79a3f10e485b10a0075ccc5b5a740bd
+  CompanyMessangerCore: bfc694a0bc53566785d95f04085a98747cc6b915
   CompanyMessangerResources: ecd8fe3b23cedd7482abf5ed5b768c3c060f1856
   CompanyMessangerUIKit: 6d34474593a751b50bf4f9ce019762232a05ba3a
   Home: 434a494fd613dedde4cbefec6e78525ad7c25792
   Profile: 835bf818e62183760e80b6d2d63ee0bebf96bfe8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
-PODFILE CHECKSUM: 84a3c04da0651f86d8d76d978f8fcba55f08626a
+PODFILE CHECKSUM: e45b660657add8b51e656b5bcc6a94b14c871346
 
 COCOAPODS: 1.12.1

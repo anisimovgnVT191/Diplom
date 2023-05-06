@@ -98,6 +98,16 @@
 		04D8B1FB2A0679680011F542 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D8B1FE2A06856E0011F542 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		04D8B2012A06867E0011F542 /* Colors+TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+TabBar.swift"; sourceTree = "<group>"; };
+		04D8B2042A0692660011F542 /* CatCardItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatCardItemView.swift; sourceTree = "<group>"; };
+		04D8B2062A0692B20011F542 /* ConfigurableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurableView.swift; sourceTree = "<group>"; };
+		04D8B22F2A0693E10011F542 /* CollectionViewContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewContainerCell.swift; sourceTree = "<group>"; };
+		04D8B2952A069FB00011F542 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		04D8B2972A06A7A40011F542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D8B2982A06A8450011F542 /* Images+Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Images+Common.swift"; sourceTree = "<group>"; };
+		04D8B2B72A06A9240011F542 /* Bundle+Current.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Current.swift"; sourceTree = "<group>"; };
+		04D8B33E2A06AB8E0011F542 /* AlamofireExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireExtensions.swift; sourceTree = "<group>"; };
+		04D8B3642A06AE2E0011F542 /* DisplayItemCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayItemCallback.swift; sourceTree = "<group>"; };
+		04D8B3BB2A06C1950011F542 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
 		04F5730429F466160013BB49 /* CompanyMessangerCore.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CompanyMessangerCore.podspec; sourceTree = "<group>"; };
 		04F5730829F474E20013BB49 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		04F5730C29F477130013BB49 /* TransitionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionHandler.swift; sourceTree = "<group>"; };
@@ -212,6 +222,7 @@
 		045BA6F629F5A293005E99A4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				04D8B2B62A06A9130011F542 /* Extensions */,
 				045BA70429F5A330005E99A4 /* Colors */,
 				045BA70529F5A338005E99A4 /* Images */,
 				045BA70629F5A36D005E99A4 /* Localized */,
@@ -222,6 +233,7 @@
 		045BA6F729F5A299005E99A4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				04D8B2972A06A7A40011F542 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -238,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				045BA70829F5A3CD005E99A4 /* Images.swift */,
+				04D8B2982A06A8450011F542 /* Images+Common.swift */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -369,6 +382,7 @@
 		045BA72F29F5BA2B005E99A4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				04D8B2952A069FB00011F542 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -497,6 +511,7 @@
 		04B45F8D29F809D600D395E4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				04D8B2032A0692450011F542 /* Cells */,
 				04B45F9A29F80AA100D395E4 /* ChatsListViewController.swift */,
 				04B45F9B29F80AEE00D395E4 /* ChatsListViewIO.swift */,
 			);
@@ -704,6 +719,39 @@
 			path = Colors;
 			sourceTree = "<group>";
 		};
+		04D8B2032A0692450011F542 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				04D8B2042A0692660011F542 /* CatCardItemView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		04D8B2052A06929F0011F542 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				04D8B2062A0692B20011F542 /* ConfigurableView.swift */,
+				04D8B22F2A0693E10011F542 /* CollectionViewContainerCell.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		04D8B2B62A06A9130011F542 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04D8B2B72A06A9240011F542 /* Bundle+Current.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		04D8B3632A06AE0A0011F542 /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				04D8B3642A06AE2E0011F542 /* DisplayItemCallback.swift */,
+			);
+			path = PropertyWrappers;
+			sourceTree = "<group>";
+		};
 		04F5730029F4625D0013BB49 /* LocalPods */ = {
 			isa = PBXGroup;
 			children = (
@@ -740,6 +788,7 @@
 				04F5731729F47B790013BB49 /* Common */,
 				04F5730729F474C80013BB49 /* Coordinator */,
 				04F5731529F47A4B0013BB49 /* Extensions */,
+				04D8B3632A06AE0A0011F542 /* PropertyWrappers */,
 				04F5730929F476960013BB49 /* Routing */,
 			);
 			path = Classes;
@@ -798,6 +847,7 @@
 		04F5731129F478650013BB49 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				04D8B2052A06929F0011F542 /* Adapter */,
 				04F5731329F478980013BB49 /* Extensions */,
 			);
 			path = Classes;
@@ -824,6 +874,8 @@
 				045BA6E929F59FD9005E99A4 /* BaseExtension */,
 				045BA6D729F490DA005E99A4 /* UIKit */,
 				04F5731629F47A640013BB49 /* Configurable.swift */,
+				04D8B33E2A06AB8E0011F542 /* AlamofireExtensions.swift */,
+				04D8B3BB2A06C1950011F542 /* ArrayExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";

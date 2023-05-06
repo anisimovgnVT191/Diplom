@@ -7,61 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05029A35EDDCB015B167361640A958C8 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3547591329BD144B35D67EA9AEF337 /* Localized.swift */; };
-		30D069D04B5B901E91BB27492F937BD9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394ECA259111E44AB193C88E2F70310 /* Colors.swift */; };
-		41F2C8CB45DBF06A9DC85B34B04271B9 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2707A89F46E288BCCDCC51D4D3E98EA9 /* Images.swift */; };
-		8FCFAD7C75FFB0EAD62E183751F24BE1 /* CompanyMessangerResources-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46793862FAA21FA6A7518B58D1EC5AAC /* CompanyMessangerResources-dummy.m */; };
-		9054104ED2CC34C24791E29779DF3A45 /* CompanyMessangerResources-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 026FAD3FA4CADDA9B524C3FD82BCCA51 /* CompanyMessangerResources-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1BD7858407C40918F873B80F547D587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCF70BA3FBA0716B447D2E299BDEFD3 /* Foundation.framework */; };
-		F7564BBDC04DF98975F670E885160CC4 /* CompanyMessangerResources-CompanyMessangerResources in Resources */ = {isa = PBXBuildFile; fileRef = 6B3EF3161FEFCE9FF66AA767EED19D8D /* CompanyMessangerResources-CompanyMessangerResources */; };
+		00D7EFCC29B0E063E998F078B64F4D01 /* Images+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B6ECE6EF8A370D7DB48EFF82A5ED2 /* Images+Common.swift */; };
+		0290E47DCAD6A68C136B1D74FAB46FE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCF70BA3FBA0716B447D2E299BDEFD3 /* Foundation.framework */; };
+		1028C58D5C21DF37A39E64E4B551387C /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909AF5C04158290CE9CBD0F420832EF6 /* Localized.swift */; };
+		61EE15384D03FDFC692F4F8F040B0239 /* CompanyMessangerResources-CompanyMessangerResources in Resources */ = {isa = PBXBuildFile; fileRef = 6B3EF3161FEFCE9FF66AA767EED19D8D /* CompanyMessangerResources-CompanyMessangerResources */; };
+		68F623448CB747570DF31B07B286A0D1 /* CompanyMessangerResources-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E738634BCA03BE0FF9DA378FDC512677 /* CompanyMessangerResources-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FE5A6F3794A62CBE7CCB3C822CDA6A4 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7EB5E26C58905B2224D3A205E35977 /* Colors.swift */; };
+		BC4C3F1300C3D1E8CACE132DEC4C85AB /* Bundle+Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85ADC1603A2AAB35BFDEAE25C9976B /* Bundle+Current.swift */; };
+		C5078E975D2E9807A3352C146D089341 /* CompanyMessangerResources-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A0CE6A8F797D0C9BB094C197CDA0B2 /* CompanyMessangerResources-dummy.m */; };
+		E1CDF1BDF6689A0C3414A36EFB129405 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603F5614D74B4D3E9D0FDFDA5B837D67 /* Images.swift */; };
+		FEB0CA671E6C035F1D2C3CE3FABFE1EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C2AFA592DEAFA290C41ADCF1BFFA874 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8621740920301715C4DB588C4176F9E3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4910DD35CBFDCF49975B8590D94AFE4C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D399FC3D6E82B7FE785EDF49531324B;
-			remoteInfo = "CompanyMessangerResources-CompanyMessangerResources";
-		};
-		8986646E05EBA31B31ED9A0DBAB33D64 /* PBXContainerItemProxy */ = {
+		97E644D193A46662A1B6CD1A626CFD6F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 299F86504B18C666632F18819C1CF3B4 /* CompanyMessangerCore.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = D735DBFA29D723A69C5869C845262754;
 			remoteInfo = CompanyMessangerCore;
 		};
+		B5D7A1153DEDB64DA02508D45B14B82C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4910DD35CBFDCF49975B8590D94AFE4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D399FC3D6E82B7FE785EDF49531324B;
+			remoteInfo = "CompanyMessangerResources-CompanyMessangerResources";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		026FAD3FA4CADDA9B524C3FD82BCCA51 /* CompanyMessangerResources-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CompanyMessangerResources-umbrella.h"; sourceTree = "<group>"; };
-		0846692CC53D8CEB5695D81BDF7516F4 /* CompanyMessangerResources.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CompanyMessangerResources.modulemap; sourceTree = "<group>"; };
-		093FA1115B9183CFBD2A1571CE1F693D /* CompanyMessangerResources.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CompanyMessangerResources.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2707A89F46E288BCCDCC51D4D3E98EA9 /* Images.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		0C7EB5E26C58905B2224D3A205E35977 /* Colors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		2847BEDA804AC2EA29307D31B9447A4C /* CompanyMessangerResources.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CompanyMessangerResources.debug.xcconfig; sourceTree = "<group>"; };
 		299F86504B18C666632F18819C1CF3B4 /* CompanyMessangerCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CompanyMessangerCore; path = CompanyMessangerCore.xcodeproj; sourceTree = "<group>"; };
-		40E394CD56F2CECFE72B0790810078F4 /* CompanyMessangerResources.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CompanyMessangerResources.release.xcconfig; sourceTree = "<group>"; };
-		46793862FAA21FA6A7518B58D1EC5AAC /* CompanyMessangerResources-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CompanyMessangerResources-dummy.m"; sourceTree = "<group>"; };
-		6394ECA259111E44AB193C88E2F70310 /* Colors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		2D59491437A74B0302DC21EF509A84CB /* CompanyMessangerResources-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CompanyMessangerResources-prefix.pch"; sourceTree = "<group>"; };
+		37A0CE6A8F797D0C9BB094C197CDA0B2 /* CompanyMessangerResources-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CompanyMessangerResources-dummy.m"; sourceTree = "<group>"; };
+		3D85ADC1603A2AAB35BFDEAE25C9976B /* Bundle+Current.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+Current.swift"; sourceTree = "<group>"; };
+		461B6ECE6EF8A370D7DB48EFF82A5ED2 /* Images+Common.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Images+Common.swift"; sourceTree = "<group>"; };
+		52A3DC9DFE0D003E72AF12FD080E65C6 /* CompanyMessangerResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CompanyMessangerResources-Info.plist"; sourceTree = "<group>"; };
+		5C2AFA592DEAFA290C41ADCF1BFFA874 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CompanyMessangerResources/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		603F5614D74B4D3E9D0FDFDA5B837D67 /* Images.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		6B3EF3161FEFCE9FF66AA767EED19D8D /* CompanyMessangerResources-CompanyMessangerResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CompanyMessangerResources-CompanyMessangerResources"; path = CompanyMessangerResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		76E4C67CCF293F4CB086A9C91AFD16A3 /* CompanyMessangerResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CompanyMessangerResources-Info.plist"; sourceTree = "<group>"; };
-		8D3547591329BD144B35D67EA9AEF337 /* Localized.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
-		97B5A613A3C1251977510AABFB4838AB /* CompanyMessangerResources.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CompanyMessangerResources.debug.xcconfig; sourceTree = "<group>"; };
+		909AF5C04158290CE9CBD0F420832EF6 /* Localized.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Localized.swift; sourceTree = "<group>"; };
 		ACCF70BA3FBA0716B447D2E299BDEFD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C0BB1B76FCF7126192EB9E45861734B8 /* CompanyMessangerResources */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CompanyMessangerResources; path = CompanyMessangerResources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE87D414C407EA36BAB5E2EE7FFB8463 /* ResourceBundle-CompanyMessangerResources-CompanyMessangerResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CompanyMessangerResources-CompanyMessangerResources-Info.plist"; sourceTree = "<group>"; };
-		ECC5DC29A82FAF39A420405083D5E66D /* CompanyMessangerResources-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CompanyMessangerResources-prefix.pch"; sourceTree = "<group>"; };
+		CACC35D2F12854F7C164899EEA3C55C4 /* CompanyMessangerResources.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CompanyMessangerResources.modulemap; sourceTree = "<group>"; };
+		CBCEDF4F9156CDE8467817C2C8D0FDC7 /* CompanyMessangerResources.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CompanyMessangerResources.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D680173D54216DF84EF3D77FF76860E9 /* CompanyMessangerResources.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CompanyMessangerResources.release.xcconfig; sourceTree = "<group>"; };
+		E738634BCA03BE0FF9DA378FDC512677 /* CompanyMessangerResources-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CompanyMessangerResources-umbrella.h"; sourceTree = "<group>"; };
+		F4BC5D1934CE7AD0753B6E3449875E73 /* ResourceBundle-CompanyMessangerResources-CompanyMessangerResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CompanyMessangerResources-CompanyMessangerResources-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A629C7E0875B3562480BE98D507DA42 /* Frameworks */ = {
+		06DD15E34E6C08DF67C2A15DB8972A2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1BD7858407C40918F873B80F547D587 /* Foundation.framework in Frameworks */,
+				0290E47DCAD6A68C136B1D74FAB46FE2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE5D904F3639E2D61934D87C589D9EA7 /* Frameworks */ = {
+		1AAF2B82846E7CF01443CA34920AA391 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,34 +77,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		142DB68938DE5BDA22A5A857A8EC3A7F /* CompanyMessangerResources */ = {
+		0142422FD5E1C642728288DD8BB77276 /* Localized */ = {
 			isa = PBXGroup;
 			children = (
-				16210AAF26A8A3CE816E24AE132CBCB8 /* Colors */,
-				94C77CD5E9B6CAFC3BE50563B0F50C38 /* Images */,
-				7CC1821872E3CE0581C8663F4A9687F6 /* Localized */,
-				19BD2BD3BC0B5698B97E0221B65345B1 /* Pod */,
-				55703B70427AF5CCC61705281B8BF50E /* Support Files */,
+				909AF5C04158290CE9CBD0F420832EF6 /* Localized.swift */,
 			);
-			name = CompanyMessangerResources;
-			path = ../LocalPods/CompanyMessangerResources;
+			name = Localized;
+			path = CompanyMessangerResources/Classes/Localized;
 			sourceTree = "<group>";
 		};
-		16210AAF26A8A3CE816E24AE132CBCB8 /* Colors */ = {
+		16BA35F7803EB1AA2E503927F2BF9397 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6394ECA259111E44AB193C88E2F70310 /* Colors.swift */,
+				CACC35D2F12854F7C164899EEA3C55C4 /* CompanyMessangerResources.modulemap */,
+				37A0CE6A8F797D0C9BB094C197CDA0B2 /* CompanyMessangerResources-dummy.m */,
+				52A3DC9DFE0D003E72AF12FD080E65C6 /* CompanyMessangerResources-Info.plist */,
+				2D59491437A74B0302DC21EF509A84CB /* CompanyMessangerResources-prefix.pch */,
+				E738634BCA03BE0FF9DA378FDC512677 /* CompanyMessangerResources-umbrella.h */,
+				2847BEDA804AC2EA29307D31B9447A4C /* CompanyMessangerResources.debug.xcconfig */,
+				D680173D54216DF84EF3D77FF76860E9 /* CompanyMessangerResources.release.xcconfig */,
+				F4BC5D1934CE7AD0753B6E3449875E73 /* ResourceBundle-CompanyMessangerResources-CompanyMessangerResources-Info.plist */,
 			);
-			name = Colors;
-			path = CompanyMessangerResources/Classes/Colors;
-			sourceTree = "<group>";
-		};
-		19BD2BD3BC0B5698B97E0221B65345B1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				093FA1115B9183CFBD2A1571CE1F693D /* CompanyMessangerResources.podspec */,
-			);
-			name = Pod;
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/CompanyMessangerResources";
 			sourceTree = "<group>";
 		};
 		3C59FC3E4F2CFB6279A2506FC9E31F4C /* iOS */ = {
@@ -109,26 +110,44 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		55703B70427AF5CCC61705281B8BF50E /* Support Files */ = {
+		3F47CE99C7E78808B76CFA8105387F59 /* CompanyMessangerResources */ = {
 			isa = PBXGroup;
 			children = (
-				0846692CC53D8CEB5695D81BDF7516F4 /* CompanyMessangerResources.modulemap */,
-				46793862FAA21FA6A7518B58D1EC5AAC /* CompanyMessangerResources-dummy.m */,
-				76E4C67CCF293F4CB086A9C91AFD16A3 /* CompanyMessangerResources-Info.plist */,
-				ECC5DC29A82FAF39A420405083D5E66D /* CompanyMessangerResources-prefix.pch */,
-				026FAD3FA4CADDA9B524C3FD82BCCA51 /* CompanyMessangerResources-umbrella.h */,
-				97B5A613A3C1251977510AABFB4838AB /* CompanyMessangerResources.debug.xcconfig */,
-				40E394CD56F2CECFE72B0790810078F4 /* CompanyMessangerResources.release.xcconfig */,
-				DE87D414C407EA36BAB5E2EE7FFB8463 /* ResourceBundle-CompanyMessangerResources-CompanyMessangerResources-Info.plist */,
+				5C2AFA592DEAFA290C41ADCF1BFFA874 /* Assets.xcassets */,
+				7646BE617DC01DD0769E8B988F7A44F9 /* Colors */,
+				A227516A2685DA805FD49473FB8D5877 /* Extensions */,
+				6CD65759DD853DD40967ECF8198AF209 /* Images */,
+				0142422FD5E1C642728288DD8BB77276 /* Localized */,
+				B3054DEB0CAECC000B560CC74219F373 /* Pod */,
+				16BA35F7803EB1AA2E503927F2BF9397 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/CompanyMessangerResources";
+			name = CompanyMessangerResources;
+			path = ../LocalPods/CompanyMessangerResources;
+			sourceTree = "<group>";
+		};
+		6CD65759DD853DD40967ECF8198AF209 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				603F5614D74B4D3E9D0FDFDA5B837D67 /* Images.swift */,
+				461B6ECE6EF8A370D7DB48EFF82A5ED2 /* Images+Common.swift */,
+			);
+			name = Images;
+			path = CompanyMessangerResources/Classes/Images;
+			sourceTree = "<group>";
+		};
+		7646BE617DC01DD0769E8B988F7A44F9 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				0C7EB5E26C58905B2224D3A205E35977 /* Colors.swift */,
+			);
+			name = Colors;
+			path = CompanyMessangerResources/Classes/Colors;
 			sourceTree = "<group>";
 		};
 		78100805C9CE314ABE83A013D1004504 = {
 			isa = PBXGroup;
 			children = (
-				142DB68938DE5BDA22A5A857A8EC3A7F /* CompanyMessangerResources */,
+				3F47CE99C7E78808B76CFA8105387F59 /* CompanyMessangerResources */,
 				CF006BA0E9C8D7A6A2FC1F611C6C066A /* Dependencies */,
 				F62AC7C828CF5E2C82B6B6F589820BBA /* Frameworks */,
 				7A522E250097488BF2C66282EAB86039 /* Products */,
@@ -144,22 +163,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7CC1821872E3CE0581C8663F4A9687F6 /* Localized */ = {
+		A227516A2685DA805FD49473FB8D5877 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				8D3547591329BD144B35D67EA9AEF337 /* Localized.swift */,
+				3D85ADC1603A2AAB35BFDEAE25C9976B /* Bundle+Current.swift */,
 			);
-			name = Localized;
-			path = CompanyMessangerResources/Classes/Localized;
+			name = Extensions;
+			path = CompanyMessangerResources/Classes/Extensions;
 			sourceTree = "<group>";
 		};
-		94C77CD5E9B6CAFC3BE50563B0F50C38 /* Images */ = {
+		B3054DEB0CAECC000B560CC74219F373 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2707A89F46E288BCCDCC51D4D3E98EA9 /* Images.swift */,
+				CBCEDF4F9156CDE8467817C2C8D0FDC7 /* CompanyMessangerResources.podspec */,
 			);
-			name = Images;
-			path = CompanyMessangerResources/Classes/Images;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF006BA0E9C8D7A6A2FC1F611C6C066A /* Dependencies */ = {
@@ -181,11 +199,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		74389B479617B59A61A9929DA905EC62 /* Headers */ = {
+		47678F48E8DF04873FBF36D5FE00B122 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9054104ED2CC34C24791E29779DF3A45 /* CompanyMessangerResources-umbrella.h in Headers */,
+				68F623448CB747570DF31B07B286A0D1 /* CompanyMessangerResources-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,18 +212,18 @@
 /* Begin PBXNativeTarget section */
 		5C51A137FBD88E443D75C0A07E609467 /* CompanyMessangerResources */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5A13D19C3FC267A6D59E3C2AEFCC6AD /* Build configuration list for PBXNativeTarget "CompanyMessangerResources" */;
+			buildConfigurationList = FB6110BFCE755582F621D28FB6CEE24A /* Build configuration list for PBXNativeTarget "CompanyMessangerResources" */;
 			buildPhases = (
-				74389B479617B59A61A9929DA905EC62 /* Headers */,
-				B060D1C3688E1D4517521CE8BE889106 /* Sources */,
-				1A629C7E0875B3562480BE98D507DA42 /* Frameworks */,
-				79C881725064BAB741A8BAC80C808566 /* Resources */,
+				47678F48E8DF04873FBF36D5FE00B122 /* Headers */,
+				D71EB136D1F83DDDD7CC4D6C01CF5367 /* Sources */,
+				06DD15E34E6C08DF67C2A15DB8972A2D /* Frameworks */,
+				C3EBCEF3C9C0DB58DFF2ED2712297BDA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D1108E0BCFAD9C49C421691F187513F5 /* PBXTargetDependency */,
-				8AEE2534012EE8D2693CF503D073FBCE /* PBXTargetDependency */,
+				729567636F8A3811826EB0E78D653941 /* PBXTargetDependency */,
+				B912DA2DA86313F851E4C0CA2F2557A9 /* PBXTargetDependency */,
 			);
 			name = CompanyMessangerResources;
 			productName = CompanyMessangerResources;
@@ -214,11 +232,11 @@
 		};
 		5D399FC3D6E82B7FE785EDF49531324B /* CompanyMessangerResources-CompanyMessangerResources */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8AE8B4497336ECB507A6345F7C45A937 /* Build configuration list for PBXNativeTarget "CompanyMessangerResources-CompanyMessangerResources" */;
+			buildConfigurationList = C99B0B1537098F6B898E08C24490BF70 /* Build configuration list for PBXNativeTarget "CompanyMessangerResources-CompanyMessangerResources" */;
 			buildPhases = (
-				E5E1DA6D275D9517F376359C0EA2E227 /* Sources */,
-				EE5D904F3639E2D61934D87C589D9EA7 /* Frameworks */,
-				9ADF3ED3035B467F4BEAE037367F344B /* Resources */,
+				CEE4B9664F7F002B2106C3401F1B35D8 /* Sources */,
+				1AAF2B82846E7CF01443CA34920AA391 /* Frameworks */,
+				8F6385D0AD7FB93898658D6FD35678F1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -263,55 +281,58 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		79C881725064BAB741A8BAC80C808566 /* Resources */ = {
+		8F6385D0AD7FB93898658D6FD35678F1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7564BBDC04DF98975F670E885160CC4 /* CompanyMessangerResources-CompanyMessangerResources in Resources */,
+				FEB0CA671E6C035F1D2C3CE3FABFE1EF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9ADF3ED3035B467F4BEAE037367F344B /* Resources */ = {
+		C3EBCEF3C9C0DB58DFF2ED2712297BDA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61EE15384D03FDFC692F4F8F040B0239 /* CompanyMessangerResources-CompanyMessangerResources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B060D1C3688E1D4517521CE8BE889106 /* Sources */ = {
+		CEE4B9664F7F002B2106C3401F1B35D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30D069D04B5B901E91BB27492F937BD9 /* Colors.swift in Sources */,
-				8FCFAD7C75FFB0EAD62E183751F24BE1 /* CompanyMessangerResources-dummy.m in Sources */,
-				41F2C8CB45DBF06A9DC85B34B04271B9 /* Images.swift in Sources */,
-				05029A35EDDCB015B167361640A958C8 /* Localized.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5E1DA6D275D9517F376359C0EA2E227 /* Sources */ = {
+		D71EB136D1F83DDDD7CC4D6C01CF5367 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC4C3F1300C3D1E8CACE132DEC4C85AB /* Bundle+Current.swift in Sources */,
+				6FE5A6F3794A62CBE7CCB3C822CDA6A4 /* Colors.swift in Sources */,
+				C5078E975D2E9807A3352C146D089341 /* CompanyMessangerResources-dummy.m in Sources */,
+				E1CDF1BDF6689A0C3414A36EFB129405 /* Images.swift in Sources */,
+				00D7EFCC29B0E063E998F078B64F4D01 /* Images+Common.swift in Sources */,
+				1028C58D5C21DF37A39E64E4B551387C /* Localized.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8AEE2534012EE8D2693CF503D073FBCE /* PBXTargetDependency */ = {
+		729567636F8A3811826EB0E78D653941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CompanyMessangerCore;
+			targetProxy = 97E644D193A46662A1B6CD1A626CFD6F /* PBXContainerItemProxy */;
+		};
+		B912DA2DA86313F851E4C0CA2F2557A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CompanyMessangerResources-CompanyMessangerResources";
 			target = 5D399FC3D6E82B7FE785EDF49531324B /* CompanyMessangerResources-CompanyMessangerResources */;
-			targetProxy = 8621740920301715C4DB588C4176F9E3 /* PBXContainerItemProxy */;
-		};
-		D1108E0BCFAD9C49C421691F187513F5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CompanyMessangerCore;
-			targetProxy = 8986646E05EBA31B31ED9A0DBAB33D64 /* PBXContainerItemProxy */;
+			targetProxy = B5D7A1153DEDB64DA02508D45B14B82C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -378,44 +399,26 @@
 			};
 			name = Release;
 		};
-		12C6B2C3417FD92C3767AA4E0A074F2B /* Debug */ = {
+		4D6BA4C361432F169FFD41D94D37E0DE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97B5A613A3C1251977510AABFB4838AB /* CompanyMessangerResources.debug.xcconfig */;
+			baseConfigurationReference = 2847BEDA804AC2EA29307D31B9447A4C /* CompanyMessangerResources.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CompanyMessangerResources/CompanyMessangerResources-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CompanyMessangerResources/CompanyMessangerResources-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CompanyMessangerResources";
+				IBSC_MODULE = CompanyMessangerResources;
+				INFOPLIST_FILE = "Target Support Files/CompanyMessangerResources/ResourceBundle-CompanyMessangerResources-CompanyMessangerResources-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CompanyMessangerResources/CompanyMessangerResources.modulemap";
-				PRODUCT_MODULE_NAME = CompanyMessangerResources;
 				PRODUCT_NAME = CompanyMessangerResources;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		60E35E02A9013A7B22AD5D9174DC8348 /* Release */ = {
+		C3470BF275838CF9A92D71DD64F354F8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40E394CD56F2CECFE72B0790810078F4 /* CompanyMessangerResources.release.xcconfig */;
+			baseConfigurationReference = D680173D54216DF84EF3D77FF76860E9 /* CompanyMessangerResources.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -449,9 +452,9 @@
 			};
 			name = Release;
 		};
-		64995BFDCA51B496E2BF9CB7E4AED570 /* Release */ = {
+		DBB8EFA45D7170AD6A476A6B0A0F39F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40E394CD56F2CECFE72B0790810078F4 /* CompanyMessangerResources.release.xcconfig */;
+			baseConfigurationReference = D680173D54216DF84EF3D77FF76860E9 /* CompanyMessangerResources.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CompanyMessangerResources";
@@ -465,23 +468,6 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
-		};
-		9BAE377673552DCA7732E32E07620FDD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97B5A613A3C1251977510AABFB4838AB /* CompanyMessangerResources.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CompanyMessangerResources";
-				IBSC_MODULE = CompanyMessangerResources;
-				INFOPLIST_FILE = "Target Support Files/CompanyMessangerResources/ResourceBundle-CompanyMessangerResources-CompanyMessangerResources-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				PRODUCT_NAME = CompanyMessangerResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		FA96AB93B3587ECF07A3C3D6A6DB7292 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -549,6 +535,41 @@
 			};
 			name = Debug;
 		};
+		FD89B4449B5B4A75970045E6317CECDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2847BEDA804AC2EA29307D31B9447A4C /* CompanyMessangerResources.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CompanyMessangerResources/CompanyMessangerResources-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CompanyMessangerResources/CompanyMessangerResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CompanyMessangerResources/CompanyMessangerResources.modulemap";
+				PRODUCT_MODULE_NAME = CompanyMessangerResources;
+				PRODUCT_NAME = CompanyMessangerResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -561,20 +582,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8AE8B4497336ECB507A6345F7C45A937 /* Build configuration list for PBXNativeTarget "CompanyMessangerResources-CompanyMessangerResources" */ = {
+		C99B0B1537098F6B898E08C24490BF70 /* Build configuration list for PBXNativeTarget "CompanyMessangerResources-CompanyMessangerResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BAE377673552DCA7732E32E07620FDD /* Debug */,
-				64995BFDCA51B496E2BF9CB7E4AED570 /* Release */,
+				4D6BA4C361432F169FFD41D94D37E0DE /* Debug */,
+				DBB8EFA45D7170AD6A476A6B0A0F39F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5A13D19C3FC267A6D59E3C2AEFCC6AD /* Build configuration list for PBXNativeTarget "CompanyMessangerResources" */ = {
+		FB6110BFCE755582F621D28FB6CEE24A /* Build configuration list for PBXNativeTarget "CompanyMessangerResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12C6B2C3417FD92C3767AA4E0A074F2B /* Debug */,
-				60E35E02A9013A7B22AD5D9174DC8348 /* Release */,
+				FD89B4449B5B4A75970045E6317CECDF /* Debug */,
+				C3470BF275838CF9A92D71DD64F354F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

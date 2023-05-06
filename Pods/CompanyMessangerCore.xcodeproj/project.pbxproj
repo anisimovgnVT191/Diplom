@@ -7,23 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0085598816A05DF26413FE9621306EC2 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E00C05C273DC67559FD51964E1AAFD /* UIView.swift */; };
-		0B201F673C202DD6BE81AB0D4FFE1978 /* TransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F0CF2E2D46EF1EDC56DECC8474FB3D /* TransitionHandler.swift */; };
-		4CEAAE3C16A64B65CF59B7B2748C042D /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBDE3CB31C661B1C35FE6B2E1C93AD6 /* Closures.swift */; };
-		70BC470EB93AC5577D8B853849BA77F8 /* CompanyMessangerCore-CompanyMessangerCore in Resources */ = {isa = PBXBuildFile; fileRef = 0B6DFAFB1E20B68BF8B94912813CBAB7 /* CompanyMessangerCore-CompanyMessangerCore */; };
-		7AE936AE1433D4BBFB67B8BC5DE23C7A /* CompanyMessangerCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E5598BE129C30428B6D597ED8377B2 /* CompanyMessangerCore-dummy.m */; };
-		83DF780B3E6D8AD64C125DB6A6919175 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81408CCB34FCC42D4D200CB8164A0215 /* UINavigationController.swift */; };
-		8F9CD11D45AE219A45F47EA892F6F236 /* TransitionHandler+DefaultImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19F678E3228EAE6D1F8508DE9F2FE49 /* TransitionHandler+DefaultImplementation.swift */; };
-		9517B622F4F8ACCE16892AA8CE2BC51D /* BaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F674D1F531F297BB4573F704F6B117 /* BaseExtension.swift */; };
-		9E22B33EA9EECD85223A5F892A4FE1D0 /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582B622FAFE7E3EB1F4D5EE3A1C81A02 /* Configurable.swift */; };
-		AC25238F093938156D9732895C9D03F4 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE976AA51BACE5A7370CE5ED57A8665 /* BaseCoordinator.swift */; };
-		D12ECEE2240B1C2872088F9DE940B3D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8DE4746D08B9498F9ABBB278817511 /* Foundation.framework */; };
-		E600D45A81A9554EE6B1C5A96E083AF9 /* TransitionHandler+UIViewControllerImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C9F13C5F99EB07A2EFB3DD8DB7A728 /* TransitionHandler+UIViewControllerImplementation.swift */; };
-		F72D50177D4965B9425B2E6AF11190D6 /* CompanyMessangerCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10CF7210375BCC6A7A1DF5504BD1C7D8 /* CompanyMessangerCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F44CC3E825D6416273B9DAC556CF194 /* DisplayItemCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595552C9FD0E6D14DD3E596F5560137D /* DisplayItemCallback.swift */; };
+		218ED10B050B554AE32A09DB1BFC6938 /* CompanyMessangerCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47126B773A9CC246565C6B945BFC2783 /* CompanyMessangerCore-dummy.m */; };
+		2660DE1A78F27BD66F509C2F81BDCF1E /* BaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D749DACF74E16CC93173B38AA52C93 /* BaseExtension.swift */; };
+		2EBC237184BF4D71DAA8131CFE4D68B8 /* CompanyMessangerCore-CompanyMessangerCore in Resources */ = {isa = PBXBuildFile; fileRef = 0B6DFAFB1E20B68BF8B94912813CBAB7 /* CompanyMessangerCore-CompanyMessangerCore */; };
+		5221013F3D6989776C4FCACB5753857A /* CompanyMessangerCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8B3549273440F81B5B225FC9F3A71E0 /* CompanyMessangerCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569EB6BD5D0A6DE863D3F008C41618FA /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F3006B15753611D63AC05E6A7D607D /* Configurable.swift */; };
+		683A689867508BF797B8D02474A551CE /* TransitionHandler+DefaultImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419B002ABBB279BB93A63B21B3BA075 /* TransitionHandler+DefaultImplementation.swift */; };
+		821B1BB586A81543439B14896785FDB4 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28A0000728FDD60169C3CFA3D4F18CB /* UIView.swift */; };
+		8764DC78F696A88D949B045DFA1B3161 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B74B5CBAB3FB62888184BAE16229D /* UINavigationController.swift */; };
+		8F725D17E16D01E9C1C651ADD12BDC6C /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E9A816452B03C1FF177B528187722A /* ArrayExtensions.swift */; };
+		9103C24C4D37483029786EFD52D850CE /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A5A679730E8938819AF658CBB0EC99 /* BaseCoordinator.swift */; };
+		9A208ED92BBF0DB3654339F5EDDE3822 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F4AF8B57E6864C3A823B96106E932D /* Closures.swift */; };
+		B6ADDDFECEE61C38AD56FAC93E55F927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8DE4746D08B9498F9ABBB278817511 /* Foundation.framework */; };
+		C40267F52B5A65000BE93A915E1A7692 /* TransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4347D27901763DFCF8C11AC5B566A45 /* TransitionHandler.swift */; };
+		E98B9932D900591DA19736E9CB635E7E /* AlamofireExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4188DB5566AF5592E353C09E74BE3FFB /* AlamofireExtensions.swift */; };
+		F215D59FA0C9D83E40FB99B0080E7AAF /* TransitionHandler+UIViewControllerImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469DB214547E78B76E9A1D645C023754 /* TransitionHandler+UIViewControllerImplementation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A28C03E6B1BC17ACFDC7EA698A4F05B9 /* PBXContainerItemProxy */ = {
+		084E89A6417279E086111BF310E243AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1013704B6DA3CC677D9548DE45061939 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B7E9B7CD0CADA087A4BB042FBA92E7;
+			remoteInfo = Alamofire;
+		};
+		B7D3EF0B5ADF9176FC8AB0E66BBE39CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B0C667D4A54981FE0935BDA2AA90819 /* AlamofireImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7208F07B279B66BF4C4DB05795103195;
+			remoteInfo = AlamofireImage;
+		};
+		FB29F4BBA59A945A41AB69AAFB6AD559 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F1B97CD4EC312677FCEB621EBBE90FB7 /* Project object */;
 			proxyType = 1;
@@ -33,39 +50,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		019D0C2DCF39A114CEA6FAD22F58F19B /* ResourceBundle-CompanyMessangerCore-CompanyMessangerCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CompanyMessangerCore-CompanyMessangerCore-Info.plist"; sourceTree = "<group>"; };
+		034B5134546EE2AE03DFAF2CCE1A1E65 /* CompanyMessangerCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CompanyMessangerCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0B6DFAFB1E20B68BF8B94912813CBAB7 /* CompanyMessangerCore-CompanyMessangerCore */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CompanyMessangerCore-CompanyMessangerCore"; path = CompanyMessangerCore.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		10CF7210375BCC6A7A1DF5504BD1C7D8 /* CompanyMessangerCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CompanyMessangerCore-umbrella.h"; sourceTree = "<group>"; };
-		1177D4DD9ED6BC78F59B2D0A9E7B636A /* CompanyMessangerCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CompanyMessangerCore.release.xcconfig; sourceTree = "<group>"; };
-		1DE976AA51BACE5A7370CE5ED57A8665 /* BaseCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		1013704B6DA3CC677D9548DE45061939 /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire; path = Alamofire.xcodeproj; sourceTree = "<group>"; };
+		1BEB5EF544C114A46646E6BB8A64135C /* CompanyMessangerCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CompanyMessangerCore.release.xcconfig; sourceTree = "<group>"; };
 		1E892D0A1FF1DAD740FC76644EC7BC1C /* CompanyMessangerCore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CompanyMessangerCore; path = CompanyMessangerCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		33F0CF2E2D46EF1EDC56DECC8474FB3D /* TransitionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitionHandler.swift; sourceTree = "<group>"; };
-		3EBDE3CB31C661B1C35FE6B2E1C93AD6 /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
-		43FEBCA8D9100DBEEBD6E09800389BA1 /* CompanyMessangerCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CompanyMessangerCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		55ECD3453AA8C36616834F876BC6851E /* CompanyMessangerCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CompanyMessangerCore.modulemap; sourceTree = "<group>"; };
-		582B622FAFE7E3EB1F4D5EE3A1C81A02 /* Configurable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		23F3006B15753611D63AC05E6A7D607D /* Configurable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		2B2B74B5CBAB3FB62888184BAE16229D /* UINavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
+		350CA9A0658AC824481E6F32EAD95665 /* CompanyMessangerCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CompanyMessangerCore.debug.xcconfig; sourceTree = "<group>"; };
+		4188DB5566AF5592E353C09E74BE3FFB /* AlamofireExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlamofireExtensions.swift; sourceTree = "<group>"; };
+		469DB214547E78B76E9A1D645C023754 /* TransitionHandler+UIViewControllerImplementation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TransitionHandler+UIViewControllerImplementation.swift"; sourceTree = "<group>"; };
+		47126B773A9CC246565C6B945BFC2783 /* CompanyMessangerCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CompanyMessangerCore-dummy.m"; sourceTree = "<group>"; };
+		494054E3D71FC104DBCFEC16195C5C26 /* CompanyMessangerCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CompanyMessangerCore.modulemap; sourceTree = "<group>"; };
+		54D749DACF74E16CC93173B38AA52C93 /* BaseExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseExtension.swift; sourceTree = "<group>"; };
+		595552C9FD0E6D14DD3E596F5560137D /* DisplayItemCallback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DisplayItemCallback.swift; sourceTree = "<group>"; };
 		5E8DE4746D08B9498F9ABBB278817511 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		81408CCB34FCC42D4D200CB8164A0215 /* UINavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
-		83DE716DE7810043EBFB2AE4BFDEE99E /* ResourceBundle-CompanyMessangerCore-CompanyMessangerCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CompanyMessangerCore-CompanyMessangerCore-Info.plist"; sourceTree = "<group>"; };
-		A0E80E1427977402F67E5FFCB64519EB /* CompanyMessangerCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CompanyMessangerCore.debug.xcconfig; sourceTree = "<group>"; };
-		A1E5598BE129C30428B6D597ED8377B2 /* CompanyMessangerCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CompanyMessangerCore-dummy.m"; sourceTree = "<group>"; };
-		A8F674D1F531F297BB4573F704F6B117 /* BaseExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseExtension.swift; sourceTree = "<group>"; };
-		B0C9F13C5F99EB07A2EFB3DD8DB7A728 /* TransitionHandler+UIViewControllerImplementation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TransitionHandler+UIViewControllerImplementation.swift"; sourceTree = "<group>"; };
-		B5E00C05C273DC67559FD51964E1AAFD /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
-		C19F678E3228EAE6D1F8508DE9F2FE49 /* TransitionHandler+DefaultImplementation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TransitionHandler+DefaultImplementation.swift"; sourceTree = "<group>"; };
-		D1A3BC41E1DD25DF46F282101BE79CBE /* CompanyMessangerCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CompanyMessangerCore-Info.plist"; sourceTree = "<group>"; };
-		D9558E2D68A362CE17DE12A74304295F /* CompanyMessangerCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CompanyMessangerCore-prefix.pch"; sourceTree = "<group>"; };
+		79A5A679730E8938819AF658CBB0EC99 /* BaseCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		8B0C667D4A54981FE0935BDA2AA90819 /* AlamofireImage */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AlamofireImage; path = AlamofireImage.xcodeproj; sourceTree = "<group>"; };
+		9F84497AA0A105C4FB9D55BB411770A5 /* CompanyMessangerCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CompanyMessangerCore-prefix.pch"; sourceTree = "<group>"; };
+		A4347D27901763DFCF8C11AC5B566A45 /* TransitionHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitionHandler.swift; sourceTree = "<group>"; };
+		B1E9A816452B03C1FF177B528187722A /* ArrayExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		C419B002ABBB279BB93A63B21B3BA075 /* TransitionHandler+DefaultImplementation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "TransitionHandler+DefaultImplementation.swift"; sourceTree = "<group>"; };
+		C4F4AF8B57E6864C3A823B96106E932D /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		C8B3549273440F81B5B225FC9F3A71E0 /* CompanyMessangerCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CompanyMessangerCore-umbrella.h"; sourceTree = "<group>"; };
+		D28A0000728FDD60169C3CFA3D4F18CB /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		F119F1E9A7014474FB4378DA473C0935 /* CompanyMessangerCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CompanyMessangerCore-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		61D43D671842DDC6B65CFCCCE3C13995 /* Frameworks */ = {
+		003C98EE7289CC09CA07C67EB6048CDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D12ECEE2240B1C2872088F9DE940B3D1 /* Foundation.framework in Frameworks */,
+				B6ADDDFECEE61C38AD56FAC93E55F927 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A62118B4D6906C3D396A229B394F4753 /* Frameworks */ = {
+		616404D9CC72DD4EFC7D3732B3120BA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,18 +106,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2ACE5E1C83FBCCA908E7038E54C663DD /* CompanyMessangerCore */ = {
+		295F70B1ED4098166568EF94722AFB30 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				E2E06A9D8ADC93C26EC33329759E8C04 /* Common */,
-				DCC996FF09942883BF89715208EB363F /* Coordinator */,
-				E6661E6673C4D5AA9CD3BD20946D9518 /* Extensions */,
-				C9A3F0863C7D7E5C81CD7897846D579B /* Pod */,
-				8D983C312B86EA5B4277A9EDCA636B90 /* Routing */,
-				94DFF322954AFBCFEC3537639756DAFE /* Support Files */,
+				C4F4AF8B57E6864C3A823B96106E932D /* Closures.swift */,
 			);
-			name = CompanyMessangerCore;
-			path = ../LocalPods/CompanyMessangerCore;
+			name = Common;
+			path = CompanyMessangerCore/Classes/Common;
+			sourceTree = "<group>";
+		};
+		3923938628A66AED6A0B0B02006C1688 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				7575AB0A59D2FCBD439BBB9507C503AB /* Base */,
+			);
+			name = Routing;
+			path = CompanyMessangerCore/Classes/Routing;
 			sourceTree = "<group>";
 		};
 		44EB92DFA62E653885E16A7632E03714 /* iOS */ = {
@@ -106,55 +132,111 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		56D0CC9437992CBA1217194FE20297FF /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				2B2B74B5CBAB3FB62888184BAE16229D /* UINavigationController.swift */,
+				D28A0000728FDD60169C3CFA3D4F18CB /* UIView.swift */,
+			);
+			name = UIKit;
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		5D79133581542EC487BCF8B19DDD8940 /* CompanyMessangerCore */ = {
+			isa = PBXGroup;
+			children = (
+				295F70B1ED4098166568EF94722AFB30 /* Common */,
+				EA5DA7C1D9B3D7C8D5C241B6D7A8FB34 /* Coordinator */,
+				A9579E1258E200338D04789B79BF595B /* Extensions */,
+				66402AC8C34976A47337035412F455FF /* Pod */,
+				8AA8C16156CD256BDAC4E8A2E8AD0DEE /* PropertyWrappers */,
+				3923938628A66AED6A0B0B02006C1688 /* Routing */,
+				95C460B4419E0D9939642E342B9F3592 /* Support Files */,
+			);
+			name = CompanyMessangerCore;
+			path = ../LocalPods/CompanyMessangerCore;
+			sourceTree = "<group>";
+		};
 		5D839A8864C5476C2AE3F80BB1EEA26D = {
 			isa = PBXGroup;
 			children = (
-				2ACE5E1C83FBCCA908E7038E54C663DD /* CompanyMessangerCore */,
+				5D79133581542EC487BCF8B19DDD8940 /* CompanyMessangerCore */,
+				BF054340D69F1C74D8DCD45467B6B0C7 /* Dependencies */,
 				BEC152F098D8051DF854777D6A4AB9B7 /* Frameworks */,
 				01E69E760001005580C6D1C4495CC283 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		86DE30376A393B8689D2C242F54768D9 /* TransitionHandler */ = {
+		66402AC8C34976A47337035412F455FF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				33F0CF2E2D46EF1EDC56DECC8474FB3D /* TransitionHandler.swift */,
-				C19F678E3228EAE6D1F8508DE9F2FE49 /* TransitionHandler+DefaultImplementation.swift */,
-				B0C9F13C5F99EB07A2EFB3DD8DB7A728 /* TransitionHandler+UIViewControllerImplementation.swift */,
+				034B5134546EE2AE03DFAF2CCE1A1E65 /* CompanyMessangerCore.podspec */,
 			);
-			name = TransitionHandler;
-			path = TransitionHandler;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		8D983C312B86EA5B4277A9EDCA636B90 /* Routing */ = {
+		7575AB0A59D2FCBD439BBB9507C503AB /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				BF72214C273638D073E2D7AEE8EAC45A /* Base */,
+				B12407727AD237DA146C0679C274C8EF /* TransitionHandler */,
 			);
-			name = Routing;
-			path = CompanyMessangerCore/Classes/Routing;
+			name = Base;
+			path = Base;
 			sourceTree = "<group>";
 		};
-		94DFF322954AFBCFEC3537639756DAFE /* Support Files */ = {
+		8AA8C16156CD256BDAC4E8A2E8AD0DEE /* PropertyWrappers */ = {
 			isa = PBXGroup;
 			children = (
-				55ECD3453AA8C36616834F876BC6851E /* CompanyMessangerCore.modulemap */,
-				A1E5598BE129C30428B6D597ED8377B2 /* CompanyMessangerCore-dummy.m */,
-				D1A3BC41E1DD25DF46F282101BE79CBE /* CompanyMessangerCore-Info.plist */,
-				D9558E2D68A362CE17DE12A74304295F /* CompanyMessangerCore-prefix.pch */,
-				10CF7210375BCC6A7A1DF5504BD1C7D8 /* CompanyMessangerCore-umbrella.h */,
-				A0E80E1427977402F67E5FFCB64519EB /* CompanyMessangerCore.debug.xcconfig */,
-				1177D4DD9ED6BC78F59B2D0A9E7B636A /* CompanyMessangerCore.release.xcconfig */,
-				83DE716DE7810043EBFB2AE4BFDEE99E /* ResourceBundle-CompanyMessangerCore-CompanyMessangerCore-Info.plist */,
+				595552C9FD0E6D14DD3E596F5560137D /* DisplayItemCallback.swift */,
+			);
+			name = PropertyWrappers;
+			path = CompanyMessangerCore/Classes/PropertyWrappers;
+			sourceTree = "<group>";
+		};
+		95C460B4419E0D9939642E342B9F3592 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				494054E3D71FC104DBCFEC16195C5C26 /* CompanyMessangerCore.modulemap */,
+				47126B773A9CC246565C6B945BFC2783 /* CompanyMessangerCore-dummy.m */,
+				F119F1E9A7014474FB4378DA473C0935 /* CompanyMessangerCore-Info.plist */,
+				9F84497AA0A105C4FB9D55BB411770A5 /* CompanyMessangerCore-prefix.pch */,
+				C8B3549273440F81B5B225FC9F3A71E0 /* CompanyMessangerCore-umbrella.h */,
+				350CA9A0658AC824481E6F32EAD95665 /* CompanyMessangerCore.debug.xcconfig */,
+				1BEB5EF544C114A46646E6BB8A64135C /* CompanyMessangerCore.release.xcconfig */,
+				019D0C2DCF39A114CEA6FAD22F58F19B /* ResourceBundle-CompanyMessangerCore-CompanyMessangerCore-Info.plist */,
 			);
 			name = "Support Files";
 			path = "../../Pods/Target Support Files/CompanyMessangerCore";
 			sourceTree = "<group>";
 		};
-		982746B2497F666036A62D36BAE66CEC /* BaseExtension */ = {
+		A9579E1258E200338D04789B79BF595B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				A8F674D1F531F297BB4573F704F6B117 /* BaseExtension.swift */,
+				4188DB5566AF5592E353C09E74BE3FFB /* AlamofireExtensions.swift */,
+				B1E9A816452B03C1FF177B528187722A /* ArrayExtensions.swift */,
+				23F3006B15753611D63AC05E6A7D607D /* Configurable.swift */,
+				B9BB547B15F58900EA370C5E830340D3 /* BaseExtension */,
+				56D0CC9437992CBA1217194FE20297FF /* UIKit */,
+			);
+			name = Extensions;
+			path = CompanyMessangerCore/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		B12407727AD237DA146C0679C274C8EF /* TransitionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				A4347D27901763DFCF8C11AC5B566A45 /* TransitionHandler.swift */,
+				C419B002ABBB279BB93A63B21B3BA075 /* TransitionHandler+DefaultImplementation.swift */,
+				469DB214547E78B76E9A1D645C023754 /* TransitionHandler+UIViewControllerImplementation.swift */,
+			);
+			name = TransitionHandler;
+			path = TransitionHandler;
+			sourceTree = "<group>";
+		};
+		B9BB547B15F58900EA370C5E830340D3 /* BaseExtension */ = {
+			isa = PBXGroup;
+			children = (
+				54D749DACF74E16CC93173B38AA52C93 /* BaseExtension.swift */,
 			);
 			name = BaseExtension;
 			path = BaseExtension;
@@ -168,70 +250,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF72214C273638D073E2D7AEE8EAC45A /* Base */ = {
+		BF054340D69F1C74D8DCD45467B6B0C7 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				86DE30376A393B8689D2C242F54768D9 /* TransitionHandler */,
+				1013704B6DA3CC677D9548DE45061939 /* Alamofire */,
+				8B0C667D4A54981FE0935BDA2AA90819 /* AlamofireImage */,
 			);
-			name = Base;
-			path = Base;
+			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		C9A3F0863C7D7E5C81CD7897846D579B /* Pod */ = {
+		EA5DA7C1D9B3D7C8D5C241B6D7A8FB34 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				43FEBCA8D9100DBEEBD6E09800389BA1 /* CompanyMessangerCore.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		DA4146FE5C5E5C28533396E7B69323D7 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				81408CCB34FCC42D4D200CB8164A0215 /* UINavigationController.swift */,
-				B5E00C05C273DC67559FD51964E1AAFD /* UIView.swift */,
-			);
-			name = UIKit;
-			path = UIKit;
-			sourceTree = "<group>";
-		};
-		DCC996FF09942883BF89715208EB363F /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-				1DE976AA51BACE5A7370CE5ED57A8665 /* BaseCoordinator.swift */,
+				79A5A679730E8938819AF658CBB0EC99 /* BaseCoordinator.swift */,
 			);
 			name = Coordinator;
 			path = CompanyMessangerCore/Classes/Coordinator;
 			sourceTree = "<group>";
 		};
-		E2E06A9D8ADC93C26EC33329759E8C04 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				3EBDE3CB31C661B1C35FE6B2E1C93AD6 /* Closures.swift */,
-			);
-			name = Common;
-			path = CompanyMessangerCore/Classes/Common;
-			sourceTree = "<group>";
-		};
-		E6661E6673C4D5AA9CD3BD20946D9518 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				582B622FAFE7E3EB1F4D5EE3A1C81A02 /* Configurable.swift */,
-				982746B2497F666036A62D36BAE66CEC /* BaseExtension */,
-				DA4146FE5C5E5C28533396E7B69323D7 /* UIKit */,
-			);
-			name = Extensions;
-			path = CompanyMessangerCore/Classes/Extensions;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A64120B5D91B60537CEF13FB5D93A093 /* Headers */ = {
+		256D1F69765AEF8582EE2BE8EC9D43AB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F72D50177D4965B9425B2E6AF11190D6 /* CompanyMessangerCore-umbrella.h in Headers */,
+				5221013F3D6989776C4FCACB5753857A /* CompanyMessangerCore-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,17 +284,19 @@
 /* Begin PBXNativeTarget section */
 		D735DBFA29D723A69C5869C845262754 /* CompanyMessangerCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE9AAB317E6D12DC7DAC520FDE94B681 /* Build configuration list for PBXNativeTarget "CompanyMessangerCore" */;
+			buildConfigurationList = 2B090A6A1424D36494447AB6D48398D7 /* Build configuration list for PBXNativeTarget "CompanyMessangerCore" */;
 			buildPhases = (
-				A64120B5D91B60537CEF13FB5D93A093 /* Headers */,
-				35860F97F5486CA4120123DF1D75DA25 /* Sources */,
-				61D43D671842DDC6B65CFCCCE3C13995 /* Frameworks */,
-				90B30FE03B32241CDEF15CDABC7BB282 /* Resources */,
+				256D1F69765AEF8582EE2BE8EC9D43AB /* Headers */,
+				B77A485C53F7109B4C5AB06B70703518 /* Sources */,
+				003C98EE7289CC09CA07C67EB6048CDF /* Frameworks */,
+				2EF781A39685A9F6395566F5763E418B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				16A17EB358D95889B55C98E78D26F1BF /* PBXTargetDependency */,
+				E2AEAE717FAE26F930847F187DEDE0F6 /* PBXTargetDependency */,
+				D8EEA2B8E82E7B0770001B49B8AB6853 /* PBXTargetDependency */,
+				C9B25E13644D306DBA1AFE892C8EE058 /* PBXTargetDependency */,
 			);
 			name = CompanyMessangerCore;
 			productName = CompanyMessangerCore;
@@ -259,11 +305,11 @@
 		};
 		ED76C715AEA78E532A9A2FF6A41546A1 /* CompanyMessangerCore-CompanyMessangerCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5CFA9F11BFB292FDF3160C77AAD50B64 /* Build configuration list for PBXNativeTarget "CompanyMessangerCore-CompanyMessangerCore" */;
+			buildConfigurationList = D1D6F9E4DE0F94CB84DAACD6A89F624D /* Build configuration list for PBXNativeTarget "CompanyMessangerCore-CompanyMessangerCore" */;
 			buildPhases = (
-				8CE9054E9BB9FCD0062FB55EF4EF2902 /* Sources */,
-				A62118B4D6906C3D396A229B394F4753 /* Frameworks */,
-				632706AF3DA6700EAE4CDD296D6B48A3 /* Resources */,
+				8649C0012FB426FA0375364938931E90 /* Sources */,
+				616404D9CC72DD4EFC7D3732B3120BA1 /* Frameworks */,
+				4BF026A4A82626E09810849FF8F02862 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -294,6 +340,14 @@
 			mainGroup = 5D839A8864C5476C2AE3F80BB1EEA26D;
 			productRefGroup = 01E69E760001005580C6D1C4495CC283 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 1013704B6DA3CC677D9548DE45061939 /* Alamofire */;
+				},
+				{
+					ProjectRef = 8B0C667D4A54981FE0935BDA2AA90819 /* AlamofireImage */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D735DBFA29D723A69C5869C845262754 /* CompanyMessangerCore */,
@@ -303,128 +357,87 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		632706AF3DA6700EAE4CDD296D6B48A3 /* Resources */ = {
+		2EF781A39685A9F6395566F5763E418B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EBC237184BF4D71DAA8131CFE4D68B8 /* CompanyMessangerCore-CompanyMessangerCore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90B30FE03B32241CDEF15CDABC7BB282 /* Resources */ = {
+		4BF026A4A82626E09810849FF8F02862 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70BC470EB93AC5577D8B853849BA77F8 /* CompanyMessangerCore-CompanyMessangerCore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		35860F97F5486CA4120123DF1D75DA25 /* Sources */ = {
+		8649C0012FB426FA0375364938931E90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC25238F093938156D9732895C9D03F4 /* BaseCoordinator.swift in Sources */,
-				9517B622F4F8ACCE16892AA8CE2BC51D /* BaseExtension.swift in Sources */,
-				4CEAAE3C16A64B65CF59B7B2748C042D /* Closures.swift in Sources */,
-				7AE936AE1433D4BBFB67B8BC5DE23C7A /* CompanyMessangerCore-dummy.m in Sources */,
-				9E22B33EA9EECD85223A5F892A4FE1D0 /* Configurable.swift in Sources */,
-				0B201F673C202DD6BE81AB0D4FFE1978 /* TransitionHandler.swift in Sources */,
-				8F9CD11D45AE219A45F47EA892F6F236 /* TransitionHandler+DefaultImplementation.swift in Sources */,
-				E600D45A81A9554EE6B1C5A96E083AF9 /* TransitionHandler+UIViewControllerImplementation.swift in Sources */,
-				83DF780B3E6D8AD64C125DB6A6919175 /* UINavigationController.swift in Sources */,
-				0085598816A05DF26413FE9621306EC2 /* UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CE9054E9BB9FCD0062FB55EF4EF2902 /* Sources */ = {
+		B77A485C53F7109B4C5AB06B70703518 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98B9932D900591DA19736E9CB635E7E /* AlamofireExtensions.swift in Sources */,
+				8F725D17E16D01E9C1C651ADD12BDC6C /* ArrayExtensions.swift in Sources */,
+				9103C24C4D37483029786EFD52D850CE /* BaseCoordinator.swift in Sources */,
+				2660DE1A78F27BD66F509C2F81BDCF1E /* BaseExtension.swift in Sources */,
+				9A208ED92BBF0DB3654339F5EDDE3822 /* Closures.swift in Sources */,
+				218ED10B050B554AE32A09DB1BFC6938 /* CompanyMessangerCore-dummy.m in Sources */,
+				569EB6BD5D0A6DE863D3F008C41618FA /* Configurable.swift in Sources */,
+				1F44CC3E825D6416273B9DAC556CF194 /* DisplayItemCallback.swift in Sources */,
+				C40267F52B5A65000BE93A915E1A7692 /* TransitionHandler.swift in Sources */,
+				683A689867508BF797B8D02474A551CE /* TransitionHandler+DefaultImplementation.swift in Sources */,
+				F215D59FA0C9D83E40FB99B0080E7AAF /* TransitionHandler+UIViewControllerImplementation.swift in Sources */,
+				8764DC78F696A88D949B045DFA1B3161 /* UINavigationController.swift in Sources */,
+				821B1BB586A81543439B14896785FDB4 /* UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		16A17EB358D95889B55C98E78D26F1BF /* PBXTargetDependency */ = {
+		C9B25E13644D306DBA1AFE892C8EE058 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CompanyMessangerCore-CompanyMessangerCore";
 			target = ED76C715AEA78E532A9A2FF6A41546A1 /* CompanyMessangerCore-CompanyMessangerCore */;
-			targetProxy = A28C03E6B1BC17ACFDC7EA698A4F05B9 /* PBXContainerItemProxy */;
+			targetProxy = FB29F4BBA59A945A41AB69AAFB6AD559 /* PBXContainerItemProxy */;
+		};
+		D8EEA2B8E82E7B0770001B49B8AB6853 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireImage;
+			targetProxy = B7D3EF0B5ADF9176FC8AB0E66BBE39CE /* PBXContainerItemProxy */;
+		};
+		E2AEAE717FAE26F930847F187DEDE0F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = 084E89A6417279E086111BF310E243AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		11D8AA40AF9838B41A8428E48BAA97C2 /* Release */ = {
+		032ECB8288861936F57B9C05A02127EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1177D4DD9ED6BC78F59B2D0A9E7B636A /* CompanyMessangerCore.release.xcconfig */;
+			baseConfigurationReference = 350CA9A0658AC824481E6F32EAD95665 /* CompanyMessangerCore.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CompanyMessangerCore/CompanyMessangerCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CompanyMessangerCore/CompanyMessangerCore-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CompanyMessangerCore";
+				IBSC_MODULE = CompanyMessangerCore;
+				INFOPLIST_FILE = "Target Support Files/CompanyMessangerCore/ResourceBundle-CompanyMessangerCore-CompanyMessangerCore-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CompanyMessangerCore/CompanyMessangerCore.modulemap";
-				PRODUCT_MODULE_NAME = CompanyMessangerCore;
 				PRODUCT_NAME = CompanyMessangerCore;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2AA68277D4C021A64AC1379CF38EBF54 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0E80E1427977402F67E5FFCB64519EB /* CompanyMessangerCore.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CompanyMessangerCore/CompanyMessangerCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CompanyMessangerCore/CompanyMessangerCore-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CompanyMessangerCore/CompanyMessangerCore.modulemap";
-				PRODUCT_MODULE_NAME = CompanyMessangerCore;
-				PRODUCT_NAME = CompanyMessangerCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -487,6 +500,42 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5A0993860F02B602ED844E34C4D2E76B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BEB5EF544C114A46646E6BB8A64135C /* CompanyMessangerCore.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CompanyMessangerCore/CompanyMessangerCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CompanyMessangerCore/CompanyMessangerCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CompanyMessangerCore/CompanyMessangerCore.modulemap";
+				PRODUCT_MODULE_NAME = CompanyMessangerCore;
+				PRODUCT_NAME = CompanyMessangerCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -556,26 +605,9 @@
 			};
 			name = Debug;
 		};
-		9307E12541600F52D16328B322B9C671 /* Debug */ = {
+		807954ABDA2BD4D89884D3C79B49FBAC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0E80E1427977402F67E5FFCB64519EB /* CompanyMessangerCore.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CompanyMessangerCore";
-				IBSC_MODULE = CompanyMessangerCore;
-				INFOPLIST_FILE = "Target Support Files/CompanyMessangerCore/ResourceBundle-CompanyMessangerCore-CompanyMessangerCore-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				PRODUCT_NAME = CompanyMessangerCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		A222FA994DCEA779826ADA9219FE2CD6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1177D4DD9ED6BC78F59B2D0A9E7B636A /* CompanyMessangerCore.release.xcconfig */;
+			baseConfigurationReference = 1BEB5EF544C114A46646E6BB8A64135C /* CompanyMessangerCore.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CompanyMessangerCore";
@@ -590,14 +622,49 @@
 			};
 			name = Release;
 		};
+		9B89306E1E805DE8FAA84AF250E16943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 350CA9A0658AC824481E6F32EAD95665 /* CompanyMessangerCore.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CompanyMessangerCore/CompanyMessangerCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CompanyMessangerCore/CompanyMessangerCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CompanyMessangerCore/CompanyMessangerCore.modulemap";
+				PRODUCT_MODULE_NAME = CompanyMessangerCore;
+				PRODUCT_NAME = CompanyMessangerCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5CFA9F11BFB292FDF3160C77AAD50B64 /* Build configuration list for PBXNativeTarget "CompanyMessangerCore-CompanyMessangerCore" */ = {
+		2B090A6A1424D36494447AB6D48398D7 /* Build configuration list for PBXNativeTarget "CompanyMessangerCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9307E12541600F52D16328B322B9C671 /* Debug */,
-				A222FA994DCEA779826ADA9219FE2CD6 /* Release */,
+				9B89306E1E805DE8FAA84AF250E16943 /* Debug */,
+				5A0993860F02B602ED844E34C4D2E76B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -611,11 +678,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE9AAB317E6D12DC7DAC520FDE94B681 /* Build configuration list for PBXNativeTarget "CompanyMessangerCore" */ = {
+		D1D6F9E4DE0F94CB84DAACD6A89F624D /* Build configuration list for PBXNativeTarget "CompanyMessangerCore-CompanyMessangerCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AA68277D4C021A64AC1379CF38EBF54 /* Debug */,
-				11D8AA40AF9838B41A8428E48BAA97C2 /* Release */,
+				032ECB8288861936F57B9C05A02127EE /* Debug */,
+				807954ABDA2BD4D89884D3C79B49FBAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

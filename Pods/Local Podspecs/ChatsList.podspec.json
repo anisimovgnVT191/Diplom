@@ -18,5 +18,16 @@
       "ChatsList/Classes/**/*.{json,plist,xib,storyboard,bundle}",
       "ChatsList/Resources/**/*.{xcassets,strings,stringsdict}"
     ]
+  },
+  "dependencies": {
+    "CompanyMessangerResources": [
+
+    ],
+    "CompanyMessangerUIKit": [
+
+    ],
+    "SnapKit": [
+
+    ]
   }
 }

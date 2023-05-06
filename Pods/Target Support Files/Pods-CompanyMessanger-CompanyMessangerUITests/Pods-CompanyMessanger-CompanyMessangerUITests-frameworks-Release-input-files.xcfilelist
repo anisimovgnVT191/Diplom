@@ -1,5 +1,7 @@
 ${PODS_ROOT}/Target Support Files/Pods-CompanyMessanger-CompanyMessangerUITests/Pods-CompanyMessanger-CompanyMessangerUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework
+${BUILT_PRODUCTS_DIR}/Apexy/Apexy.framework
 ${BUILT_PRODUCTS_DIR}/ChatsList/ChatsList.framework
 ${BUILT_PRODUCTS_DIR}/CompanyMessangerCore/CompanyMessangerCore.framework
 ${BUILT_PRODUCTS_DIR}/CompanyMessangerResources/CompanyMessangerResources.framework

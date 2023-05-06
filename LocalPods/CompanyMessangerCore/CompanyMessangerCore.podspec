@@ -16,4 +16,7 @@ Pod::Spec.new do |s|
             'CompanyMessangerCore/Resources/**/*.{xcassets,strings,stringsdict}'
       ]
     }
+    
+    s.dependency 'Alamofire'
+    s.dependency 'AlamofireImage'
 end

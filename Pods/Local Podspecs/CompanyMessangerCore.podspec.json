@@ -18,5 +18,13 @@
       "CompanyMessangerCore/Classes/**/*.{json,plist,xib,storyboard,bundle}",
       "CompanyMessangerCore/Resources/**/*.{xcassets,strings,stringsdict}"
     ]
+  },
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "AlamofireImage": [
+
+    ]
   }
 }

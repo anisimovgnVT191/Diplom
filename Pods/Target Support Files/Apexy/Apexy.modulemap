@@ -1,0 +1,6 @@
+framework module Apexy {
+  umbrella header "Apexy-umbrella.h"
+
+  export *
+  module * { export * }
+}

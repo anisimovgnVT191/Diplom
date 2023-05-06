@@ -14,4 +14,8 @@ Pod::Spec.new do |s|
             'ChatsList/Resources/**/*.{xcassets,strings,stringsdict}'
       ]
     }
+    
+    s.dependency 'CompanyMessangerResources'
+    s.dependency 'CompanyMessangerUIKit'
+    s.dependency 'SnapKit'
 end

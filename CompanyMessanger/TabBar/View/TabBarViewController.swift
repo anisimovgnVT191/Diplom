@@ -20,7 +20,6 @@ final class TabBarViewController: UITabBarController {
         
         self.tabBar.standardAppearance = appearance
         self.tabBar.unselectedItemTintColor = .tic.Colors.TabBar.itemTint
-        self.tabBar.tintColor = .tic.Colors.TabBar.itemTint
         if #available(iOS 15, *) {
             self.tabBar.scrollEdgeAppearance = appearance
         }
