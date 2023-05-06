@@ -25,6 +25,7 @@ pod 'Profile', :path => 'LocalPods/Features/Profile'
 # ExternalPods
 pod 'SnapKit', '~> 5.6.0'
 pod 'Alamofire'
+# pod 'Apexy'
 
 target 'CompanyMessanger' do
   # Comment the next line if you don't want to use dynamic frameworks

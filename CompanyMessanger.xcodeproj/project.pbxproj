@@ -18,13 +18,14 @@
 		045BA75129F5BFB4005E99A4 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BA75029F5BFB4005E99A4 /* ProfileCoordinator.swift */; };
 		045BA75529F5C224005E99A4 /* Images+TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045BA75429F5C224005E99A4 /* Images+TabBar.swift */; };
 		04D467C829F0600B00C81E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D467C729F0600B00C81E63 /* AppDelegate.swift */; };
-		04D467CC29F0600B00C81E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D467CB29F0600B00C81E63 /* ViewController.swift */; };
 		04D467D229F0600B00C81E63 /* CompanyMessanger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04D467D029F0600B00C81E63 /* CompanyMessanger.xcdatamodeld */; };
 		04D467D429F0600B00C81E63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D467D329F0600B00C81E63 /* Assets.xcassets */; };
 		04D467D729F0600B00C81E63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D467D529F0600B00C81E63 /* LaunchScreen.storyboard */; };
 		04D467E229F0600C00C81E63 /* CompanyMessangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D467E129F0600C00C81E63 /* CompanyMessangerTests.swift */; };
 		04D467EC29F0600C00C81E63 /* CompanyMessangerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D467EB29F0600C00C81E63 /* CompanyMessangerUITests.swift */; };
 		04D467EE29F0600C00C81E63 /* CompanyMessangerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D467ED29F0600C00C81E63 /* CompanyMessangerUITestsLaunchTests.swift */; };
+		04D8B1FF2A06856E0011F542 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8B1FE2A06856E0011F542 /* TabBarViewController.swift */; };
+		04D8B2022A06867E0011F542 /* Colors+TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8B2012A06867E0011F542 /* Colors+TabBar.swift */; };
 		52CBA0D5E665FF87591E543F /* Pods_CompanyMessanger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C8394FE130385F7AA69032 /* Pods_CompanyMessanger.framework */; };
 		5A28711EA3CB30BE25C5A3E8 /* Pods_CompanyMessanger_CompanyMessangerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3648ABFCF3E751201988E076 /* Pods_CompanyMessanger_CompanyMessangerUITests.framework */; };
 		A51BCEC190DCB544EA643B72 /* Pods_CompanyMessangerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BE5AB9BEA35CD4E44D411A /* Pods_CompanyMessangerTests.framework */; };
@@ -48,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044820E82A030871008A326A /* CatsListAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsListAdapter.swift; sourceTree = "<group>"; };
+		044820E92A030883008A326A /* CatsListLayoutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsListLayoutBuilder.swift; sourceTree = "<group>"; };
+		044820EA2A030898008A326A /* CatsListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsListSection.swift; sourceTree = "<group>"; };
 		045BA6D629F490AE005E99A4 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		045BA6D829F490EE005E99A4 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		045BA6EA29F5A019005E99A4 /* BaseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseExtension.swift; sourceTree = "<group>"; };
@@ -58,7 +62,7 @@
 		045BA72029F5B535005E99A4 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
 		045BA72529F5B9D1005E99A4 /* ChatsList.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChatsList.podspec; sourceTree = "<group>"; };
 		045BA72629F5B9DE005E99A4 /* Home.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Home.podspec; sourceTree = "<group>"; };
-		045BA72829F5B9F0005E99A4 /* Profile.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Profile.podspec; sourceTree = "<group>"; };
+		045BA72829F5B9F0005E99A4 /* Profile.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Profile.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		045BA74629F5BC72005E99A4 /* ProfileCoordinatorAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinatorAssembly.swift; sourceTree = "<group>"; };
 		045BA74829F5BC82005E99A4 /* HomeCoordinatorAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorAssembly.swift; sourceTree = "<group>"; };
 		045BA74A29F5BC94005E99A4 /* ChatsListCoordinatorAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsListCoordinatorAssembly.swift; sourceTree = "<group>"; };
@@ -83,7 +87,6 @@
 		04B45FA929F80F4700D395E4 /* ProfileAssembley.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAssembley.swift; sourceTree = "<group>"; };
 		04D467C429F0600B00C81E63 /* CompanyMessanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompanyMessanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D467C729F0600B00C81E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04D467CB29F0600B00C81E63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04D467D129F0600B00C81E63 /* CompanyMessanger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CompanyMessanger.xcdatamodel; sourceTree = "<group>"; };
 		04D467D329F0600B00C81E63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D467D629F0600B00C81E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -92,6 +95,9 @@
 		04D467E729F0600C00C81E63 /* CompanyMessangerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompanyMessangerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D467EB29F0600C00C81E63 /* CompanyMessangerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyMessangerUITests.swift; sourceTree = "<group>"; };
 		04D467ED29F0600C00C81E63 /* CompanyMessangerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyMessangerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04D8B1FB2A0679680011F542 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D8B1FE2A06856E0011F542 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		04D8B2012A06867E0011F542 /* Colors+TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+TabBar.swift"; sourceTree = "<group>"; };
 		04F5730429F466160013BB49 /* CompanyMessangerCore.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = CompanyMessangerCore.podspec; sourceTree = "<group>"; };
 		04F5730829F474E20013BB49 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		04F5730C29F477130013BB49 /* TransitionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionHandler.swift; sourceTree = "<group>"; };
@@ -140,6 +146,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044820E72A03081E008A326A /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				044820E82A030871008A326A /* CatsListAdapter.swift */,
+				044820E92A030883008A326A /* CatsListLayoutBuilder.swift */,
+				044820EA2A030898008A326A /* CatsListSection.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
 		045BA6D029F4876F005E99A4 /* CompanyMessangerCore */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				045BA71F29F5B512005E99A4 /* Coordinator */,
+				04D8B1FD2A06855A0011F542 /* View */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -444,6 +461,7 @@
 		045BA75229F5C1D2005E99A4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				04D8B2002A0685B30011F542 /* Colors */,
 				045BA75329F5C1EF005E99A4 /* Images */,
 			);
 			path = Extensions;
@@ -468,6 +486,7 @@
 		04B45F8C29F809D000D395E4 /* ChatsList */ = {
 			isa = PBXGroup;
 			children = (
+				044820E72A03081E008A326A /* Adapter */,
 				04B45F8F29F809E700D395E4 /* Assembley */,
 				04B45F8E29F809DC00D395E4 /* Presenter */,
 				04B45F8D29F809D600D395E4 /* View */,
@@ -642,9 +661,9 @@
 		04D467C629F0600B00C81E63 /* CompanyMessanger */ = {
 			isa = PBXGroup;
 			children = (
+				04D8B1FB2A0679680011F542 /* Info.plist */,
 				045BA73C29F5BB50005E99A4 /* Modules */,
 				045BA71C29F5A72B005E99A4 /* CoreData */,
-				04D467CB29F0600B00C81E63 /* ViewController.swift */,
 				045BA71B29F5A714005E99A4 /* Resources */,
 				045BA71829F5A6C5005E99A4 /* Root */,
 				045BA71929F5A6CC005E99A4 /* TabBar */,
@@ -667,6 +686,22 @@
 				04D467ED29F0600C00C81E63 /* CompanyMessangerUITestsLaunchTests.swift */,
 			);
 			path = CompanyMessangerUITests;
+			sourceTree = "<group>";
+		};
+		04D8B1FD2A06855A0011F542 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04D8B1FE2A06856E0011F542 /* TabBarViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04D8B2002A0685B30011F542 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				04D8B2012A06867E0011F542 /* Colors+TabBar.swift */,
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 		04F5730029F4625D0013BB49 /* LocalPods */ = {
@@ -1066,11 +1101,12 @@
 			files = (
 				045BA74D29F5BCC9005E99A4 /* ChatsListCoordinator.swift in Sources */,
 				045BA74729F5BC72005E99A4 /* ProfileCoordinatorAssembly.swift in Sources */,
+				04D8B1FF2A06856E0011F542 /* TabBarViewController.swift in Sources */,
 				045BA74F29F5BF23005E99A4 /* HomeCoordinator.swift in Sources */,
 				045BA74B29F5BC94005E99A4 /* ChatsListCoordinatorAssembly.swift in Sources */,
-				04D467CC29F0600B00C81E63 /* ViewController.swift in Sources */,
 				04D467D229F0600B00C81E63 /* CompanyMessanger.xcdatamodeld in Sources */,
 				045BA72129F5B535005E99A4 /* TabBarCoordinator.swift in Sources */,
+				04D8B2022A06867E0011F542 /* Colors+TabBar.swift in Sources */,
 				045BA75529F5C224005E99A4 /* Images+TabBar.swift in Sources */,
 				04D467C829F0600B00C81E63 /* AppDelegate.swift in Sources */,
 				045BA75129F5BFB4005E99A4 /* ProfileCoordinator.swift in Sources */,
@@ -1249,9 +1285,7 @@
 				INFOPLIST_FILE = CompanyMessanger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1279,9 +1313,7 @@
 				INFOPLIST_FILE = CompanyMessanger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

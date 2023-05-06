@@ -28,6 +28,10 @@ final class TabBarCoordinator: BaseFlow {
             output: self
         )
         
+        coodinator.rootViewController.tabBarItem = self.makeTabBarItem(
+            image: .tic.Images.TabBar.list(),
+            selectedImage: .tic.Images.TabBar.listSelected()
+        )
         self.add(coodinator)
         coodinator.start()
         return coodinator.rootViewController
@@ -39,20 +43,27 @@ final class TabBarCoordinator: BaseFlow {
             output: self
         )
         
+        coordinator.rootViewController.tabBarItem = self.makeTabBarItem(
+            image: .tic.Images.TabBar.profile(),
+            selectedImage: .tic.Images.TabBar.profileSelected()
+        )
         self.add(coordinator)
         coordinator.start()
         return coordinator.rootViewController
     }
     
-    private func makeTabBarItem(image: UIImage, selectedImage: UIImage) -> UITabBarItem {
-        .init(title: nil, image: image, selectedImage: selectedImage)
+    private func makeTabBarItem(image: UIImage?, selectedImage: UIImage?) -> UITabBarItem {
+        let tabBarItem: UITabBarItem = .init(title: nil, image: image, selectedImage: selectedImage)
+        tabBarItem.imageInsets = .init(top: 10, left: 0, bottom: -10, right: 0)
+        
+        return tabBarItem
     }
 }
 
 extension TabBarCoordinator: Coordinator {
     func start() {
         self.viewController.setViewControllers(
-            [self.makeHomeModule(), self.makeChatsListModule(), self.makeProfileModule()],
+            [self.makeChatsListModule(), self.makeProfileModule()],
             animated: true
         )
     }

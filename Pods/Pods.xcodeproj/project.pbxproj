@@ -96,6 +96,20 @@
 			remoteGlobalIDString = 3E47FD0992AC4CDCEEB64E1FD4DF45C8;
 			remoteInfo = Profile;
 		};
+		95AAE1F0D8E2A40B5CD83FB835B7476B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 296627453131CBA5C9ECF98ED240C2AE /* ChatsList.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8023728F673322883D6E520BDD4CEA7B;
+			remoteInfo = ChatsList;
+		};
+		9AE720DC185992C85B29831A2E189705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 296627453131CBA5C9ECF98ED240C2AE /* ChatsList.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8023728F673322883D6E520BDD4CEA7B;
+			remoteInfo = ChatsList;
+		};
 		A7E0A62FD55A5C600594D2AC7C5F7D60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -123,20 +137,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 81B7E9B7CD0CADA087A4BB042FBA92E7;
 			remoteInfo = Alamofire;
-		};
-		FD59B559E9D76F4F50FEAA18B79CE7DF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 296627453131CBA5C9ECF98ED240C2AE /* ChatsList.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8023728F673322883D6E520BDD4CEA7B;
-			remoteInfo = ChatsList;
-		};
-		FE121869C42E6C335D9F3E89A0A4D5DC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 296627453131CBA5C9ECF98ED240C2AE /* ChatsList.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8023728F673322883D6E520BDD4CEA7B;
-			remoteInfo = ChatsList;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -373,7 +373,7 @@
 			);
 			dependencies = (
 				05B7F72FD5E90F90D6BB1B1AF0C79D84 /* PBXTargetDependency */,
-				D77752C568C91EA15696F10D7AB3CF91 /* PBXTargetDependency */,
+				16F9284DB143395A18B789ED6B4B50C1 /* PBXTargetDependency */,
 				F221E1FB90769280C6588BB37B6A12D1 /* PBXTargetDependency */,
 				6CF378CDEDA6C0960CFEBB3B0492A4D7 /* PBXTargetDependency */,
 				AF102BCC8BF02872DD8B683FD608824E /* PBXTargetDependency */,
@@ -418,7 +418,7 @@
 			);
 			dependencies = (
 				712F35E6DDC91F2E87F7CBDAD1A8CC46 /* PBXTargetDependency */,
-				571BD99506EC26C783A9C05F835F6E0D /* PBXTargetDependency */,
+				091EC3ECE23946FE30920550BC8D33E3 /* PBXTargetDependency */,
 				5967293C8927FA89455E12C9A90C2A5E /* PBXTargetDependency */,
 				69A9AE28BCF9897586B7ECF7E5EF5398 /* PBXTargetDependency */,
 				5D6559E8E7FEF28C4CE2BF1A2A999CD6 /* PBXTargetDependency */,
@@ -543,6 +543,16 @@
 			name = Alamofire;
 			targetProxy = 2B5FB5B96E158F6273E7A0A8EAF37F6A /* PBXContainerItemProxy */;
 		};
+		091EC3ECE23946FE30920550BC8D33E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChatsList;
+			targetProxy = 9AE720DC185992C85B29831A2E189705 /* PBXContainerItemProxy */;
+		};
+		16F9284DB143395A18B789ED6B4B50C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChatsList;
+			targetProxy = 95AAE1F0D8E2A40B5CD83FB835B7476B /* PBXContainerItemProxy */;
+		};
 		1ACC1AB140E688985465C54615328261 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Profile;
@@ -563,11 +573,6 @@
 			name = "Pods-CompanyMessanger";
 			target = 2450EFF16916451CF4F1E9BBD313E23F /* Pods-CompanyMessanger */;
 			targetProxy = A7E0A62FD55A5C600594D2AC7C5F7D60 /* PBXContainerItemProxy */;
-		};
-		571BD99506EC26C783A9C05F835F6E0D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ChatsList;
-			targetProxy = FD59B559E9D76F4F50FEAA18B79CE7DF /* PBXContainerItemProxy */;
 		};
 		5967293C8927FA89455E12C9A90C2A5E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -608,11 +613,6 @@
 			isa = PBXTargetDependency;
 			name = Home;
 			targetProxy = 59856A95635851434AC2C5E12323B2E8 /* PBXContainerItemProxy */;
-		};
-		D77752C568C91EA15696F10D7AB3CF91 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ChatsList;
-			targetProxy = FE121869C42E6C335D9F3E89A0A4D5DC /* PBXContainerItemProxy */;
 		};
 		DBC5D2161113D3A3B569F03DD1D13767 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
