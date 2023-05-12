@@ -5,12 +5,14 @@ public final class ChatsListViewController: UIViewController {
     private lazy var collectionView = UICollectionView(
         frame: .zero,
         collectionViewLayout: self.collectionAdapter.compositionalLayout()
-    ).forAutoLayout()
+    ).forAutoLayout().configure {
+        $0.backgroundColor = .clear
+    }
     
-    private let output: ChatsListViewOutput
+    private let output: CatsListViewOutput
     private let collectionAdapter: CatsListAdapter
     
-    init(output: ChatsListViewOutput, collectionAdapter: CatsListAdapter) {
+    init(output: CatsListViewOutput, collectionAdapter: CatsListAdapter) {
         self.output = output
         self.collectionAdapter = collectionAdapter
         
@@ -28,10 +30,12 @@ public final class ChatsListViewController: UIViewController {
         super.viewDidLoad()
         
         self.setUpView()
-        self.viewDidLoad()
+        self.output.viewDidLoad()
     }
     
     private func setUpView() {
+        self.view.backgroundColor = .white
+        
         self.view.addSubview(self.collectionView)
         
         self.collectionView.snp.makeConstraints {
@@ -41,7 +45,7 @@ public final class ChatsListViewController: UIViewController {
     }
 }
 
-extension ChatsListViewController: ChatsListViewInput {
+extension ChatsListViewController: CatsListViewInput {
     public func updateSections(_ sections: [CatsListSection], animating: Bool) {
         self.collectionAdapter.updateDataSource(sections, animating: animating)
     }

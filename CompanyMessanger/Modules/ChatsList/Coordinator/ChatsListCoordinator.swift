@@ -17,9 +17,16 @@ final class ChatsListCoordinator: BaseFlow {
     }
     
     private func showChatsListViewController() {
-        let view = ChatsListAssembley.makeModule(output: self)
+        let view = ChatsListAssembley.makeModule(
+            output: self,
+            catsService: CatsService(client: RootDependencies.apiClient)
+        )
         
         self.transitionHandler?.set([view], animated: false)
+    }
+    
+    private func showCatDetailedViewController() {
+        
     }
 }
 
@@ -29,4 +36,8 @@ extension ChatsListCoordinator: Coordinator {
     }
 }
 
-extension ChatsListCoordinator: ChatsListPresenterOutput {}
+extension ChatsListCoordinator: CatsListPresenterOutput {
+    func didOpenDetailedCat(with id: String) {
+        self.showCatDetailedViewController()
+    }
+}

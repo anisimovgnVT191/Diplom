@@ -1,0 +1,6 @@
+framework module CatDetailed {
+  umbrella header "CatDetailed-umbrella.h"
+
+  export *
+  module * { export * }
+}

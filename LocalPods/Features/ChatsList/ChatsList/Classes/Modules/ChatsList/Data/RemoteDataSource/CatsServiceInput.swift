@@ -1,11 +1,11 @@
 import Combine
 import Foundation
 
-protocol CatsRemoteSource: AnyObject {
-    func getBreeds(offset: Int, limit: Int) -> any Publisher<[BreedBase], Error>
+public protocol CatsServiceInput: AnyObject {
+    func getBreeds(page: Int, limit: Int) -> AnyPublisher<[Breed], Error>
     
-    func getBreed(by id: String) -> any Publisher<BreedDetailed, Error>
+    func getBreed(by id: String) -> AnyPublisher<BreedDetailed, Error>
     
-    func getImage(by id: String)
+    func getImage(by id: String) -> AnyPublisher<BreedImage, Error>
 }
 

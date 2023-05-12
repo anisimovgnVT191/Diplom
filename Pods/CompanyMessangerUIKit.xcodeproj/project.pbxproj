@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04765789B36996F0BCCFD83D6ED7571F /* CompanyMessangerUIKit-CompanyMessangerUIKit in Resources */ = {isa = PBXBuildFile; fileRef = FAFCEE4531E3F7A315D2E08713828047 /* CompanyMessangerUIKit-CompanyMessangerUIKit */; };
-		0D31458E66A727040B6261B02A48E69D /* CompanyMessangerUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D04E4DD2F3D2137D8C5EA6A8A035E5E /* CompanyMessangerUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E06BE9391FA48B2D2BB514402FF5160 /* CollectionViewContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DFA7C3DEFBB9A0E35EE03882AC75E6 /* CollectionViewContainerCell.swift */; };
-		C3212B7044C6A93B4D5EF8C2019555F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BC070566A11020437CEDF856D47831 /* Foundation.framework */; };
-		CFD46E60CC115501033DBEDC6AC412F5 /* CompanyMessangerUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5EB192E2EB6EB376E4C0B8135C261B3 /* CompanyMessangerUIKit-dummy.m */; };
-		E4FDAE152554F9191A53CDC5A0A99A28 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E7D0AFACB62E04769C048A2EAE663B /* UIView.swift */; };
-		E5E49CD4B6E3E5923CAFC354D397F929 /* ConfigurableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAC179713A8684593C303A019C97252 /* ConfigurableView.swift */; };
+		0A2AC78DCA04722D5A6E1A3836F9F56C /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F35CB074AB4132E06F1B2B7D534278B /* ReusableView.swift */; };
+		1EC3769EC2C331D480DEA27F3A09A5DB /* ConfigurableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DEC1BDB28683438DFF389A15E63E1 /* ConfigurableView.swift */; };
+		3D68D04B91F861F9510C4F8C33EAA23A /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FAA1E0ABF4A9A5A09A45CBD0121A3E /* UIView.swift */; };
+		70D8286672A503E1DB3EEF0814572B83 /* CollectionViewContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19461B57EA50EA91ABBA47465790F428 /* CollectionViewContainerCell.swift */; };
+		820CFF2ED423EB32E73293AEF7870C24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90BC070566A11020437CEDF856D47831 /* Foundation.framework */; };
+		C991A599E20CA77CEF9789CE96FCD63C /* CompanyMessangerUIKit-CompanyMessangerUIKit in Resources */ = {isa = PBXBuildFile; fileRef = FAFCEE4531E3F7A315D2E08713828047 /* CompanyMessangerUIKit-CompanyMessangerUIKit */; };
+		E2872636E7F0A127A679E39480E4E45B /* CompanyMessangerUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6768832B7F083DFFBD1F200E6453F7AB /* CompanyMessangerUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F28E7E3CD94556F589EC282370FC4910 /* CompanyMessangerUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A33FB4F3B88AE24A0EA9E0F4962534 /* CompanyMessangerUIKit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E3A3624333B4C38F2E4A893036179C16 /* PBXContainerItemProxy */ = {
+		A718D013FE3AEBAF5104C7146DD0E152 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EA1964CFA69F2B280B07A1A490E39228 /* Project object */;
 			proxyType = 1;
@@ -27,58 +28,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DA81A1962B3C23E63C86390848F1C1B /* CompanyMessangerUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CompanyMessangerUIKit-Info.plist"; sourceTree = "<group>"; };
-		2065948FBE3AD4475C5BB70B94A6BD8D /* CompanyMessangerUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CompanyMessangerUIKit.release.xcconfig; sourceTree = "<group>"; };
-		4826AA29813201DE5ABEB06B10E4DBC4 /* CompanyMessangerUIKIt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CompanyMessangerUIKIt.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4D04E4DD2F3D2137D8C5EA6A8A035E5E /* CompanyMessangerUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CompanyMessangerUIKit-umbrella.h"; sourceTree = "<group>"; };
-		5241917CD3CF6061D62D6FD1E2FAA05C /* CompanyMessangerUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CompanyMessangerUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		0F35CB074AB4132E06F1B2B7D534278B /* ReusableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		11FF76A845DEE116B61DEBF921ADBA04 /* CompanyMessangerUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CompanyMessangerUIKit-Info.plist"; sourceTree = "<group>"; };
+		19461B57EA50EA91ABBA47465790F428 /* CollectionViewContainerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectionViewContainerCell.swift; sourceTree = "<group>"; };
+		33CA9DBF4DBAB96AFD4FF4D89E1890B8 /* CompanyMessangerUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CompanyMessangerUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		6768832B7F083DFFBD1F200E6453F7AB /* CompanyMessangerUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CompanyMessangerUIKit-umbrella.h"; sourceTree = "<group>"; };
 		6F5E51D4C868D28D73FF67DA1D2D273F /* CompanyMessangerUIKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CompanyMessangerUIKit; path = CompanyMessangerUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		70E7D0AFACB62E04769C048A2EAE663B /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
-		8FAC179713A8684593C303A019C97252 /* ConfigurableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConfigurableView.swift; sourceTree = "<group>"; };
 		90BC070566A11020437CEDF856D47831 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		97CE84F40A2DD16311F9496834FAC314 /* ResourceBundle-CompanyMessangerUIKit-CompanyMessangerUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CompanyMessangerUIKit-CompanyMessangerUIKit-Info.plist"; sourceTree = "<group>"; };
-		D998E9398829FBD4E9360D63C9429FA3 /* CompanyMessangerUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CompanyMessangerUIKit.modulemap; sourceTree = "<group>"; };
-		EAE7E62FB50C60B89F31BA32608976EB /* CompanyMessangerUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CompanyMessangerUIKit-prefix.pch"; sourceTree = "<group>"; };
-		F5EB192E2EB6EB376E4C0B8135C261B3 /* CompanyMessangerUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CompanyMessangerUIKit-dummy.m"; sourceTree = "<group>"; };
-		F9DFA7C3DEFBB9A0E35EE03882AC75E6 /* CollectionViewContainerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectionViewContainerCell.swift; sourceTree = "<group>"; };
+		B310881121A1AA2130B936F7DC250323 /* CompanyMessangerUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CompanyMessangerUIKit-prefix.pch"; sourceTree = "<group>"; };
+		B6FAA1E0ABF4A9A5A09A45CBD0121A3E /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		BA2DEC1BDB28683438DFF389A15E63E1 /* ConfigurableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConfigurableView.swift; sourceTree = "<group>"; };
+		D2A33FB4F3B88AE24A0EA9E0F4962534 /* CompanyMessangerUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CompanyMessangerUIKit-dummy.m"; sourceTree = "<group>"; };
+		DB525253D60D84DC16C44E1337AB9BC6 /* CompanyMessangerUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CompanyMessangerUIKit.release.xcconfig; sourceTree = "<group>"; };
+		DD0CE207C988F04B3EE5EA03E1EB6A04 /* CompanyMessangerUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CompanyMessangerUIKit.modulemap; sourceTree = "<group>"; };
+		E393406F365AB0FA17D34E022CAB91B7 /* ResourceBundle-CompanyMessangerUIKit-CompanyMessangerUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CompanyMessangerUIKit-CompanyMessangerUIKit-Info.plist"; sourceTree = "<group>"; };
+		EB89E739746C2E3DE7295EF808C693B9 /* CompanyMessangerUIKIt.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CompanyMessangerUIKIt.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FAFCEE4531E3F7A315D2E08713828047 /* CompanyMessangerUIKit-CompanyMessangerUIKit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "CompanyMessangerUIKit-CompanyMessangerUIKit"; path = CompanyMessangerUIKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4182475F700490C2F33C6C9697C506FA /* Frameworks */ = {
+		205146040426580CD6CA73DFBC7D3DAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820CFF2ED423EB32E73293AEF7870C24 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8638A24785F4B0271E86A16076ACD76 /* Frameworks */ = {
+		842FCDEA2368D4B10E7DAE12052FD828 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3212B7044C6A93B4D5EF8C2019555F0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17E3C6DACEE56AB55155C6C259EAEF34 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D998E9398829FBD4E9360D63C9429FA3 /* CompanyMessangerUIKit.modulemap */,
-				F5EB192E2EB6EB376E4C0B8135C261B3 /* CompanyMessangerUIKit-dummy.m */,
-				0DA81A1962B3C23E63C86390848F1C1B /* CompanyMessangerUIKit-Info.plist */,
-				EAE7E62FB50C60B89F31BA32608976EB /* CompanyMessangerUIKit-prefix.pch */,
-				4D04E4DD2F3D2137D8C5EA6A8A035E5E /* CompanyMessangerUIKit-umbrella.h */,
-				5241917CD3CF6061D62D6FD1E2FAA05C /* CompanyMessangerUIKit.debug.xcconfig */,
-				2065948FBE3AD4475C5BB70B94A6BD8D /* CompanyMessangerUIKit.release.xcconfig */,
-				97CE84F40A2DD16311F9496834FAC314 /* ResourceBundle-CompanyMessangerUIKit-CompanyMessangerUIKit-Info.plist */,
-			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/CompanyMessangerUIKit";
-			sourceTree = "<group>";
-		};
 		35511F98030ADDB32727FC8BB0A98593 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,41 +77,46 @@
 		401BF906EF09ED7B84AADB56E7A22850 = {
 			isa = PBXGroup;
 			children = (
-				C55F164C778244ED7CA150393B249EDB /* CompanyMessangerUIKit */,
+				EFC8621D58E2410DCBADD0C56639D509 /* CompanyMessangerUIKit */,
 				EF78F3167B7A137E299A02886E41C91A /* Frameworks */,
 				35511F98030ADDB32727FC8BB0A98593 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9DAAF49343AB11C1C22B7F443B78E058 /* Extensions */ = {
+		47654030BF7EA97B8780D25A26FE8B4D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				70E7D0AFACB62E04769C048A2EAE663B /* UIView.swift */,
+				DD0CE207C988F04B3EE5EA03E1EB6A04 /* CompanyMessangerUIKit.modulemap */,
+				D2A33FB4F3B88AE24A0EA9E0F4962534 /* CompanyMessangerUIKit-dummy.m */,
+				11FF76A845DEE116B61DEBF921ADBA04 /* CompanyMessangerUIKit-Info.plist */,
+				B310881121A1AA2130B936F7DC250323 /* CompanyMessangerUIKit-prefix.pch */,
+				6768832B7F083DFFBD1F200E6453F7AB /* CompanyMessangerUIKit-umbrella.h */,
+				33CA9DBF4DBAB96AFD4FF4D89E1890B8 /* CompanyMessangerUIKit.debug.xcconfig */,
+				DB525253D60D84DC16C44E1337AB9BC6 /* CompanyMessangerUIKit.release.xcconfig */,
+				E393406F365AB0FA17D34E022CAB91B7 /* ResourceBundle-CompanyMessangerUIKit-CompanyMessangerUIKit-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/CompanyMessangerUIKit";
+			sourceTree = "<group>";
+		};
+		5FC47754624E881D71674707F722A394 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B6FAA1E0ABF4A9A5A09A45CBD0121A3E /* UIView.swift */,
 			);
 			name = Extensions;
 			path = CompanyMessangerUIKit/Classes/Extensions;
 			sourceTree = "<group>";
 		};
-		C2E913DE7D6AE655727E13DA742734C0 /* Adapter */ = {
+		7FF484BC835CA589BF12922AA6E39286 /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
-				F9DFA7C3DEFBB9A0E35EE03882AC75E6 /* CollectionViewContainerCell.swift */,
-				8FAC179713A8684593C303A019C97252 /* ConfigurableView.swift */,
+				19461B57EA50EA91ABBA47465790F428 /* CollectionViewContainerCell.swift */,
+				BA2DEC1BDB28683438DFF389A15E63E1 /* ConfigurableView.swift */,
+				0F35CB074AB4132E06F1B2B7D534278B /* ReusableView.swift */,
 			);
 			name = Adapter;
 			path = CompanyMessangerUIKit/Classes/Adapter;
-			sourceTree = "<group>";
-		};
-		C55F164C778244ED7CA150393B249EDB /* CompanyMessangerUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				C2E913DE7D6AE655727E13DA742734C0 /* Adapter */,
-				9DAAF49343AB11C1C22B7F443B78E058 /* Extensions */,
-				F8FE085E54F35453D5B99338DD83426B /* Pod */,
-				17E3C6DACEE56AB55155C6C259EAEF34 /* Support Files */,
-			);
-			name = CompanyMessangerUIKit;
-			path = ../LocalPods/CompanyMessangerUIKit;
 			sourceTree = "<group>";
 		};
 		C927A3537C318AC327CB664DD4A74229 /* iOS */ = {
@@ -136,6 +127,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		D2A4BDBE68E302CD3B20B21F87A8AE51 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EB89E739746C2E3DE7295EF808C693B9 /* CompanyMessangerUIKIt.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		EF78F3167B7A137E299A02886E41C91A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,22 +143,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F8FE085E54F35453D5B99338DD83426B /* Pod */ = {
+		EFC8621D58E2410DCBADD0C56639D509 /* CompanyMessangerUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				4826AA29813201DE5ABEB06B10E4DBC4 /* CompanyMessangerUIKIt.podspec */,
+				7FF484BC835CA589BF12922AA6E39286 /* Adapter */,
+				5FC47754624E881D71674707F722A394 /* Extensions */,
+				D2A4BDBE68E302CD3B20B21F87A8AE51 /* Pod */,
+				47654030BF7EA97B8780D25A26FE8B4D /* Support Files */,
 			);
-			name = Pod;
+			name = CompanyMessangerUIKit;
+			path = ../LocalPods/CompanyMessangerUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		98B5B3938E1B567FF3A4A2208F6EED39 /* Headers */ = {
+		91B8E01DBAEE9CE89321374F15C0656D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D31458E66A727040B6261B02A48E69D /* CompanyMessangerUIKit-umbrella.h in Headers */,
+				E2872636E7F0A127A679E39480E4E45B /* CompanyMessangerUIKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,17 +171,17 @@
 /* Begin PBXNativeTarget section */
 		73019F81441316262623D9BB4C7355B8 /* CompanyMessangerUIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87F2C7414523916A90D844A1595A8941 /* Build configuration list for PBXNativeTarget "CompanyMessangerUIKit" */;
+			buildConfigurationList = CEE1B881DFDA0633C1905E26DA57470A /* Build configuration list for PBXNativeTarget "CompanyMessangerUIKit" */;
 			buildPhases = (
-				98B5B3938E1B567FF3A4A2208F6EED39 /* Headers */,
-				D3D86C22AD468A8D72AF717E45DBFF57 /* Sources */,
-				D8638A24785F4B0271E86A16076ACD76 /* Frameworks */,
-				77D0F1C0BA3BEAE7DB9F210B60FD08EF /* Resources */,
+				91B8E01DBAEE9CE89321374F15C0656D /* Headers */,
+				88C6843ECED5D7365C2DC897FC6CAAE0 /* Sources */,
+				205146040426580CD6CA73DFBC7D3DAB /* Frameworks */,
+				93D1E9A35DF7F164500D22650F06E1AD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AC3C2815EE3336F462CCC49BADBACB1D /* PBXTargetDependency */,
+				54EF9E96FB9AA97E639A8DD9AC218A57 /* PBXTargetDependency */,
 			);
 			name = CompanyMessangerUIKit;
 			productName = CompanyMessangerUIKit;
@@ -187,11 +190,11 @@
 		};
 		97D90177B154FA8AB662AF0C6697DFE7 /* CompanyMessangerUIKit-CompanyMessangerUIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B751C53220211AEFA87A4343B6D0B761 /* Build configuration list for PBXNativeTarget "CompanyMessangerUIKit-CompanyMessangerUIKit" */;
+			buildConfigurationList = 8A391B13A9BFC285F42DD8EF94483F1A /* Build configuration list for PBXNativeTarget "CompanyMessangerUIKit-CompanyMessangerUIKit" */;
 			buildPhases = (
-				AFF27434235ADADE95D46ED15B9A58F2 /* Sources */,
-				4182475F700490C2F33C6C9697C506FA /* Frameworks */,
-				9D5F749AD3E5E0A8B8A79EBDB83A35E2 /* Resources */,
+				AFD61B9628F6DB100805B42D4C0BB536 /* Sources */,
+				842FCDEA2368D4B10E7DAE12052FD828 /* Frameworks */,
+				56908D11DAD7688D6C4F9BF6655064E8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -231,50 +234,51 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		77D0F1C0BA3BEAE7DB9F210B60FD08EF /* Resources */ = {
+		56908D11DAD7688D6C4F9BF6655064E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04765789B36996F0BCCFD83D6ED7571F /* CompanyMessangerUIKit-CompanyMessangerUIKit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D5F749AD3E5E0A8B8A79EBDB83A35E2 /* Resources */ = {
+		93D1E9A35DF7F164500D22650F06E1AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C991A599E20CA77CEF9789CE96FCD63C /* CompanyMessangerUIKit-CompanyMessangerUIKit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AFF27434235ADADE95D46ED15B9A58F2 /* Sources */ = {
+		88C6843ECED5D7365C2DC897FC6CAAE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70D8286672A503E1DB3EEF0814572B83 /* CollectionViewContainerCell.swift in Sources */,
+				F28E7E3CD94556F589EC282370FC4910 /* CompanyMessangerUIKit-dummy.m in Sources */,
+				1EC3769EC2C331D480DEA27F3A09A5DB /* ConfigurableView.swift in Sources */,
+				0A2AC78DCA04722D5A6E1A3836F9F56C /* ReusableView.swift in Sources */,
+				3D68D04B91F861F9510C4F8C33EAA23A /* UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3D86C22AD468A8D72AF717E45DBFF57 /* Sources */ = {
+		AFD61B9628F6DB100805B42D4C0BB536 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E06BE9391FA48B2D2BB514402FF5160 /* CollectionViewContainerCell.swift in Sources */,
-				CFD46E60CC115501033DBEDC6AC412F5 /* CompanyMessangerUIKit-dummy.m in Sources */,
-				E5E49CD4B6E3E5923CAFC354D397F929 /* ConfigurableView.swift in Sources */,
-				E4FDAE152554F9191A53CDC5A0A99A28 /* UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AC3C2815EE3336F462CCC49BADBACB1D /* PBXTargetDependency */ = {
+		54EF9E96FB9AA97E639A8DD9AC218A57 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CompanyMessangerUIKit-CompanyMessangerUIKit";
 			target = 97D90177B154FA8AB662AF0C6697DFE7 /* CompanyMessangerUIKit-CompanyMessangerUIKit */;
-			targetProxy = E3A3624333B4C38F2E4A893036179C16 /* PBXContainerItemProxy */;
+			targetProxy = A718D013FE3AEBAF5104C7146DD0E152 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -345,9 +349,9 @@
 			};
 			name = Debug;
 		};
-		087E3B368A5D73BC3677BE5CC156355D /* Debug */ = {
+		1BEC4CFDC602CA0C2DC653FE2143847B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5241917CD3CF6061D62D6FD1E2FAA05C /* CompanyMessangerUIKit.debug.xcconfig */;
+			baseConfigurationReference = 33CA9DBF4DBAB96AFD4FF4D89E1890B8 /* CompanyMessangerUIKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CompanyMessangerUIKit";
@@ -424,9 +428,9 @@
 			};
 			name = Release;
 		};
-		6A2ACF548C203CAEB6A9DB96DC7E0830 /* Release */ = {
+		58A2A3EC8323993C8907455F39710FF6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2065948FBE3AD4475C5BB70B94A6BD8D /* CompanyMessangerUIKit.release.xcconfig */;
+			baseConfigurationReference = DB525253D60D84DC16C44E1337AB9BC6 /* CompanyMessangerUIKit.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -460,9 +464,26 @@
 			};
 			name = Release;
 		};
-		9ADEF5EDEBD76B79FAC0CADC32A4545C /* Debug */ = {
+		6C830D67BBA255474C0307520C96D008 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5241917CD3CF6061D62D6FD1E2FAA05C /* CompanyMessangerUIKit.debug.xcconfig */;
+			baseConfigurationReference = DB525253D60D84DC16C44E1337AB9BC6 /* CompanyMessangerUIKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CompanyMessangerUIKit";
+				IBSC_MODULE = CompanyMessangerUIKit;
+				INFOPLIST_FILE = "Target Support Files/CompanyMessangerUIKit/ResourceBundle-CompanyMessangerUIKit-CompanyMessangerUIKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = CompanyMessangerUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A8CB7ABCFB01FC47F814E0C28E98AF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33CA9DBF4DBAB96AFD4FF4D89E1890B8 /* CompanyMessangerUIKit.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -495,23 +516,6 @@
 			};
 			name = Debug;
 		};
-		B7D8E7A0630BCE0A82506C31C0EC5F33 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2065948FBE3AD4475C5BB70B94A6BD8D /* CompanyMessangerUIKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CompanyMessangerUIKit";
-				IBSC_MODULE = CompanyMessangerUIKit;
-				INFOPLIST_FILE = "Target Support Files/CompanyMessangerUIKit/ResourceBundle-CompanyMessangerUIKit-CompanyMessangerUIKit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				PRODUCT_NAME = CompanyMessangerUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -524,20 +528,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87F2C7414523916A90D844A1595A8941 /* Build configuration list for PBXNativeTarget "CompanyMessangerUIKit" */ = {
+		8A391B13A9BFC285F42DD8EF94483F1A /* Build configuration list for PBXNativeTarget "CompanyMessangerUIKit-CompanyMessangerUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9ADEF5EDEBD76B79FAC0CADC32A4545C /* Debug */,
-				6A2ACF548C203CAEB6A9DB96DC7E0830 /* Release */,
+				1BEC4CFDC602CA0C2DC653FE2143847B /* Debug */,
+				6C830D67BBA255474C0307520C96D008 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B751C53220211AEFA87A4343B6D0B761 /* Build configuration list for PBXNativeTarget "CompanyMessangerUIKit-CompanyMessangerUIKit" */ = {
+		CEE1B881DFDA0633C1905E26DA57470A /* Build configuration list for PBXNativeTarget "CompanyMessangerUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				087E3B368A5D73BC3677BE5CC156355D /* Debug */,
-				B7D8E7A0630BCE0A82506C31C0EC5F33 /* Release */,
+				A8CB7ABCFB01FC47F814E0C28E98AF51 /* Debug */,
+				58A2A3EC8323993C8907455F39710FF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

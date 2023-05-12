@@ -15,6 +15,8 @@ Pod::Spec.new do |s|
       ]
     }
     
+    s.dependency 'Apexy'
+    s.dependency 'CompanyMessangerCore'
     s.dependency 'CompanyMessangerResources'
     s.dependency 'CompanyMessangerUIKit'
     s.dependency 'SnapKit'

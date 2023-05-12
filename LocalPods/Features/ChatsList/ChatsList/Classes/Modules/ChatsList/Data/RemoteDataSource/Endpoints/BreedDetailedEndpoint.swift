@@ -1,8 +1,18 @@
-//
-//  BreedDetailedEndpoint.swift
-//  CompanyMessanger
-//
-//  Created by mac on 10.05.2023.
-//
-
+import Apexy
+import CompanyMessangerCore
 import Foundation
+
+struct BreedDetailedEndpoint: JsonEndpoint, URLRequestBuildable {
+    typealias Content = BreedDetailed
+    
+    let id: String
+    
+    init(id: String) {
+        self.id = id
+    }
+    
+    func makeRequest() -> URLRequest {
+        let url = URL(string: RequestPaths.breedDetailed.replacingOccurrences(of: "{id}", with: self.id))!
+        return get(url)
+    }
+}

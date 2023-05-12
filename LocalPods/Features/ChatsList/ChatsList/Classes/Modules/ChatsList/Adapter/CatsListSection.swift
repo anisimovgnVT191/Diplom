@@ -1,6 +1,6 @@
 import Foundation
 
-struct CatsListSection {
+public struct CatsListSection {
     enum Id: String, Hashable {
         case cats
     }
@@ -14,11 +14,11 @@ struct CatsListSection {
 }
 
 extension CatsListSection: Hashable {
-    func hash(into hasher: inout Hasher) {
+    public func hash(into hasher: inout Hasher) {
         hasher.combine(self.id)
     }
     
-    static func == (lhs: CatsListSection, rhs: CatsListSection) -> Bool {
+    public static func == (lhs: CatsListSection, rhs: CatsListSection) -> Bool {
         lhs.id == rhs.id
     }
 }

@@ -16,11 +16,18 @@ open class CollectionViewContainerCell<T: UIView>: UICollectionViewCell
         fatalError("init(coder:) has not been implemented")
     }
     
+    public override func prepareForReuse() {
+        super.prepareForReuse()
+        
+        (self.cellContentView as? ReusableView)?.prepareForReuse()
+    }
+    
     // MARK: - Configure
     private func setUpView() {
         backgroundColor = .clear
         
         self.contentView.addSubview(self.cellContentView)
+        self.cellContentView.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint(
             item: self.cellContentView,

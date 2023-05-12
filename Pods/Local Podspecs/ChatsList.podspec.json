@@ -20,6 +20,12 @@
     ]
   },
   "dependencies": {
+    "Apexy": [
+
+    ],
+    "CompanyMessangerCore": [
+
+    ],
     "CompanyMessangerResources": [
 
     ],

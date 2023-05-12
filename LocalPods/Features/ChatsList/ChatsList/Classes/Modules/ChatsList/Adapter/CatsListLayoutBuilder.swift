@@ -3,22 +3,21 @@ import Foundation
 final class CatsListLayoutBuilder {
     func buildCatsSection() -> NSCollectionLayoutSection {
         let item = NSCollectionLayoutItem(layoutSize: .init(
-            widthDimension: .fractionalWidth(0.5),
-            heightDimension: .fractionalWidth(0.5)
+            widthDimension: .fractionalWidth(1),
+            heightDimension: .fractionalHeight(1)
         ))
+        item.contentInsets = .init(top: 8, leading: 8, bottom: 8, trailing: 8)
         let group = NSCollectionLayoutGroup.horizontal(
             layoutSize: .init(
                 widthDimension: .fractionalWidth(1),
                 heightDimension: .fractionalWidth(0.5)
             ),
-            subitems: [item]
+            subitem: item,
+            count: 2
         )
         let section = NSCollectionLayoutSection(group: group)
         
-        group.interItemSpacing = .fixed(8)
-        
-        section.contentInsets = .init(top: 16, leading: 16, bottom: 16, trailing: 16)
-        section.interGroupSpacing = 8
+        section.contentInsets = .init(top: 16, leading: 8, bottom: 16, trailing: 8)
         
         return section
     }

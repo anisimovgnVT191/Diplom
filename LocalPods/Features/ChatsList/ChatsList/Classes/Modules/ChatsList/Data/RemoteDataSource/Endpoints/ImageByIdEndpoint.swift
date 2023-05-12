@@ -1,8 +1,18 @@
-//
-//  ImageByIdEndpoint.swift
-//  CompanyMessanger
-//
-//  Created by mac on 10.05.2023.
-//
-
+import Apexy
+import CompanyMessangerCore
 import Foundation
+
+struct ImageByIdEndpoint: JsonEndpoint, URLRequestBuildable {
+    typealias Content = BreedImage
+    
+    let id: String
+    
+    init(id: String) {
+        self.id = id
+    }
+    
+    func makeRequest() -> URLRequest {
+        let url = URL(string: RequestPaths.imageById.replacingOccurrences(of: "{id}", with: self.id))!
+        return get(url)
+    }
+}

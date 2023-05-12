@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		97E644D193A46662A1B6CD1A626CFD6F /* PBXContainerItemProxy */ = {
+		8B964D56E172EB05E0C2F3CE7FB47B1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 299F86504B18C666632F18819C1CF3B4 /* CompanyMessangerCore.xcodeproj */;
 			proxyType = 1;
@@ -222,7 +222,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				729567636F8A3811826EB0E78D653941 /* PBXTargetDependency */,
+				EA0F078BC63B5EA2DD22734F73303FF6 /* PBXTargetDependency */,
 				B912DA2DA86313F851E4C0CA2F2557A9 /* PBXTargetDependency */,
 			);
 			name = CompanyMessangerResources;
@@ -323,16 +323,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		729567636F8A3811826EB0E78D653941 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CompanyMessangerCore;
-			targetProxy = 97E644D193A46662A1B6CD1A626CFD6F /* PBXContainerItemProxy */;
-		};
 		B912DA2DA86313F851E4C0CA2F2557A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CompanyMessangerResources-CompanyMessangerResources";
 			target = 5D399FC3D6E82B7FE785EDF49531324B /* CompanyMessangerResources-CompanyMessangerResources */;
 			targetProxy = B5D7A1153DEDB64DA02508D45B14B82C /* PBXContainerItemProxy */;
+		};
+		EA0F078BC63B5EA2DD22734F73303FF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CompanyMessangerCore;
+			targetProxy = 8B964D56E172EB05E0C2F3CE7FB47B1E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

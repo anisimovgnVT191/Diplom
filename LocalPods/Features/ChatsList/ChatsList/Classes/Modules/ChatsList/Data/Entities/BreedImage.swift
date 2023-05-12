@@ -1,8 +1,6 @@
-//
-//  BreedImage.swift
-//  CompanyMessanger
-//
-//  Created by mac on 06.05.2023.
-//
-
 import Foundation
+
+public struct BreedImage: Decodable {
+    public let id: String
+    public let url: String
+}

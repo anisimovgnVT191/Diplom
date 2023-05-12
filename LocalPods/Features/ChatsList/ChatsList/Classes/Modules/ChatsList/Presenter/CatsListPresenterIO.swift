@@ -1,5 +1,7 @@
 import Foundation
 
-public protocol ChatsListPresenterInput: AnyObject {}
+public protocol CatsListPresenterInput: AnyObject {}
 
-public protocol ChatsListPresenterOutput: AnyObject {}
+public protocol CatsListPresenterOutput: AnyObject {
+    func didOpenDetailedCat(with id: String)
+}

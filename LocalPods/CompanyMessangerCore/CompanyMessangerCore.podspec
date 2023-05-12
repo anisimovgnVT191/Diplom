@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
       ]
     }
     
+    s.dependency 'Apexy'
     s.dependency 'Alamofire'
     s.dependency 'AlamofireImage'
 end

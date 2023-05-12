@@ -20,12 +20,13 @@ final class CatCardItemView: UIView, ConfigurableView {
     
     private lazy var catImageView = UIImageView().forAutoLayout().configure {
         $0.layer.cornerRadius = 16
+        $0.layer.masksToBounds = true
         $0.isUserInteractionEnabled = true
     }
     private let titleBlurView = UIVisualEffectView(effect: UIBlurEffect(style: .systemUltraThinMaterial)).forAutoLayout()
     private let titleLabel = UILabel().forAutoLayout().configure {
         $0.numberOfLines = 0
-        $0.textColor = .white
+        $0.textColor = .black
         $0.font = UIFont.systemFont(ofSize: 13, weight: .semibold)
     }
     
@@ -55,19 +56,24 @@ final class CatCardItemView: UIView, ConfigurableView {
     }
     
     private func setUpView() {
-        self.addSubviews(self.catImageView, self.titleBlurView, self.favoriteImageView)
-        self.titleBlurView.addSubview(self.titleLabel)
+        self.addSubviews(
+            self.catImageView,
+            self.favoriteImageView,
+            self.titleLabel,
+            self.titleBlurView
+        )
         
         self.catImageView.snp.makeConstraints {
             $0.top.left.bottom.right.equalToSuperview()
         }
         
         self.titleBlurView.snp.makeConstraints {
+            $0.top.equalTo(self.titleLabel.snp.bottom).offset(-8)
             $0.left.bottom.bottom.equalToSuperview()
         }
         
         self.titleLabel.snp.makeConstraints {
-            $0.top.left.bottom.right.equalToSuperview().inset(8)
+            $0.left.bottom.right.equalToSuperview().inset(8)
         }
         
         self.favoriteImageView.snp.makeConstraints {

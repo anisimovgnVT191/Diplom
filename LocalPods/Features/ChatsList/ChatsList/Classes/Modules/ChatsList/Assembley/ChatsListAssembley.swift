@@ -1,9 +1,15 @@
 import Foundation
 
 public enum ChatsListAssembley {
-    public static func makeModule(output: ChatsListPresenterOutput) -> ChatsListViewController {
-        let presenter = ChatsListPresenter()
-        let view = ChatsListViewController(output: presenter)
+    public static func makeModule(
+        output: CatsListPresenterOutput,
+        catsService: CatsServiceInput
+    ) -> ChatsListViewController {
+        let presenter = CatsListPresenter(catsPaginator: .init(catsService: catsService))
+        let view = ChatsListViewController(
+            output: presenter,
+            collectionAdapter: CatsListAdapter(layoutBuilder: .init())
+        )
         
         presenter.view = view
         presenter.output = output

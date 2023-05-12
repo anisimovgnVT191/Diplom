@@ -21,6 +21,7 @@ pod 'CompanyMessangerResources', :path => 'LocalPods/CompanyMessangerResources'
 pod 'ChatsList', :path => 'LocalPods/Features/ChatsList'
 pod 'Home', :path => 'LocalPods/Features/Home'
 pod 'Profile', :path => 'LocalPods/Features/Profile'
+pod 'CatDetailed', :path => 'LocalPods/Features/CatDetailed'
 
 # ExternalPods
 pod 'SnapKit', '~> 5.6.0'
