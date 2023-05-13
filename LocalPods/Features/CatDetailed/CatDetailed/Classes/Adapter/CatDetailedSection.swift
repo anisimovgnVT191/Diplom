@@ -35,12 +35,19 @@ extension CatDetailedSection.Item: Hashable {
             hasher.combine(item)
         case .description:
             break
+        case .descriptionSpec:
+            break
         case .characteristic:
             break
         }
     }
     
     static func == (lhs: CatDetailedSection.Item, rhs: CatDetailedSection.Item) -> Bool {
-        return false
+        switch (lhs, rhs) {
+        case let (.imagesPager(lItem), .imagesPager(rItem)):
+            return lItem == rItem
+        default:
+            return true
+        }
     }
 }

@@ -20,19 +20,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8B964D56E172EB05E0C2F3CE7FB47B1E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 299F86504B18C666632F18819C1CF3B4 /* CompanyMessangerCore.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D735DBFA29D723A69C5869C845262754;
-			remoteInfo = CompanyMessangerCore;
-		};
 		B5D7A1153DEDB64DA02508D45B14B82C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4910DD35CBFDCF49975B8590D94AFE4C /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5D399FC3D6E82B7FE785EDF49531324B;
 			remoteInfo = "CompanyMessangerResources-CompanyMessangerResources";
+		};
+		EA9BB4BC2115B4FDF7CAFD43A100B879 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 299F86504B18C666632F18819C1CF3B4 /* CompanyMessangerCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D735DBFA29D723A69C5869C845262754;
+			remoteInfo = CompanyMessangerCore;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -222,7 +222,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EA0F078BC63B5EA2DD22734F73303FF6 /* PBXTargetDependency */,
+				7A87C41DCB94B8390E8C389BF236A2C5 /* PBXTargetDependency */,
 				B912DA2DA86313F851E4C0CA2F2557A9 /* PBXTargetDependency */,
 			);
 			name = CompanyMessangerResources;
@@ -323,16 +323,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		7A87C41DCB94B8390E8C389BF236A2C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CompanyMessangerCore;
+			targetProxy = EA9BB4BC2115B4FDF7CAFD43A100B879 /* PBXContainerItemProxy */;
+		};
 		B912DA2DA86313F851E4C0CA2F2557A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CompanyMessangerResources-CompanyMessangerResources";
 			target = 5D399FC3D6E82B7FE785EDF49531324B /* CompanyMessangerResources-CompanyMessangerResources */;
 			targetProxy = B5D7A1153DEDB64DA02508D45B14B82C /* PBXContainerItemProxy */;
-		};
-		EA0F078BC63B5EA2DD22734F73303FF6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CompanyMessangerCore;
-			targetProxy = 8B964D56E172EB05E0C2F3CE7FB47B1E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

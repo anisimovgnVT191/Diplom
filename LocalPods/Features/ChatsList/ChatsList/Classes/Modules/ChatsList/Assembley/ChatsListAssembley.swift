@@ -1,3 +1,4 @@
+import CompanyMessangerCore
 import Foundation
 
 public enum ChatsListAssembley {

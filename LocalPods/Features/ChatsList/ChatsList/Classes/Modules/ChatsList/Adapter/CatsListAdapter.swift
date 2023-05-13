@@ -13,6 +13,7 @@ final class CatsListAdapter: NSObject {
         didSet {
             guard let collectionView = self.collectionView else { return }
             
+            collectionView.delegate = self
             self.registerCells()
             self.dataSource = DataSource(collectionView: collectionView, cellProvider: self.makeCellProvider())
         }

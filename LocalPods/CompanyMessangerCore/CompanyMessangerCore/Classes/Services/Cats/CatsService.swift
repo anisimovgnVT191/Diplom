@@ -20,7 +20,8 @@ public final class CatsService: CatsServiceInput {
     public func getImage(by id: String) -> AnyPublisher<BreedImage, Error> {
         self.client.request(ImageByIdEndpoint(id: id))
     }
+    
+    public func getImages(by breedId: String) -> AnyPublisher<[BreedImage], Error> {
+        self.client.request(ImagesByBreedIdEndpoint(breedId: breedId))
+    }
 }
-
-
-

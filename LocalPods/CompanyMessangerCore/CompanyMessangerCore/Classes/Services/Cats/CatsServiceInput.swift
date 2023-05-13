@@ -7,5 +7,6 @@ public protocol CatsServiceInput: AnyObject {
     func getBreed(by id: String) -> AnyPublisher<BreedDetailed, Error>
     
     func getImage(by id: String) -> AnyPublisher<BreedImage, Error>
+    
+    func getImages(by breedId: String) -> AnyPublisher<[BreedImage], Error>
 }
-

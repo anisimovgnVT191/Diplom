@@ -1,3 +1,4 @@
+import CatDetailed
 import ChatsList
 import CompanyMessangerCore
 
@@ -25,8 +26,14 @@ final class ChatsListCoordinator: BaseFlow {
         self.transitionHandler?.set([view], animated: false)
     }
     
-    private func showCatDetailedViewController() {
+    private func showCatDetailedViewController(for breedId: String) {
+        let view = CatDetailedAssembley.makeModule(
+            output: self,
+            breedId: breedId,
+            catsService: CatsService(client: RootDependencies.apiClient)
+        ).configure { $0.hidesBottomBarWhenPushed = true }
         
+        self.transitionHandler?.push(view, animated: true)
     }
 }
 
@@ -38,6 +45,10 @@ extension ChatsListCoordinator: Coordinator {
 
 extension ChatsListCoordinator: CatsListPresenterOutput {
     func didOpenDetailedCat(with id: String) {
-        self.showCatDetailedViewController()
+        self.showCatDetailedViewController(for: id)
     }
+}
+
+extension ChatsListCoordinator: CatDetailedPresenterOutput {
+    
 }

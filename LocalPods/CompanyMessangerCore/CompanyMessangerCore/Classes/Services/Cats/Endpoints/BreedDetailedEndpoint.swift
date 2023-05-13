@@ -1,5 +1,4 @@
 import Apexy
-import CompanyMessangerCore
 import Foundation
 
 struct BreedDetailedEndpoint: JsonEndpoint, URLRequestBuildable {

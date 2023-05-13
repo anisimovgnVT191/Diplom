@@ -1,5 +1,3 @@
-import Foundation
-
 public struct BreedDetailed: BreedBase {
     public let id: String
     public let name: String
@@ -39,4 +37,3 @@ public struct BreedDetailed: BreedBase {
     public let wikipediaURL: String
     public let hypoallergenic: Int
 }
-

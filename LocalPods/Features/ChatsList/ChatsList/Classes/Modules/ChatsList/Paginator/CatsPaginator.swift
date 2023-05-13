@@ -1,4 +1,5 @@
 import Combine
+import CompanyMessangerCore
 import Foundation
 
 public final class CatsPaginator {
