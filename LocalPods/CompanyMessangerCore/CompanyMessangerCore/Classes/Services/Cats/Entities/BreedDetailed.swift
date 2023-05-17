@@ -3,9 +3,6 @@ public struct BreedDetailed: BreedBase {
     public let name: String
     public let referenceImageId: String?
     public let weight: BreedWeight
-    public let cfaURL: String
-    public let vetstreetURL: String
-    public let vcahospitalsURL: String
     public let temperament: String
     public let origin: String
     public let countryCodes: String
@@ -13,7 +10,6 @@ public struct BreedDetailed: BreedBase {
     public let description: String
     public let lifeSpan: String
     public let indoor: Int
-    public let lap: Int
     public let altNames: String
     public let adaptability: Int
     public let affectionLevel: Int
@@ -34,6 +30,6 @@ public struct BreedDetailed: BreedBase {
     public let rex: Int
     public let suppressedTail: Int
     public let shortLegs: Int
-    public let wikipediaURL: String
+    public let wikipediaURL: String?
     public let hypoallergenic: Int
 }

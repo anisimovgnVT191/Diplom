@@ -1,4 +1,5 @@
 import CompanyMessangerCore
+import CompanyMessangerUIKit
 import UIKit
 
 final class TabBarCoordinator: BaseFlow {
@@ -13,7 +14,7 @@ final class TabBarCoordinator: BaseFlow {
     
     private func makeHomeModule() -> UIViewController {
         let coordinator = HomeCoordinatorAssembly.makeModule(
-            with: UINavigationController(),
+            with: NavigationController(),
             output: self
         )
         
@@ -24,7 +25,7 @@ final class TabBarCoordinator: BaseFlow {
     
     private func makeChatsListModule() -> UIViewController {
         let coodinator = ChatsListCoordinatorAssembly.makeModule(
-            with: UINavigationController(),
+            with: NavigationController(),
             output: self
         )
         

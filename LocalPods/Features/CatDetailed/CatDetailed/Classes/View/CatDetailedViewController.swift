@@ -4,7 +4,9 @@ final class CatDetailedViewController: UIViewController {
     private lazy var collectionView = UICollectionView(
         frame: .zero,
         collectionViewLayout: self.collectionAdapter.compositionalLayout()
-    ).forAutoLayout()
+    ).forAutoLayout().configure {
+        $0.backgroundColor = .clear
+    }
     
     private let output: CatDetailedViewOutput
     private let collectionAdapter: CatDetailedAdapter
@@ -31,6 +33,8 @@ final class CatDetailedViewController: UIViewController {
     }
     
     private func setUpView() {
+        self.view.backgroundColor = .white
+        
         self.view.addSubview(self.collectionView)
         
         self.collectionView.snp.makeConstraints {
@@ -43,5 +47,9 @@ final class CatDetailedViewController: UIViewController {
 extension CatDetailedViewController: CatDetailedViewInput {
     func updateSections(with sections: [CatDetailedSection], animating: Bool) {
         self.collectionAdapter.updateDataSource(with: sections, animating: animating)
+    }
+    
+    func setTitle(_ title: String) {
+        self.navigationItem.title = title
     }
 }

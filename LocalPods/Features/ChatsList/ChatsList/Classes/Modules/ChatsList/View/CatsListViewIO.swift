@@ -8,4 +8,6 @@ public protocol CatsListViewOutput: AnyObject {
     func viewDidLoad()
     
     func onCatTapped(at index: Int)
+    
+    func onScrollPassBottomItems()
 }

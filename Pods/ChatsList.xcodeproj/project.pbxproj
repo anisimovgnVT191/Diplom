@@ -7,59 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B3E5CAAE1727078A94D644B038A28A8 /* ChatsList-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4461AC2CE3EDEB049DA477314689BC23 /* ChatsList-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		193E08ECB4E4262C4530EC0B26E788F4 /* CatsListLayoutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3676C9E829C7F6BA903B55CA77FE4663 /* CatsListLayoutBuilder.swift */; };
-		2650E8D84EB387C7F3C6F0AEF3F46A90 /* ChatsListAssembley.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C215E8D274020156339E0246545B0AB /* ChatsListAssembley.swift */; };
-		4FEE923769A6FFFF57B9F11756DB6F65 /* CatsListPresenterIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA4EC3AAB56CD20268A4113991B0A4 /* CatsListPresenterIO.swift */; };
-		5A7C0DEE67BC2FB3A281C8488B1686D6 /* CatsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2382EE7B38671E3E73BCF8E943913B2C /* CatsListViewController.swift */; };
-		5AB3FCDA02FDB482F0D7741C1464DBA5 /* CatsPaginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473F46C9DAD9AD7C325F202B5B884A56 /* CatsPaginator.swift */; };
-		8FB5CD0474D934A3FDD42D3FE4736F1D /* ChatsList-ChatsList in Resources */ = {isa = PBXBuildFile; fileRef = 5E65206FD660027AAFF22D07CF4F352F /* ChatsList-ChatsList */; };
-		94F356ED7749660EB066070D354435A1 /* CatsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99DF045C612D4E378ECE7101BB72AAA /* CatsListPresenter.swift */; };
-		99D10E40E3A9FFA9325FAB835AB3D014 /* CatCardItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524FC6428C9021587D135665C3301F22 /* CatCardItemView.swift */; };
-		A2FA75F09808B4EAC523F7E1E77EE951 /* ChatsList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E5BF5A1985F3635DE6BA5F846529A6 /* ChatsList-dummy.m */; };
-		AC6D9F6734CB0B023704F0EBA8CF5DB8 /* CatsListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F35EA4FD16B361B5136BD9C95F0ADC /* CatsListAdapter.swift */; };
-		C500617160AFEDEA99E7E968257777AB /* CatsListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8FD77AE2D35A03ECF908501473FF92 /* CatsListSection.swift */; };
-		D192C92799E4A6CE0D7DEBE37A5F72F1 /* CatsListViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97239C562C3E198BC0B631AA000884 /* CatsListViewIO.swift */; };
-		FD255BFF10A579C0FA1CECA3EA7FAED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A699C666E7DE508071186E187B1D454F /* Foundation.framework */; };
+		0B44413732A57E7B9348A7BE6C77E880 /* CatCardItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E516F5F8F61D4FA9354F1AEB89E874 /* CatCardItemView.swift */; };
+		0E8EA2A94A63A178DBFF9A33448BA637 /* ChatsList-ChatsList in Resources */ = {isa = PBXBuildFile; fileRef = 5E65206FD660027AAFF22D07CF4F352F /* ChatsList-ChatsList */; };
+		2F12139FB626A70FFBBAEFE47E498118 /* CatsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25992ADEC079FEDBD509B192BF1B2191 /* CatsListViewController.swift */; };
+		2F4BEBE9EAEFED09CB12E5EB22C7A136 /* ChatsListAssembley.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C215E8D274020156339E0246545B0AB /* ChatsListAssembley.swift */; };
+		7F703446CFD61E81702147926A160AFB /* CatsListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8FD77AE2D35A03ECF908501473FF92 /* CatsListSection.swift */; };
+		8218C45D937BF67D4AB580C779B89A2E /* CatsListLayoutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3676C9E829C7F6BA903B55CA77FE4663 /* CatsListLayoutBuilder.swift */; };
+		85E081A3B44B8A58B0B4D8D14068D2A0 /* CatsListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F35EA4FD16B361B5136BD9C95F0ADC /* CatsListAdapter.swift */; };
+		8B5926BA6EA514B3F97C1BDC982E9E94 /* ChatsList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E5BF5A1985F3635DE6BA5F846529A6 /* ChatsList-dummy.m */; };
+		9B91EC247D1E470BE0D075622182CE5F /* CatsListViewIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DA6829181DEB24B4BEAA1DE0DB0CC8 /* CatsListViewIO.swift */; };
+		A19BB2696AC3D569C555CB18EFEBA775 /* ChatsList-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4461AC2CE3EDEB049DA477314689BC23 /* ChatsList-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF90A581993147DBCF9E35677AE91942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A699C666E7DE508071186E187B1D454F /* Foundation.framework */; };
+		BB1F3B68920D6494A686FF8EAA285A6E /* CatsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99DF045C612D4E378ECE7101BB72AAA /* CatsListPresenter.swift */; };
+		CD14679DA22225508D8910862BBC6C02 /* CatCardSkeletonItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B3A28DB0A69E6F062C4F06879D05A2 /* CatCardSkeletonItemView.swift */; };
+		D140533F2388DE6700F9294081A0A516 /* CatsPaginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473F46C9DAD9AD7C325F202B5B884A56 /* CatsPaginator.swift */; };
+		E98B1D481F429A1BCE445A824A9DD9AF /* CatsListPresenterIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFA4EC3AAB56CD20268A4113991B0A4 /* CatsListPresenterIO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01817AE59E76A7D0E0DD2413BB312580 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3E3253AE5B9D67975C954F539E356DE2 /* Apexy.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 536BCB210A1C8BA9419DEA0CD5581E92;
-			remoteInfo = Apexy;
-		};
-		0AC891E78A3E748F55976794A769163E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6A1055DAE5FDDA7427AE99ABFD993128 /* CompanyMessangerUIKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 73019F81441316262623D9BB4C7355B8;
-			remoteInfo = CompanyMessangerUIKit;
-		};
-		1268603F7FB75708B9B0CB1CF3493562 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7612540759555C9F594273577616E06C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ED8DAA1ED1C9A5AF8F88ACBE90D7131A;
-			remoteInfo = "ChatsList-ChatsList";
-		};
-		23DC8730094AB19945B6D6C28F103759 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C465F457880838A4A1385D6718DCF7C3 /* SnapKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 6913FCF4B90C224E55FE5C821AFB90D2;
-			remoteInfo = SnapKit;
-		};
-		49687ED95742C1B81C1D5C626ADAAE46 /* PBXContainerItemProxy */ = {
+		0D2682D83E1411B37DBDA5C6B5632B12 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8132F08C895B0F84BA5152F45980F81E /* CompanyMessangerResources.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 5C51A137FBD88E443D75C0A07E609467;
 			remoteInfo = CompanyMessangerResources;
 		};
-		AF0CDA06BAB393191DAF22DD6A3264CE /* PBXContainerItemProxy */ = {
+		523CD7BD7F22B494E185521063954551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C465F457880838A4A1385D6718DCF7C3 /* SnapKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6913FCF4B90C224E55FE5C821AFB90D2;
+			remoteInfo = SnapKit;
+		};
+		61D305DC618903F865B26D050E1DA033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E3253AE5B9D67975C954F539E356DE2 /* Apexy.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 536BCB210A1C8BA9419DEA0CD5581E92;
+			remoteInfo = Apexy;
+		};
+		6C5A1276E17AFE964C56E1632E4D3E28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7612540759555C9F594273577616E06C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED8DAA1ED1C9A5AF8F88ACBE90D7131A;
+			remoteInfo = "ChatsList-ChatsList";
+		};
+		8303D57EB66B047E035B817465F98F6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A1055DAE5FDDA7427AE99ABFD993128 /* CompanyMessangerUIKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 73019F81441316262623D9BB4C7355B8;
+			remoteInfo = CompanyMessangerUIKit;
+		};
+		FA9C02E70A04169BAA9DC25E07B34964 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A918A122FBCAEB82A3CCCCEEA422CEDC /* CompanyMessangerCore.xcodeproj */;
 			proxyType = 1;
@@ -70,24 +71,25 @@
 
 /* Begin PBXFileReference section */
 		05E5BF5A1985F3635DE6BA5F846529A6 /* ChatsList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChatsList-dummy.m"; sourceTree = "<group>"; };
+		17E516F5F8F61D4FA9354F1AEB89E874 /* CatCardItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatCardItemView.swift; sourceTree = "<group>"; };
 		1940F4E5DD2275D3E6BFA2F9B5C26F9C /* ChatsList-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChatsList-prefix.pch"; sourceTree = "<group>"; };
 		1C215E8D274020156339E0246545B0AB /* ChatsListAssembley.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChatsListAssembley.swift; sourceTree = "<group>"; };
 		1DD8625B4009F2CDB1E2850FE44A1505 /* ResourceBundle-ChatsList-ChatsList-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ChatsList-ChatsList-Info.plist"; sourceTree = "<group>"; };
 		21F35EA4FD16B361B5136BD9C95F0ADC /* CatsListAdapter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsListAdapter.swift; sourceTree = "<group>"; };
-		2382EE7B38671E3E73BCF8E943913B2C /* CatsListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsListViewController.swift; sourceTree = "<group>"; };
+		25992ADEC079FEDBD509B192BF1B2191 /* CatsListViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsListViewController.swift; sourceTree = "<group>"; };
 		2BB91D835239F6E238A32AB3A98FF23A /* ChatsList-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChatsList-Info.plist"; sourceTree = "<group>"; };
 		2F61C9EC11907CED88785CA33E2D5E53 /* ChatsList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChatsList.modulemap; sourceTree = "<group>"; };
 		3676C9E829C7F6BA903B55CA77FE4663 /* CatsListLayoutBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsListLayoutBuilder.swift; sourceTree = "<group>"; };
-		3B97239C562C3E198BC0B631AA000884 /* CatsListViewIO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsListViewIO.swift; sourceTree = "<group>"; };
 		3E3253AE5B9D67975C954F539E356DE2 /* Apexy */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Apexy; path = Apexy.xcodeproj; sourceTree = "<group>"; };
 		4461AC2CE3EDEB049DA477314689BC23 /* ChatsList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChatsList-umbrella.h"; sourceTree = "<group>"; };
 		473F46C9DAD9AD7C325F202B5B884A56 /* CatsPaginator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsPaginator.swift; sourceTree = "<group>"; };
 		4C257C07AEA20B1B1E1241381CF5559F /* ChatsList.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ChatsList.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		524FC6428C9021587D135665C3301F22 /* CatCardItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatCardItemView.swift; sourceTree = "<group>"; };
 		5E65206FD660027AAFF22D07CF4F352F /* ChatsList-ChatsList */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ChatsList-ChatsList"; path = ChatsList.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A1055DAE5FDDA7427AE99ABFD993128 /* CompanyMessangerUIKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CompanyMessangerUIKit; path = CompanyMessangerUIKit.xcodeproj; sourceTree = "<group>"; };
 		8132F08C895B0F84BA5152F45980F81E /* CompanyMessangerResources */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CompanyMessangerResources; path = CompanyMessangerResources.xcodeproj; sourceTree = "<group>"; };
+		87DA6829181DEB24B4BEAA1DE0DB0CC8 /* CatsListViewIO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsListViewIO.swift; sourceTree = "<group>"; };
 		8F8FD77AE2D35A03ECF908501473FF92 /* CatsListSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsListSection.swift; sourceTree = "<group>"; };
+		A5B3A28DB0A69E6F062C4F06879D05A2 /* CatCardSkeletonItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatCardSkeletonItemView.swift; sourceTree = "<group>"; };
 		A699C666E7DE508071186E187B1D454F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A918A122FBCAEB82A3CCCCEEA422CEDC /* CompanyMessangerCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CompanyMessangerCore; path = CompanyMessangerCore.xcodeproj; sourceTree = "<group>"; };
 		A99DF045C612D4E378ECE7101BB72AAA /* CatsListPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CatsListPresenter.swift; sourceTree = "<group>"; };
@@ -99,35 +101,24 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6DBE02955E83409A4E20EC2005F226F2 /* Frameworks */ = {
+		12D8639931955E5C1213E7123791B8E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF90A581993147DBCF9E35677AE91942 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2B15625CA78B82113A5E876222880F0 /* Frameworks */ = {
+		40FAD48EF2FB27E8E7DADCE74C070E4E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD255BFF10A579C0FA1CECA3EA7FAED7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CEB6FBCE49259767CE01995A5B05419 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2382EE7B38671E3E73BCF8E943913B2C /* CatsListViewController.swift */,
-				3B97239C562C3E198BC0B631AA000884 /* CatsListViewIO.swift */,
-				36C9AAFEE6558B406BE9AAFC1387DC43 /* Cells */,
-			);
-			name = View;
-			path = ChatsList/Classes/Modules/ChatsList/View;
-			sourceTree = "<group>";
-		};
 		11AE4350AE3E0B943611B1CC02144DDA /* ChatsList */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,10 +128,20 @@
 				E27A129CDFC2AA1818B2C7D2B18F99FD /* Pod */,
 				743B27183666AEC1767D1A5A71CC8C5F /* Presenter */,
 				DED4708E711838DD363605C9E66286E4 /* Support Files */,
-				0CEB6FBCE49259767CE01995A5B05419 /* View */,
+				92C59E520DB7CFD2D885F780217F940A /* View */,
 			);
 			name = ChatsList;
 			path = ../LocalPods/Features/ChatsList;
+			sourceTree = "<group>";
+		};
+		23A8137B578F2DB99D995F33821FA07C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				17E516F5F8F61D4FA9354F1AEB89E874 /* CatCardItemView.swift */,
+				A5B3A28DB0A69E6F062C4F06879D05A2 /* CatCardSkeletonItemView.swift */,
+			);
+			name = Cells;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		356490AA524C86549C108C6F68F595B0 /* Dependencies */ = {
@@ -153,15 +154,6 @@
 				C465F457880838A4A1385D6718DCF7C3 /* SnapKit */,
 			);
 			name = Dependencies;
-			sourceTree = "<group>";
-		};
-		36C9AAFEE6558B406BE9AAFC1387DC43 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				524FC6428C9021587D135665C3301F22 /* CatCardItemView.swift */,
-			);
-			name = Cells;
-			path = Cells;
 			sourceTree = "<group>";
 		};
 		5BADF60BE42BFCB0CB599CD4E2AF54A7 /* Paginator */ = {
@@ -198,6 +190,17 @@
 				CB8B63414CAD64DC6F5CBE00F594EFA9 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92C59E520DB7CFD2D885F780217F940A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				25992ADEC079FEDBD509B192BF1B2191 /* CatsListViewController.swift */,
+				87DA6829181DEB24B4BEAA1DE0DB0CC8 /* CatsListViewIO.swift */,
+				23A8137B578F2DB99D995F33821FA07C /* Cells */,
+			);
+			name = View;
+			path = ChatsList/Classes/Modules/ChatsList/View;
 			sourceTree = "<group>";
 		};
 		9B6FA2123237F197A1C5DBB0620A34D9 = {
@@ -265,11 +268,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C4A3167224E3CE04EB86AA535001BA3F /* Headers */ = {
+		FDD57046CF8EC29523864F8813A8B94C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B3E5CAAE1727078A94D644B038A28A8 /* ChatsList-umbrella.h in Headers */,
+				A19BB2696AC3D569C555CB18EFEBA775 /* ChatsList-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,22 +281,22 @@
 /* Begin PBXNativeTarget section */
 		8023728F673322883D6E520BDD4CEA7B /* ChatsList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A19DB6B1F85EE12DE749CFC8277EB0DE /* Build configuration list for PBXNativeTarget "ChatsList" */;
+			buildConfigurationList = AF9C6298A5AF72B2DC340382B4749AB9 /* Build configuration list for PBXNativeTarget "ChatsList" */;
 			buildPhases = (
-				C4A3167224E3CE04EB86AA535001BA3F /* Headers */,
-				DD5A1B318DF9475889483F21D9DFA47F /* Sources */,
-				C2B15625CA78B82113A5E876222880F0 /* Frameworks */,
-				3E767675963AE86D60A94F1048402309 /* Resources */,
+				FDD57046CF8EC29523864F8813A8B94C /* Headers */,
+				0B62E97B6D46FE202B602604A012AB8A /* Sources */,
+				12D8639931955E5C1213E7123791B8E2 /* Frameworks */,
+				D620710D8904955B764BE8DE2EC57BE0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FA5DB8E67C7C0994E9015EBB71E1A60D /* PBXTargetDependency */,
-				0FEAE37628C52E7CFAF2F0614D9E2377 /* PBXTargetDependency */,
-				4683183573BCA9FAD84C1C63BA5CCA00 /* PBXTargetDependency */,
-				B7093C14A096ED86E0A07B74356FB2D7 /* PBXTargetDependency */,
-				AC567EF204CA6CBD1A18697DE0306BB4 /* PBXTargetDependency */,
-				093F77C77F4EA72EB1B21C72DC5B55CE /* PBXTargetDependency */,
+				95590A9158C6D86F06CABA7F0D06D544 /* PBXTargetDependency */,
+				E62F39031C932D32182CB07672DED24F /* PBXTargetDependency */,
+				5575A787037B4E224534726328FE5308 /* PBXTargetDependency */,
+				32199323D01214DA19BD22E57160A132 /* PBXTargetDependency */,
+				8C1026E97146A691756DCBD54E1912DB /* PBXTargetDependency */,
+				6CA8C0B53AAAEAF35F66D4319D00B78D /* PBXTargetDependency */,
 			);
 			name = ChatsList;
 			productName = ChatsList;
@@ -302,11 +305,11 @@
 		};
 		ED8DAA1ED1C9A5AF8F88ACBE90D7131A /* ChatsList-ChatsList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9967474156DB0F5F0558CC9801966B96 /* Build configuration list for PBXNativeTarget "ChatsList-ChatsList" */;
+			buildConfigurationList = 6B8C583650F9D0DD5890792F7E71955C /* Build configuration list for PBXNativeTarget "ChatsList-ChatsList" */;
 			buildPhases = (
-				EA137C8176AC1EB2FAB3E5BB8EEBC5C1 /* Sources */,
-				6DBE02955E83409A4E20EC2005F226F2 /* Frameworks */,
-				5BCA5D00DFB059CA7444174B43E2313E /* Resources */,
+				1D878C83B66804AF1C79D7C3EEF219D5 /* Sources */,
+				40FAD48EF2FB27E8E7DADCE74C070E4E /* Frameworks */,
+				6AB6B6DB0865F2F626A29D9A6F5DBD39 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -363,43 +366,44 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3E767675963AE86D60A94F1048402309 /* Resources */ = {
+		6AB6B6DB0865F2F626A29D9A6F5DBD39 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FB5CD0474D934A3FDD42D3FE4736F1D /* ChatsList-ChatsList in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BCA5D00DFB059CA7444174B43E2313E /* Resources */ = {
+		D620710D8904955B764BE8DE2EC57BE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E8EA2A94A63A178DBFF9A33448BA637 /* ChatsList-ChatsList in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DD5A1B318DF9475889483F21D9DFA47F /* Sources */ = {
+		0B62E97B6D46FE202B602604A012AB8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99D10E40E3A9FFA9325FAB835AB3D014 /* CatCardItemView.swift in Sources */,
-				AC6D9F6734CB0B023704F0EBA8CF5DB8 /* CatsListAdapter.swift in Sources */,
-				193E08ECB4E4262C4530EC0B26E788F4 /* CatsListLayoutBuilder.swift in Sources */,
-				94F356ED7749660EB066070D354435A1 /* CatsListPresenter.swift in Sources */,
-				4FEE923769A6FFFF57B9F11756DB6F65 /* CatsListPresenterIO.swift in Sources */,
-				C500617160AFEDEA99E7E968257777AB /* CatsListSection.swift in Sources */,
-				5A7C0DEE67BC2FB3A281C8488B1686D6 /* CatsListViewController.swift in Sources */,
-				D192C92799E4A6CE0D7DEBE37A5F72F1 /* CatsListViewIO.swift in Sources */,
-				5AB3FCDA02FDB482F0D7741C1464DBA5 /* CatsPaginator.swift in Sources */,
-				A2FA75F09808B4EAC523F7E1E77EE951 /* ChatsList-dummy.m in Sources */,
-				2650E8D84EB387C7F3C6F0AEF3F46A90 /* ChatsListAssembley.swift in Sources */,
+				0B44413732A57E7B9348A7BE6C77E880 /* CatCardItemView.swift in Sources */,
+				CD14679DA22225508D8910862BBC6C02 /* CatCardSkeletonItemView.swift in Sources */,
+				85E081A3B44B8A58B0B4D8D14068D2A0 /* CatsListAdapter.swift in Sources */,
+				8218C45D937BF67D4AB580C779B89A2E /* CatsListLayoutBuilder.swift in Sources */,
+				BB1F3B68920D6494A686FF8EAA285A6E /* CatsListPresenter.swift in Sources */,
+				E98B1D481F429A1BCE445A824A9DD9AF /* CatsListPresenterIO.swift in Sources */,
+				7F703446CFD61E81702147926A160AFB /* CatsListSection.swift in Sources */,
+				2F12139FB626A70FFBBAEFE47E498118 /* CatsListViewController.swift in Sources */,
+				9B91EC247D1E470BE0D075622182CE5F /* CatsListViewIO.swift in Sources */,
+				D140533F2388DE6700F9294081A0A516 /* CatsPaginator.swift in Sources */,
+				8B5926BA6EA514B3F97C1BDC982E9E94 /* ChatsList-dummy.m in Sources */,
+				2F4BEBE9EAEFED09CB12E5EB22C7A136 /* ChatsListAssembley.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA137C8176AC1EB2FAB3E5BB8EEBC5C1 /* Sources */ = {
+		1D878C83B66804AF1C79D7C3EEF219D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -409,40 +413,76 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		093F77C77F4EA72EB1B21C72DC5B55CE /* PBXTargetDependency */ = {
+		32199323D01214DA19BD22E57160A132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CompanyMessangerResources;
+			targetProxy = 0D2682D83E1411B37DBDA5C6B5632B12 /* PBXContainerItemProxy */;
+		};
+		5575A787037B4E224534726328FE5308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CompanyMessangerCore;
+			targetProxy = FA9C02E70A04169BAA9DC25E07B34964 /* PBXContainerItemProxy */;
+		};
+		6CA8C0B53AAAEAF35F66D4319D00B78D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
-			targetProxy = 23DC8730094AB19945B6D6C28F103759 /* PBXContainerItemProxy */;
+			targetProxy = 523CD7BD7F22B494E185521063954551 /* PBXContainerItemProxy */;
 		};
-		0FEAE37628C52E7CFAF2F0614D9E2377 /* PBXTargetDependency */ = {
+		8C1026E97146A691756DCBD54E1912DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CompanyMessangerUIKit;
+			targetProxy = 8303D57EB66B047E035B817465F98F6C /* PBXContainerItemProxy */;
+		};
+		95590A9158C6D86F06CABA7F0D06D544 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Apexy;
+			targetProxy = 61D305DC618903F865B26D050E1DA033 /* PBXContainerItemProxy */;
+		};
+		E62F39031C932D32182CB07672DED24F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ChatsList-ChatsList";
 			target = ED8DAA1ED1C9A5AF8F88ACBE90D7131A /* ChatsList-ChatsList */;
-			targetProxy = 1268603F7FB75708B9B0CB1CF3493562 /* PBXContainerItemProxy */;
-		};
-		4683183573BCA9FAD84C1C63BA5CCA00 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CompanyMessangerCore;
-			targetProxy = AF0CDA06BAB393191DAF22DD6A3264CE /* PBXContainerItemProxy */;
-		};
-		AC567EF204CA6CBD1A18697DE0306BB4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CompanyMessangerUIKit;
-			targetProxy = 0AC891E78A3E748F55976794A769163E /* PBXContainerItemProxy */;
-		};
-		B7093C14A096ED86E0A07B74356FB2D7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CompanyMessangerResources;
-			targetProxy = 49687ED95742C1B81C1D5C626ADAAE46 /* PBXContainerItemProxy */;
-		};
-		FA5DB8E67C7C0994E9015EBB71E1A60D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Apexy;
-			targetProxy = 01817AE59E76A7D0E0DD2413BB312580 /* PBXContainerItemProxy */;
+			targetProxy = 6C5A1276E17AFE964C56E1632E4D3E28 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		3D4EE3A1DF2F3371908CB38B4DE2FA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7CEDFE49E76242C49E0FD466C4B4153 /* ChatsList.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChatsList/ChatsList-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChatsList/ChatsList-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChatsList/ChatsList.modulemap";
+				PRODUCT_MODULE_NAME = ChatsList;
+				PRODUCT_NAME = ChatsList;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4B701339D2E2565729D7F4C07F8F64AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -505,9 +545,9 @@
 			};
 			name = Release;
 		};
-		7095726AE996C4C0D665C5866BCE8300 /* Release */ = {
+		7DBAA871567470C9C4B85CFAD64AECA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7CEDFE49E76242C49E0FD466C4B4153 /* ChatsList.release.xcconfig */;
+			baseConfigurationReference = B6CDF1F35324E42852891D08F7ABD355 /* ChatsList.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -535,78 +575,42 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B28216F4D4FBFD76D90874F300F4F246 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7CEDFE49E76242C49E0FD466C4B4153 /* ChatsList.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ChatsList";
-				IBSC_MODULE = ChatsList;
-				INFOPLIST_FILE = "Target Support Files/ChatsList/ResourceBundle-ChatsList-ChatsList-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				PRODUCT_NAME = ChatsList;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		BEEC0569BDADB409A9C905FD881F95BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6CDF1F35324E42852891D08F7ABD355 /* ChatsList.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ChatsList";
-				IBSC_MODULE = ChatsList;
-				INFOPLIST_FILE = "Target Support Files/ChatsList/ResourceBundle-ChatsList-ChatsList-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				PRODUCT_NAME = ChatsList;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		C52FDD09C0949015AAD91CD6081398A7 /* Debug */ = {
+		A02B04A93FDB39D4C8E67E7177ED1018 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6CDF1F35324E42852891D08F7ABD355 /* ChatsList.debug.xcconfig */;
+			baseConfigurationReference = F7CEDFE49E76242C49E0FD466C4B4153 /* ChatsList.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ChatsList/ChatsList-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ChatsList/ChatsList-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ChatsList";
+				IBSC_MODULE = ChatsList;
+				INFOPLIST_FILE = "Target Support Files/ChatsList/ResourceBundle-ChatsList-ChatsList-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ChatsList/ChatsList.modulemap";
-				PRODUCT_MODULE_NAME = ChatsList;
 				PRODUCT_NAME = ChatsList;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D578B71E1879708C55E6B06EB011DD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6CDF1F35324E42852891D08F7ABD355 /* ChatsList.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ChatsList";
+				IBSC_MODULE = ChatsList;
+				INFOPLIST_FILE = "Target Support Files/ChatsList/ResourceBundle-ChatsList-ChatsList-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_NAME = ChatsList;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -679,20 +683,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9967474156DB0F5F0558CC9801966B96 /* Build configuration list for PBXNativeTarget "ChatsList-ChatsList" */ = {
+		6B8C583650F9D0DD5890792F7E71955C /* Build configuration list for PBXNativeTarget "ChatsList-ChatsList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEEC0569BDADB409A9C905FD881F95BC /* Debug */,
-				B28216F4D4FBFD76D90874F300F4F246 /* Release */,
+				D578B71E1879708C55E6B06EB011DD40 /* Debug */,
+				A02B04A93FDB39D4C8E67E7177ED1018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A19DB6B1F85EE12DE749CFC8277EB0DE /* Build configuration list for PBXNativeTarget "ChatsList" */ = {
+		AF9C6298A5AF72B2DC340382B4749AB9 /* Build configuration list for PBXNativeTarget "ChatsList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C52FDD09C0949015AAD91CD6081398A7 /* Debug */,
-				7095726AE996C4C0D665C5866BCE8300 /* Release */,
+				7DBAA871567470C9C4B85CFAD64AECA3 /* Debug */,
+				3D4EE3A1DF2F3371908CB38B4DE2FA00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

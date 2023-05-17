@@ -5,5 +5,7 @@ protocol CatDetailedViewOutput: AnyObject {
 }
 
 protocol CatDetailedViewInput: AnyObject {
+    func setTitle(_ title: String)
+    
     func updateSections(with sections: [CatDetailedSection], animating: Bool)
 }

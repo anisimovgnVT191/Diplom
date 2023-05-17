@@ -40,6 +40,7 @@ final class CatsListPresenter {
 extension CatsListPresenter: CatsListViewOutput {
     func viewDidLoad() {
         self.observeCatsPaginator()
+        self.view?.updateSections([self.catsSkeletonsSections], animating: false)
         self.catsPaginator.loadNextItems()
     }
     
@@ -47,6 +48,12 @@ extension CatsListPresenter: CatsListViewOutput {
         guard let catId = self.catsPaginator.items[safe: index]?.id else { return }
         
         self.output?.didOpenDetailedCat(with: catId)
+    }
+    
+    func onScrollPassBottomItems() {
+        guard self.catsPaginator.canLoadNextItems else { return }
+        
+        self.catsPaginator.loadNextItems()
     }
 }
 
@@ -60,6 +67,12 @@ private extension CatsListPresenter {
                 breedTitle: breed.name,
                 didTapFavorite: { [weak self] in self?.toggleFavorite(for: breed.id) }
             )) }
+        )
+    }
+    var catsSkeletonsSections: CatsListSection {
+        .init(
+            id: .cats,
+            items: (0...5).map { _ in .catSkeleton }
         )
     }
 }

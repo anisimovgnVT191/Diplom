@@ -56,6 +56,15 @@ extension ChatsListViewController: CatsListAdapterDelegate {
         switch item {
         case .cat:
             self.output.onCatTapped(at: index)
+        default:
+            break
+        }
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        if scrollView.contentSize.height > 0,
+           scrollView.contentSize.height - scrollView.contentOffset.y <= 1.5 * scrollView.frame.height {
+            self.output.onScrollPassBottomItems()
         }
     }
 }

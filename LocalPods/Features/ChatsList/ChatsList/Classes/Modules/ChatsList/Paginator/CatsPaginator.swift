@@ -8,7 +8,7 @@ public final class CatsPaginator {
     
     private var disposeBag = [AnyCancellable]()
     private var currentPageNumber = 0
-    private var canLoadNextItems = true
+    var canLoadNextItems = true
     
     private(set) var items = [BreedBase]() {
         didSet {
@@ -25,8 +25,9 @@ public final class CatsPaginator {
     public func loadNextItems() {
         guard self.canLoadNextItems else { return }
         
-        self.currentPageNumber += 1
+        self.canLoadNextItems = false
         self.loadCats()
+        self.currentPageNumber += 1
     }
     
     public func observeItems() -> AnyPublisher<[BreedBase], Error> {
@@ -54,7 +55,7 @@ public final class CatsPaginator {
                 guard let self else { return }
                 
                 self.canLoadNextItems = !breeds.isEmpty
-                self.items = breeds
+                self.items += breeds
             }).store(in: &self.disposeBag)
     }
 }

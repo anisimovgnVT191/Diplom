@@ -9,9 +9,15 @@ public struct CatDetailedSection {
     
     enum Item {
         case imagesPager(item: BreedImagesPagerItemView.DisplayItem)
-        case description
+        case description(item: BreedDescriptionItemView.DisplayItem)
         case descriptionSpec
-        case characteristic
+        case characteristic(item: BreedCharacteristicItemView.DisplayItem)
+        case descriptionHeader(item: BreedDescriptionHeaderItemView.DisplayItem)
+        
+        case characteristicSkeleton
+        case imagesPagerSkeleton
+        case descriptionSkeleton
+        case descriptionHeaderSkeleton
     }
     
     let id: Id
@@ -33,11 +39,13 @@ extension CatDetailedSection.Item: Hashable {
         switch self {
         case let .imagesPager(item):
             hasher.combine(item)
-        case .description:
-            break
-        case .descriptionSpec:
-            break
-        case .characteristic:
+        case let .description(item):
+            hasher.combine(item)
+        case let .characteristic(item):
+            hasher.combine(item)
+        case let .descriptionHeader(item):
+            hasher.combine(item)
+        default:
             break
         }
     }
@@ -46,8 +54,14 @@ extension CatDetailedSection.Item: Hashable {
         switch (lhs, rhs) {
         case let (.imagesPager(lItem), .imagesPager(rItem)):
             return lItem == rItem
+        case let (.characteristic(lItem), .characteristic(rItem)):
+            return lItem == rItem
+        case let (.descriptionHeader(lItem), .descriptionHeader(rItem)):
+            return lItem == rItem
+        case let (.description(lItem), .description(rItem)):
+            return lItem == rItem
         default:
-            return true
+            return false
         }
     }
 }

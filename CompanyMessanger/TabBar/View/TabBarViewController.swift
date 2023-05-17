@@ -4,9 +4,13 @@ final class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.tabBar.layer.masksToBounds = true
-        self.tabBar.layer.cornerRadius = 16
+        self.tabBar.layer.masksToBounds = false
+        self.tabBar.layer.cornerRadius = 30
         self.tabBar.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+        self.tabBar.layer.shadowOffset = .zero
+        self.tabBar.layer.shadowColor = UIColor.black.withAlphaComponent(0.1).cgColor
+        self.tabBar.layer.shadowRadius = 30
+        self.tabBar.layer.shadowOpacity = 1
         
         let appearance = UITabBarAppearance()
         let itemAppearance = UITabBarItemAppearance()

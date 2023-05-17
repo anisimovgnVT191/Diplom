@@ -14,7 +14,7 @@ extension BaseExtension.Images where ExtendedType == UIImage {
         }
         
         fileprivate static func image(named name: String, compatibleWith traitCollection: UITraitCollection? = nil) -> UIImage? {
-            .init(named: name, in: .main, compatibleWith: traitCollection)
+            .init(named: name, in: .current, compatibleWith: traitCollection)
         }
     }
 }

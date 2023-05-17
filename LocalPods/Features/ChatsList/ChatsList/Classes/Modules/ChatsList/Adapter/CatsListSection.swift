@@ -7,6 +7,7 @@ public struct CatsListSection {
     
     enum Item {
         case cat(item: CatCardItemView.DisplayItem)
+        case catSkeleton
     }
     
     let id: Id
@@ -28,6 +29,9 @@ extension CatsListSection.Item: Hashable {
         switch self {
         case let .cat(item):
             hasher.combine(item)
+        case .catSkeleton:
+            break
+            //hasher.combine(UUID())
         }
     }
     
@@ -35,6 +39,10 @@ extension CatsListSection.Item: Hashable {
         switch (lhs, rhs) {
         case let (.cat(lItem), .cat(rItem)):
             return lItem == rItem
+        case (.catSkeleton, .catSkeleton):
+            return false
+        default:
+            return false
         }
     }
 }

@@ -2,6 +2,8 @@ import UIKit
 
 protocol CatsListAdapterDelegate: AnyObject {
     func didSelectItem(_ item: CatsListSection.Item, at index: Int)
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView)
 }
 
 final class CatsListAdapter: NSObject {
@@ -50,7 +52,14 @@ final class CatsListAdapter: NSObject {
     }
     
     private func registerCells() {
-        self.collectionView?.register(CatCardItemView.Cell.self, forCellWithReuseIdentifier: CatCardItemView.cellId)
+        self.collectionView?.register(
+            CatCardItemView.Cell.self,
+            forCellWithReuseIdentifier: CatCardItemView.cellId
+        )
+        self.collectionView?.register(
+            CatCardSkeletonView.Cell.self,
+            forCellWithReuseIdentifier: CatCardSkeletonView.cellId
+        )
     }
     
     private func makeCellProvider() -> DataSource.CellProvider {
@@ -63,12 +72,24 @@ final class CatsListAdapter: NSObject {
         switch item {
         case let .cat(catItem):
             return self.catCell(item: catItem, indexPath: indexPath)
+        case .catSkeleton:
+            return self.catSkeletonCell(indexPath: indexPath)
         }
     }
     
     private func catCell(item: CatCardItemView.DisplayItem, indexPath: IndexPath) -> UICollectionViewCell? {
         let cell = self.cell(CatCardItemView.cellId, for: indexPath, type: CatCardItemView.Cell.self)
         cell?.configure(with: item)
+        return cell
+    }
+    
+    private func catSkeletonCell(indexPath: IndexPath) -> UICollectionViewCell? {
+        let cell = self.cell(
+            CatCardSkeletonView.cellId,
+            for: indexPath,
+            type: CatCardSkeletonView.Cell.self
+        )
+        cell?.configure(with: .init())
         return cell
     }
     
@@ -82,5 +103,9 @@ extension CatsListAdapter: UICollectionViewDelegate {
         guard let item = self.orderedSections[safe: indexPath.section]?.items[indexPath.item] else { return }
         
         self.delegate?.didSelectItem(item, at: indexPath.item)
+    }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        self.delegate?.scrollViewDidScroll(scrollView)
     }
 }

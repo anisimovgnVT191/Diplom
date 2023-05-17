@@ -33,7 +33,7 @@ open class CollectionViewContainerCell<T: UIView>: UICollectionViewCell
             item: self.cellContentView,
             attribute: .top,
             relatedBy: .equal,
-            toItem: self,
+            toItem: self.contentView,
             attribute: .top,
             multiplier: 1.0,
             constant: 0
@@ -42,7 +42,7 @@ open class CollectionViewContainerCell<T: UIView>: UICollectionViewCell
             item: self.cellContentView,
             attribute: .leading,
             relatedBy: .equal,
-            toItem: self,
+            toItem: self.contentView,
             attribute: .leading,
             multiplier: 1.0,
             constant: 0
@@ -51,7 +51,7 @@ open class CollectionViewContainerCell<T: UIView>: UICollectionViewCell
             item: self.cellContentView,
             attribute: .bottom,
             relatedBy: .equal,
-            toItem: self,
+            toItem: self.contentView,
             attribute: .bottom,
             multiplier: 1.0,
             constant: 0
@@ -60,7 +60,7 @@ open class CollectionViewContainerCell<T: UIView>: UICollectionViewCell
             item: self.cellContentView,
             attribute: .trailing,
             relatedBy: .equal,
-            toItem: self,
+            toItem: self.contentView,
             attribute: .trailing,
             multiplier: 1.0,
             constant: 0

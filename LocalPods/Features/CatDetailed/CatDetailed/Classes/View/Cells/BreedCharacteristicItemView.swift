@@ -13,7 +13,9 @@ final class BreedCharacteristicItemView: UIView, ConfigurableView {
     
     private var cachedCharacteristicRate = 0
     
-    private let titleLabel = UILabel().forAutoLayout()
+    private let titleLabel = UILabel().forAutoLayout().configure {
+        $0.textColor = .black
+    }
     private let starsStackView = UIStackView().forAutoLayout().configure {
         $0.axis = .horizontal
         $0.distribution = .equalSpacing
@@ -42,6 +44,7 @@ final class BreedCharacteristicItemView: UIView, ConfigurableView {
         
         self.titleLabel.snp.makeConstraints {
             $0.centerY.equalToSuperview()
+            $0.left.equalToSuperview()
             $0.right.lessThanOrEqualTo(self.starsStackView.snp.left).offset(-16)
         }
         
@@ -51,8 +54,13 @@ final class BreedCharacteristicItemView: UIView, ConfigurableView {
         
         (0..<5).forEach { _ in
             let starImageView = UIImageView(image: .tic.Images.CatDetailed.starDeselected())
+            starImageView.contentMode = .scaleAspectFit
             
             self.starsStackView.addArrangedSubview(starImageView)
+            
+            starImageView.snp.makeConstraints {
+                $0.width.height.equalTo(24)
+            }
         }
     }
     
